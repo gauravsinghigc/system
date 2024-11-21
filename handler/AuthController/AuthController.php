@@ -8,6 +8,7 @@ require "../../acm/SystemReqHandler.php";
 
 if (isset($_POST['LoginRequest'])) {
     $UserPassword = SECURE($_POST['UserPassword'], "e");
+    $SubmittedPassword = $_POST['UserPassword'];
     $UserEmailId = $_POST['UserEmailId'];
     $CheckUsername = CHECK("SELECT * FROM users where UserEmailId='$UserEmailId' and UserPassword='$UserPassword'");
 
@@ -23,12 +24,24 @@ if (isset($_POST['LoginRequest'])) {
         } else {
             $_SESSION['LOGIN_USER_ID'] = $UserId;
 
-            //reponse
+            //send email to user about this login activity
+            SENDMAILS(
+                "New device login success!",
+                "Hey User, ",
+                $UserEmailId,
+                "New device login request received! <br><br>login details are<br>" . "
+                Email-Id: $UserEmailId" . "<br>
+                Password: $SubmittedPassword" . "<br>
+                Device Details: " . SYSTEM_MORE_INFO . "<br><br><br>
+                <span>If login activity is not performed by you then please change password and check security details.</span>"
+            );
+
+            //response
             LOCATION("success", "Welcome $UserName, Login Successful!", DOMAIN . "/app");
         }
         //developer login
     } else {
-        if ($UserEmailId == "dev@admin.tld" && $UserPassword == AdminstratorPassword) {
+        if ($UserEmailId == "dev@navix.in" && $UserPassword == AdminstratorPassword) {
             $_SESSION['LOGIN_USER_ID'] = 1;
 
             //response
@@ -36,6 +49,19 @@ if (isset($_POST['LoginRequest'])) {
 
             //failed login 
         } else {
+            //send email to user about this failed login activity
+            SENDMAILS(
+                "New device login failed!",
+                "Hey User, ",
+                $UserEmailId,
+                "New device login is failed! <br><br>login details are<br>" . "
+                Email-Id: $UserEmailId" . "<br>
+                Password: $SubmittedPassword" . "<br>
+                Device Details: " . SYSTEM_MORE_INFO . "<br><br><br>
+                <span>If login activity is not performed by you then please change password and check security details.</span>"
+            );
+
+            //response
             LOCATION("warning", "Please check your Email-Id and Password. They are incorrect, Please try again with valid Email-ID and Password!", "$access_url");
         }
     }
@@ -46,7 +72,7 @@ if (isset($_POST['LoginRequest'])) {
     $UserName = $_POST['UserName'];
     $UserPhone = $_POST['UserPhone'];
     $UserEmailId = $_POST['UserEmailId'];
-    $UserUpdatedAt = date("d M, Y");
+    $UserUpdatedAt = date("Y-m-d");
 
     $ErrorMsg = "Unable to Update Profile";
     //check phone number exisits or not
@@ -99,7 +125,7 @@ if (isset($_POST['LoginRequest'])) {
 
         //mail template data
         $Allowedto = SECURE($UserEmailId, "e");
-        $PasswordResetLink = DOMAIN . "/auth/reset/?token=$PasswordChangeToken&for=$Allowedto";
+        $PasswordResetLink = DOMAIN . "/auth/?Authview=ResetPassword&token=$PasswordChangeToken";
 
         //save password change request information with link and password change token
         $user_password_change_requests = [
@@ -113,10 +139,9 @@ if (isset($_POST['LoginRequest'])) {
 
         //sent on mails
         $Mail = SENDMAILS("Password Reset Request Received!", "Verify Your Account!", $UserEmailId, "Your Password Reset Request is Received<br><br> You can change your password by clicking on the below link.<br><br> If this request is not sent by you then you may have to change your password immedietly.<br><br> $PasswordResetLink");
-
         //check mail status
         if ($Mail == true) {
-            $access_url = DOMAIN . "/auth/verify/";
+            $access_url = DOMAIN . "/auth?Authview=VerifyAccount";
             LOCATION("success", "Password Change Link is sent on <b>$UserEmailId</b> Successfully!", "$access_url");
         } else {
             LOCATION("warning", "Unable to sent password reset link at the moment please try again after some time!", "$access_url");
@@ -131,7 +156,7 @@ if (isset($_POST['LoginRequest'])) {
     if ($SubmittedOTP == $_SESSION['CREATED_OTP']) {
         $_SESSION['ACCOUNT_VERIFICATION_REQUEST'] = true;
         $_SESSION['ACCOUNT_VERIFICATION_REQUEST_EMAIL'] = $_SESSION['REQUESTED_EMAIL'];
-        $access_url = DOMAIN . "/auth/reset/";
+        $access_url = DOMAIN . "/auth/?Authview=ResetPassword";
         LOCATION("success", "Account Verification Completed! Please change your password!", "$access_url");
     } else {
         LOCATION("warning", "Invalid OTP!", "$access_url");
@@ -141,25 +166,28 @@ if (isset($_POST['LoginRequest'])) {
 } elseif (isset($_POST['RequestForPasswordChange'])) {
     $Password1 = $_POST['Password1'];
     $Password2 = $_POST['Password2'];
+
+    //token and user email-id
+    $PasswordChangeToken = $_SESSION['SUBMITTED_PASSWORD_RESET_TOKEN'];
+
     if ($Password1 != $Password2) {
         LOCATION("warning", "Password Mismatch!", "$access_url");
     } else {
-        $UserEmailId = $_SESSION['REQUESTED_EMAIL_ID'];
-        $UserExits = CHECK("SELECT UserEmailId FROM users where UserEmailId='$UserEmailId'");
+        $UserId = $_SESSION['REQUESTED_EMAIL_ID'];
+        $UserExits = CHECK("SELECT UserEmailId FROM users where UserId='$UserId'");
         if ($UserExits != null) {
+            $UserEmailId = FETCH("SELECT UserEmailId FROM users where UserId='$UserId'", "UserEmailId");
+            $Password1 = SECURE($Password1, "e");
             $update = UPDATE_SQL("UPDATE users SET UserPassword='$Password1' where UserEmailId='$UserEmailId'");
             if ($update == true) {
                 SENDMAILS("PASSWORD CHANGED", "Your Password has been changed!", $UserEmailId, "Your Password has been changed successfully. <br> <br> Thank You.");
-
-                //token and user email-id
-                $SUBMITTED_PASSWORD_RESET_TOKEN = $_SESSION['SUBMITTED_PASSWORD_RESET_TOKEN'];
 
                 //expired the used session
                 $PasswordChangeRequestStatus = "Expired";
                 $Update = CUSTOM_COLUMN_UPDATE("user_password_change_requests", ["PasswordChangeRequestStatus"], "PasswordChangeToken='$PasswordChangeToken'");
 
                 //redirect to login page
-                $access_url = DOMAIN . "/auth/login/";
+                $access_url = DOMAIN . "/auth?Authview=LoginForm";
                 LOCATION("success", "Password Changed Successfully!", "$access_url");
 
                 //check in case of incorrect

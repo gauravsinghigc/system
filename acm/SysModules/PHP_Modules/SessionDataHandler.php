@@ -13,7 +13,7 @@ function IfSessionExists($SessionKey, $ValueAssigned)
 }
 
 //dynamic menu with multiple modules
-function ReturnSessionalValues($GetParameter, $SessionName, $DefaultDir)
+function ReturnSessionalValues($GetParameter, $SessionName, $Defaultvalue)
 {
     if (isset($_GET["" . $GetParameter . ""])) {
         $SessionalValue = $_SESSION["" . $SessionName . ""] = $_GET["" . $GetParameter . ""];
@@ -25,7 +25,7 @@ function ReturnSessionalValues($GetParameter, $SessionName, $DefaultDir)
                 $SessionalValue = $_SESSION["" . $SessionName . ""] = $_SESSION["" . $SessionName . ""];
             }
         } else {
-            $SessionalValue = $_SESSION["" . $SessionName . ""] = $DefaultDir;
+            $SessionalValue = $_SESSION["" . $SessionName . ""] = $Defaultvalue;
         }
     }
 
