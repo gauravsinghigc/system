@@ -3,6 +3,7 @@
 //form submit token
 function FormInputToken()
 {
+
     $TokenValue = SECURE(VALIDATOR_REQ, "e");
 ?>
     <input type="text" name="AuthToken" value="<?php echo $TokenValue; ?>" hidden="">

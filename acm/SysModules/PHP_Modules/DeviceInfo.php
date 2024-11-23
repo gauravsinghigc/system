@@ -33,4 +33,4 @@ define("OS_VERSION", $OS_Version);
 define("SYSTEM", $System_Info);
 define("SYSTEM_MORE_INFO", $System_more_Info);
 define("SYSTEM_INFO", SECURE($SYSTEM_CONFIGURATIONS, "e"));
-define("VALIDATOR_REQ", SECURE(IP_ADDRESS . "-" . DEVICE_TYPE . $System_more_Info, "e"));
+define("VALIDATOR_REQ", SECURE(IP_ADDRESS . "-" . DEVICE_TYPE . $System_more_Info . hash('sha256', random_bytes(32)), "e"));

@@ -8,7 +8,7 @@
 // 
 function AuthAppUser($require)
 {
-    $UserId = $_SESSION['LOGIN_USER_ID'];
+    $UserId = LOGIN_UserId;
     if (empty($UserId)) {
         return null;
     } else {

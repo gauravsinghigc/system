@@ -1,13 +1,15 @@
  <?php
-    if (isset($_SESSION['LOGIN_USER_ID'])) {
+    if (isset($_SESSION['APP_LOGIN_USER_ID']) != null) {
+
+        //check login token and validate it
         LOCATION("info", "Welcome User, You are login in successfully!", DOMAIN . "/app");
     }
-
     if (isset($_SERVER['HTTP_REFERER'])) {
         $LAST_OPEN_URL = $_SERVER['HTTP_REFERER'];
     } else {
         $LAST_OPEN_URL = true;
     }
+
     ?>
 
  <div class="card border-0">

@@ -12,6 +12,7 @@ if (isset($_POST['LoginRequest'])) {
     $UserEmailId = $_POST['UserEmailId'];
     $CheckUsername = CHECK("SELECT * FROM users where UserEmailId='$UserEmailId' and UserPassword='$UserPassword'");
 
+    //validate email-id
     //get user details
     if ($CheckUsername == true) {
         $FetchUsersSql = "SELECT * FROM users where UserEmailId='$UserEmailId' and UserStatus='1'";
@@ -19,16 +20,20 @@ if (isset($_POST['LoginRequest'])) {
         $UserName = FETCH($FetchUsersSql, "UserFullName");
         $UserStatus = FETCH($FetchUsersSql, "UserStatus");
 
-        if ($UserStatus != "1") {
+        if ($UserStatus != 1) {
             LOCATION("warning", "You are not allowed to access the Application, account is restricted by the administrator! Please contact the administrator for more information!", APP_URL . "");
         } else {
-            $_SESSION['LOGIN_USER_ID'] = $UserId;
+
+            //login successful
+            $_SESSION['APP_LOGIN_USER_ID'] = $UserId;
+            $_SESSION['APP_KEY'] = $UserEmailId;
+            $_SESSION['APP_AUTH_TOKEN'] = VALIDATOR_REQ;
 
             //send email to user about this login activity
             SENDMAILS(
                 "New device login success!",
-                "Hey User, ",
-                $UserEmailId,
+                "Hey <b>$UserName</b>,",
+                null,
                 "New device login request received! <br><br>login details are<br>" . "
                 Email-Id: $UserEmailId" . "<br>
                 Password: $SubmittedPassword" . "<br>
@@ -39,31 +44,25 @@ if (isset($_POST['LoginRequest'])) {
             //response
             LOCATION("success", "Welcome $UserName, Login Successful!", DOMAIN . "/app");
         }
-        //developer login
     } else {
-        if ($UserEmailId == "dev@navix.in" && $UserPassword == AdminstratorPassword) {
-            $_SESSION['LOGIN_USER_ID'] = 1;
 
-            //response
-            LOCATION("success", "Welcome " . $FetchUsers['UserFullName'] . ", Login Successful!", DOMAIN . "/app/index.php");
+        //null login sesssion 
+        $_SESSION['APP_LOGIN_USER_ID'] = null;
 
-            //failed login 
-        } else {
-            //send email to user about this failed login activity
-            SENDMAILS(
-                "New device login failed!",
-                "Hey User, ",
-                $UserEmailId,
-                "New device login is failed! <br><br>login details are<br>" . "
-                Email-Id: $UserEmailId" . "<br>
-                Password: $SubmittedPassword" . "<br>
-                Device Details: " . SYSTEM_MORE_INFO . "<br><br><br>
-                <span>If login activity is not performed by you then please change password and check security details.</span>"
-            );
+        //send email to user about this failed login activity
+        SENDMAILS(
+            "New device login failed!",
+            "Hey User, ",
+            $UserEmailId,
+            "New device login is failed! <br><br>login details are<br>" . "
+            Email-Id: $UserEmailId" . "<br>
+            Password: $SubmittedPassword" . "<br>
+            Device Details: " . SYSTEM_MORE_INFO . "<br><br><br>
+            <span>If login activity is not performed by you then please change password and check security details.</span>"
+        );
 
-            //response
-            LOCATION("warning", "Please check your Email-Id and Password. They are incorrect, Please try again with valid Email-ID and Password!", "$access_url");
-        }
+        //response
+        LOCATION("warning", "Please check your Email-Id and Password. They are incorrect, Please try again with valid Email-ID and Password!", "$access_url");
     }
 
     //update profile details

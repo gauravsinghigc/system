@@ -15,39 +15,40 @@ require __DIR__ . '/vendor/autoload.php';
 function SENDMAILS($Subject, $Title, $Sendto, $MAIL_MSG, $ATTACHEMENTS = NULL, $die = false)
 {
 
-  if (CONTROL_MAILS == true) {
-    $mail = new PHPMailer(true);
+  if ($Sendto != null && $Sendto != "" && $Sendto != " ") {
+    if (CONTROL_MAILS == true) {
+      $mail = new PHPMailer(true);
 
-    //Server settings
-    if ($die == true) {
-      $mail->SMTPDebug = SMTP::DEBUG_SERVER;                     //Enable verbose debug output
-    }
+      //Server settings
+      if ($die == true) {
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER;                     //Enable verbose debug output
+      }
 
-    $mail->isSMTP();                                               //Send using SMTP
-    $mail->Host       = SMTP_CONFIGS("HOST");                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                    //Enable SMTP authentication
-    $mail->Username   = SMTP_CONFIGS("USERNAME");                     //SMTP username
-    $mail->Password   = SMTP_CONFIGS("PASSWORD");                          //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;          //Enable implicit TLS encryption
-    $mail->Port       = SMTP_CONFIGS("PORT");                                 //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+      $mail->isSMTP();                                               //Send using SMTP
+      $mail->Host       = SMTP_CONFIGS("HOST");                     //Set the SMTP server to send through
+      $mail->SMTPAuth   = true;                                    //Enable SMTP authentication
+      $mail->Username   = SMTP_CONFIGS("USERNAME");                     //SMTP username
+      $mail->Password   = SMTP_CONFIGS("PASSWORD");                          //SMTP password
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;          //Enable implicit TLS encryption
+      $mail->Port       = SMTP_CONFIGS("PORT");                                 //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-    //Recipients
-    $mail->setFrom(SMTP_CONFIGS("FROM"), APP_NAME);
-    $mail->addAddress($Sendto);                                 //Add a recipient
+      //Recipients
+      $mail->setFrom(SMTP_CONFIGS("FROM"), APP_NAME);
+      $mail->addAddress($Sendto);                                 //Add a recipient
 
-    //Add Attachments
-    if ($ATTACHEMENTS != null) {
-      if (array($ATTACHEMENTS)) {
-        foreach ($ATTACHEMENTS as $Name => $Attachements) {
-          $mail->addAttachment($Attachements, $Name);
+      //Add Attachments
+      if ($ATTACHEMENTS != null) {
+        if (array($ATTACHEMENTS)) {
+          foreach ($ATTACHEMENTS as $Name => $Attachements) {
+            $mail->addAttachment($Attachements, $Name);
+          }
         }
       }
-    }
 
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = $Subject;
-    $mail->Body = '
+      //Content
+      $mail->isHTML(true);                                  //Set email format to HTML
+      $mail->Subject = $Subject;
+      $mail->Body = '
     <body style="line-height:0.9rem !important;">
     <style>
     .otp {padding: 0.5rem 0.5rem !important;font-size: 2.5rem !important;letter-spacing: 5px !important;box-shadow: 0px 0px 1px grey !important;border-radius: 1rem  !important;background-color: #ffffff00 !important;font-weight: 600 !important;}
@@ -78,9 +79,12 @@ function SENDMAILS($Subject, $Title, $Sendto, $MAIL_MSG, $ATTACHEMENTS = NULL, $
    </p>
 </body>';
 
-    //send response
-    if ($mail->send() == true) {
-      return true;
+      //send response
+      if ($mail->send() == true) {
+        return true;
+      } else {
+        return false;
+      }
     } else {
       return false;
     }

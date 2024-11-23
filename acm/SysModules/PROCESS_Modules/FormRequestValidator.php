@@ -7,9 +7,9 @@
 
 
 if (isset($_REQUEST['AuthToken'])) {
- $AuthToken = SECURE($_REQUEST['AuthToken'], "d");
+    $AuthToken = SECURE($_REQUEST['AuthToken'], "d");
 } else {
- $AuthToken = null;
+    $AuthToken = null;
 }
 
 //form request constant
