@@ -19,6 +19,77 @@ if (isset($_POST['updateprofileimage'])) {
     } else {
         $delete = false;
     }
-
     RESPONSE($delete, "Team member is removed successfully!", "Unable to remove team member!");
+
+    //create new users
+} elseif (isset($_POST['CreateNewUser'])) {
+    $Users = [
+        "UserSalutation" => $_POST['UserSalutation'],
+        "UserFullName" => $_POST['UserFullName'],
+        "UserPhoneNumber" => $_POST['UserPhoneNumber'],
+        "UserEmailId" => $_POST['UserEmailId'],
+        "UserPassword" => SECURE($_POST['UserPassword'], "e"),
+        "UserStatus" => $_POST['UserStatus'],
+        "UserDesignation" => $_POST['UserDesignation'],
+        "UserWorkFeilds" => $_POST['UserWorkFeilds'],
+        "UserType" => $_POST['UserType'],
+        "UserDateOfBirth" => $_POST['UserDateOfBirth'],
+        "UserCreatedAt" => CURRENT_DATE_TIME,
+        "UserCompanyName" => $_POST['UserCompanyName'],
+        "UserCreatedBy" => LOGIN_UserId,
+        "UserUpdatedBy" => LOGIN_UserId,
+        "UserUpdatedAt" => CURRENT_DATE_TIME,
+    ];
+
+    $CheckExistingUsers = CHECK("SELECT * FROM users where UserPhoneNumber='" . $_POST['UserPhoneNumber'] . "' and UserEmailId='" . $_POST['UserEmailId'] . "' ");
+    if ($CheckExistingUsers == null) {
+        $Insert = INSERT("users", $Users);
+        RESPONSE($Insert, "User details saved successfully!", "Unable to save user details!");
+    } else {
+        RESPONSE(false, "Phone no: <b>" . $_POST['UserPhoneNumber'] . "</b> already exisits", "Unable to save user details!");
+    }
+
+    //update user details
+} elseif (isset($_POST['UpdateUserDetailsRecords'])) {
+    $UserId = SECURE($_POST['UserId'], "d");
+
+    $Users = [
+        "UserSalutation" => $_POST['UserSalutation'],
+        "UserFullName" => $_POST['UserFullName'],
+        "UserPhoneNumber" => $_POST['UserPhoneNumber'],
+        "UserEmailId" => $_POST['UserEmailId'],
+        "UserPassword" => SECURE($_POST['UserPassword'], "e"),
+        "UserStatus" => $_POST['UserStatus'],
+        "UserDesignation" => $_POST['UserDesignation'],
+        "UserWorkFeilds" => $_POST['UserWorkFeilds'],
+        "UserType" => $_POST['UserType'],
+        "UserDateOfBirth" => $_POST['UserDateOfBirth'],
+        "UserCompanyName" => $_POST['UserCompanyName'],
+        "UserUpdatedBy" => LOGIN_UserId,
+        "UserUpdatedAt" => CURRENT_DATE_TIME,
+    ];
+
+    //check if phone number
+    $CheckPhone = CHECK("SELECT * FROM users where UserId!='$UserId' and UserPhoneNumber='" . $_POST['UserPhoneNumber'] . "'");
+    if ($CheckPhone == null) {
+
+        //check email-id
+        $CheckEmails = CHECK("SELECT * FROM users where UserId!='$UserId' and UserEmailId='" . $_POST['UserEmailId'] . "'");
+        if ($CheckEmails == null) {
+            $Update = UPDATE("users", $Users, "UserId='" . $UserId . "'");
+            $Msg = "User Details updated successfully!";
+            $Error = "Something went wrong, unable to update user details at the moment!";
+        } else {
+            unset($Users['UserEmailId']);
+            $Update = UPDATE("users", $Users, "UserId='$UserId'");
+            $Msg = "User details updated but not email-id, email id is already exists";
+            $Error = "EmailId is already exists!";
+        }
+    } else {
+        unset($Users['UserPhoneNumber']);
+        $Update = UPDATE("users", $Users, "UserId='$UserId'");
+        $Msg = "User details updated but not phone number, phone number already exists!";
+        $Error = "Phone Number is already exists!";
+    }
+    RESPONSE($Update, $Msg, $Error);
 }

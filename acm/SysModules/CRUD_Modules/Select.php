@@ -30,7 +30,7 @@ function FETCH($SQL, $data, $die = false)
         } else {
             $FetchDATA = mysqli_fetch_array($Query);
             $ReturnData = $FetchDATA["$data"];
-            $results = $ReturnData;
+            $results = htmlentities(trim($ReturnData));
         }
         return $results;
     }

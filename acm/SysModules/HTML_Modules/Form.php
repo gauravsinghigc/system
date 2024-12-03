@@ -3,11 +3,11 @@
 function NoData($title, $desc = null)
 {
         $return  = '<div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
-        <h4 class="bold mt-3"><?php echo $title; ?></h4>
-                                <p>
-                                        <?php echo $desc; ?>
-                                </p>
-                        </div>';
+        <h4 class="bold mt-3">' . $title . '</h4>
+        <p>
+                <?php echo $desc; ?>
+        </p>
+        </div>';
 
         return $return;
 }
@@ -71,18 +71,6 @@ function InputOptionsWithKey($data, $default = null)
         return $results;
 }
 
-//activation & deactivation options
-function SelectStatus($data)
-{
-        if ($data == "1" or $data == "ACTIVE" or $data == "Active" or $data == 1) { ?>
-                <option value="1" selected="">Active</option>
-                <option value="2">Inactive</option>
-        <?php } else { ?>
-                <option value="1">Active</option>
-                <option value="2" selected="">Inactive</option>
-        <?php }
-}
-
 //textarea
 function TEXTAREA($label, $name, $value, $req = "true", $rows, $class)
 {
@@ -98,14 +86,4 @@ function TEXTAREA($label, $name, $value, $req = "true", $rows, $class)
                 <textarea style="height:100% !important;" name="<?php echo $name; ?>" value="<?php echo $value; ?>" rows="<?php echo $rows; ?>" class="form-control" <?php echo $required; ?>><?php echo $value; ?></textarea>
         </div>
 <?php
-}
-
-//input with data list
-function DATA_LIST($id, array $options)
-{
-        echo "<datalist id='$id'>";
-        foreach ($options as $key => $value) {
-                echo "<option value='$value'></option>";
-        }
-        echo "</datalist>";
 }

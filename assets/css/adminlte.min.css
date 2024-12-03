@@ -2304,16 +2304,17 @@ pre code {
   width: 100%;
   height: 2.3rem;
   padding: 0.3rem 0.5rem;
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 600;
   line-height: 1.5rem;
-  color: #495057;
+  color: black !important;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem !important;
   box-shadow: inset 0 0 0 transparent;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-shadow: none !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2445,7 +2446,7 @@ select.form-control:focus::-ms-value {
   padding: 0.35rem 0.8rem;
   font-size: 1.1rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 5rem;
 }
 
 select.form-control[multiple],
@@ -2870,7 +2871,9 @@ textarea.form-control.is-invalid {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  border-radius: 5rem !important;
+  !i;
+  !;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2998,9 +3001,11 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
-  box-shadow: none;
+  background-image: linear-gradient(45deg, #28a745, #007e1d);
+  box-shadow: 0px 0px 5px #28a745;
+  border-radius: 5rem !important;
+  !i;
+  !;
 }
 
 .btn-success:hover {
@@ -3040,9 +3045,9 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
   border-color: #17a2b8;
   box-shadow: none;
+  background-image: linear-gradient(45deg, #17a2b8, #076c7c);
 }
 
 .btn-info:hover {
@@ -3082,9 +3087,9 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #1f2d3d;
-  background-color: #ffc107;
-  border-color: #ffc107;
   box-shadow: none;
+  background-image: linear-gradient(45deg, #ffc107, #e9b108);
+  box-shadow: 0px 0px 3px #ffc107;
 }
 
 .btn-warning:hover {
@@ -3124,9 +3129,9 @@ fieldset:disabled a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
   box-shadow: none;
+  background-image: linear-gradient(45deg, #d10101, #990303);
+  box-shadow: 0px 0px 3px #d10101;
 }
 
 .btn-danger:hover {
@@ -3208,15 +3213,15 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #343a40;
   border-color: #343a40;
   box-shadow: none;
+  background-image: linear-gradient(45deg, #343a40, black);
 }
 
 .btn-dark:hover {
   color: #fff;
-  background-color: #23272b;
   border-color: #1d2124;
+  background-image: linear-gradient(45deg, black, black);
 }
 
 .btn-dark.focus,
@@ -3562,7 +3567,6 @@ fieldset:disabled a.btn {
 .btn-lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  line-height: 1.5;
   border-radius: 0.3rem;
 }
 
@@ -36969,10 +36973,10 @@ a.disabled.mailbox-attachment-close {
 .login-box,
 .register-box {
   width: auto;
-  box-shadow: none;
   border: none;
   min-width: 360px;
-  max-width: 400px;
+  max-width: 420px;
+  animation: glowLightShow 2s ease-in-out infinite;
 }
 
 @media (max-width: 576px) {

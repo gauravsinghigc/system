@@ -21,11 +21,11 @@
                         <?php echo FormPrimaryInputs($url = RUNNING_URL); ?>
                         <div class="form-group">
                             <label for="inputUsernameEmail">New Password <span id='msg1'></span></label>
-                            <input type="password" name="Password1" value="" id="Pass1" oninput="CheckPassMatch()" required="" class="form-control outline-danger">
+                            <input type="text" name="Password1" value="" id="Pass1" required="" class="form-control form-control-lg outline-danger">
                         </div>
                         <div class="form-group">
                             <label for="inputUsernameEmail">Re-Enter New Password <span id='msg2'></span></label>
-                            <input type="password" name="Password2" id="Pass2" value="" required="" class="form-control" oninput="CheckPassMatch()">
+                            <input type="password" name="Password2" id="Pass2" value="" required="" class="form-control form-control-lg" oninput="CheckPassMatch()">
                         </div>
                         <br>
                         <button type="submit" id='btn' name="RequestForPasswordChange" class="btn btn btn-success btn-block btn-lg">
@@ -37,39 +37,30 @@
                             var Pass1 = document.getElementById("Pass1").value;
                             var Pass2 = document.getElementById("Pass2").value;
                             if (Pass1 != Pass2) {
-                                document.getElementById("msg1").innerHTML = "<span class='text-danger pull-right'><i class='fa fa-warning'></i> Password Mismatch</span>";
                                 document.getElementById("msg2").innerHTML = "<span class='text-danger pull-right'><i class='fa fa-warning'></i> Password Mismatch</span>";
-                                document.getElementById("Pass1").style.borderColor = "red";
                                 document.getElementById("Pass2").style.borderColor = "red";
-                                document.getElementById("Pass1").style.backgroundColor = "rgba(255, 0, 0, 0.1)";
                                 document.getElementById("Pass2").style.backgroundColor = "rgba(255, 0, 0, 0.1)";
-                                document.getElementById("Pass1").style.color = "red";
                                 document.getElementById("Pass2").style.color = "red";
-                                document.getElementById("Pass1").style.boxShadow = "0 0 0 0.2rem rgba(255, 0, 0, 0.5)";
                                 document.getElementById("Pass2").style.boxShadow = "0 0 0 0.2rem rgba(255, 0, 0, 0.5)";
-                                document.getElementById("Pass1").style.transition = "0.5s";
                                 document.getElementById("Pass2").style.transition = "0.5s";
-                                document.getElementById("Pass1").style.borderRadius = "0.25rem";
-                                document.getElementById("Pass2").style.borderRadius = "0.25rem";
-                                document.getElementById("Pass1").style.fontSize = "1rem";
+                                document.getElementById("btn").classList.add("disabled");
+                                document.getElementById("btn").type = "button";
+                            } else if (Pass1 == "" || Pass1 == null || Pass1 == " ") {
+                                document.getElementById("msg2").innerHTML = "<span class='text-danger pull-right'><i class='fa fa-warning'></i> Please Enter Password</span>";
+                                document.getElementById("Pass2").style.borderColor = "red";
+                                document.getElementById("Pass2").style.backgroundColor = "rgba(255, 0, 0, 0.1)";
+                                document.getElementById("Pass2").style.color = "red";
+                                document.getElementById("Pass2").style.boxShadow = "0 0 0 0.2rem rgba(255, 0, 0, 0.5)";
+                                document.getElementById("Pass2").style.transition = "0.5s";
                                 document.getElementById("btn").classList.add("disabled");
                                 document.getElementById("btn").type = "button";
                             } else {
-                                document.getElementById("msg1").innerHTML = "<span class='text-success pull-right'><i class='fa fa-check'></i> Password Ok</span>";
                                 document.getElementById("msg2").innerHTML = "<span class='text-success pull-right'><i class='fa fa-check'></i> Password Ok</span>";
-                                document.getElementById("Pass1").style.borderColor = "green";
                                 document.getElementById("Pass2").style.borderColor = "green";
-                                document.getElementById("Pass1").style.backgroundColor = "rgba(0, 255, 0, 0.1)";
                                 document.getElementById("Pass2").style.backgroundColor = "rgba(0, 255, 0, 0.1)";
-                                document.getElementById("Pass1").style.color = "green";
                                 document.getElementById("Pass2").style.color = "green";
-                                document.getElementById("Pass1").style.boxShadow = "0 0 0 0.2rem rgba(0, 255, 0, 0.5)";
                                 document.getElementById("Pass2").style.boxShadow = "0 0 0 0.2rem rgba(0, 255, 0, 0.5)";
-                                document.getElementById("Pass1").style.transition = "0.5s";
                                 document.getElementById("Pass2").style.transition = "0.5s";
-                                document.getElementById("Pass1").style.borderRadius = "0.25rem";
-                                document.getElementById("Pass2").style.borderRadius = "0.25rem";
-                                document.getElementById("Pass1").style.fontSize = "1rem";
                                 document.getElementById("btn").classList.remove("disabled");
                                 document.getElementById("btn").type = "submit";
                             }
@@ -104,7 +95,6 @@
                 <a href="<?php echo DOMAIN; ?>/auth/?Authview=LoginForm" class='btn btn-md btn-success'>Back to Login</a>
             </div>
         <?php } ?>
-        <hr class="bg-gray-600 opacity-2 mt-50px" />
         <?php include "../include/common/login-footer.php"; ?>
     </div>
 

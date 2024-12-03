@@ -17,7 +17,7 @@ function UPDATE_SQL($SQL, $die = false)
 
 
 //update table 
-function UPDATE($sqltables, array $colums, $conditions, $die = false, $PrintResponses = false)
+function UPDATE($sqltables, array $colums, $conditions, $PrintResponses = false)
 {
     $AvalableArrays = count($colums) - 1;
     $Columns = "";
@@ -33,9 +33,9 @@ function UPDATE($sqltables, array $colums, $conditions, $die = false, $PrintResp
             echo "&nbsp;&nbsp; <b style='color:grey;'> Index:</b> $countkeys ( <b> " . $key . "</b> : " . $value . " ) <br>";
         }
         if ($countkeys <= $AvalableArrays) {
-            $Columns .= "$key='" . htmlentities($value) . "', ";
+            $Columns .= "$key='" . htmlentities(trim($value)) . "', ";
         } else {
-            $Columns .= "$key='" . htmlentities($value) . "' ";
+            $Columns .= "$key='" . htmlentities(trim($value)) . "' ";
         }
     }
     if ($PrintResponses == true) {
@@ -65,9 +65,9 @@ function CUSTOM_COLUMN_UPDATE($sqltables, array $colums, $conditions, $die = fal
     foreach ($colums as $key => $value) {
         global $$value;
         if ($AvalableArrays == $key) {
-            $Columns .= $value . "='" . htmlentities($$value) . "'";
+            $Columns .= $value . "='" . htmlentities(trim($$value)) . "'";
         } else {
-            $Columns .= $value . "='" . htmlentities($$value) . "',";
+            $Columns .= $value . "='" . htmlentities(trim($$value)) . "',";
         }
     }
 

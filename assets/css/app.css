@@ -11,7 +11,7 @@
 }
 
 .app-bg {
-  background-image: repeating-linear-gradient(45deg, #1667b1, #fefefe 1px);
+  background-image: linear-gradient(45deg, #3598db, transparent);
 }
 
 
@@ -20,6 +20,8 @@ body {
   font-family: "AR One Sans", sans-serif !important;
   font-size: 0.9rem !important;
   line-height: normal !important;
+  text-shadow: 0px 0px 1px lightgrey;
+  color: #505050;
 }
 
 hr {
@@ -930,4 +932,53 @@ label {
 
 .login-box .card-header {
   border-bottom: none !important;
+}
+
+.login-box .card {
+  border-radius: 1.5rem !important;
+  padding: 1.5rem;
+}
+
+.btn {
+  border-radius: 0.5rem !important;
+}
+
+.btn-success:hover {
+  border-color: #28a745;
+  box-shadow: 0px 0px 10px #28a745;
+}
+
+.btn-danger:hover {
+  border-color: #d10101;
+  box-shadow: 0px 0px 10px #d10101;
+}
+
+.btn-warning:hover {
+  border-color: #ffc107;
+  box-shadow: 0px 0px 10px #ffc107;
+}
+
+.btn-info:hover {
+  border-color: #17a2b8;
+  box-shadow: 0px 0px 10px #17a2b8;
+}
+
+.btn-dark:hover {
+  border-color: #343a40;
+  box-shadow: 0px 0px 10px #343a40;
+}
+
+.btn-default:hover {
+  border-color: #343a40;
+  box-shadow: 0px 0px 10px #343a40;
+}
+
+.btn-primary:hover {
+  border-color: #007bff;
+  box-shadow: 0px 0px 10px #007bff;
+}
+
+.btn-light:hover {
+  border-color: #f8f9fa;
+  box-shadow: 0px 0px 10px #f8f9fa;
 }

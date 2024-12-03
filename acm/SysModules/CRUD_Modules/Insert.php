@@ -1,6 +1,6 @@
 <?php
 //INsert new data
-function INSERT($tablename, array  $RequestedData, $die = false, $PrintResults = false)
+function INSERT($tablename, array  $RequestedData, $PrintResults = false)
 {
     $TableValues = "";
     $Datatables = "";
@@ -23,9 +23,9 @@ function INSERT($tablename, array  $RequestedData, $die = false, $PrintResults =
         }
 
         if ($countkeys <= $mainarray) {
-            $TableValues .= "'" . htmlentities($data) . "', ";
+            $TableValues .= "'" . htmlentities(trim($data)) . "', ";
         } else {
-            $TableValues .= "'" . htmlentities($data) . "' ";
+            $TableValues .= "'" . htmlentities(trim($data)) . "' ";
         }
 
         if ($countkeys <= $mainarray) {

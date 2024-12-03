@@ -23,9 +23,10 @@ require __DIR__ . "/SysModules/PHP_Modules/DeveloperConstants.php";
 require __DIR__ . "/SysModules/PHP_Modules/DirHandler.php";
 require __DIR__ . "/SysModules/PHP_Modules/SessionDataHandler.php";
 require __DIR__ . "/SysModules/PHP_Modules/PhpUtilityFunctions.php";
+require __DIR__ . "/SysModules/PHP_Modules/PriceAndCharges.php";
+require __DIR__ . "/SysModules/PHP_Modules/SelectOptions.php";
 
 //Some File Handling Functions
-require __DIR__ . "/SysModules/FILE_Modules/DocumentDetails.php";
 require __DIR__ . "/SysModules/FILE_Modules/GetFilesFromDirectory.php";
 require __DIR__ . "/SysModules/FILE_Modules/UploadHandler.php";
 require __DIR__ . "/SysModules/FILE_Modules/OtherFunctions.php";
@@ -46,66 +47,22 @@ require __DIR__ . "/SysModules/CRUD_Modules/Suggest.php";
 require __DIR__ . "/SysModules/CRUD_Modules/SysValues.php";
 require __DIR__ . "/SysModules/CRUD_Modules/DBOperations.php";
 require __DIR__ . "/SysModules/CRUD_Modules/CreateTables.php";
-require __DIR__ . "/SysModules/CRUD_Modules/Query.php";
-
-//App Configuration 
-require __DIR__ . "/SysModules/CONFIG_Modules/Configurations.php";
+require __DIR__ . "/SysModules/CRUD_Modules/AppLogsDB.php";
 
 //HTML Functions + Forms
 require __DIR__ . "/SysModules/HTML_Modules/Form.php";
-require __DIR__ . "/SysModules/HTML_Modules/HTMLTags.php";
 require __DIR__ . "/SysModules/HTML_Modules/HTMLFunctions.php";
 require __DIR__ . "/SysModules/HTML_Modules/Calendar.php";
-
-//activity modules
-require  __DIR__ . "/SysModules/ACTIVITY_Modules/AppLogsDB.php";
 
 //payment modules
 require  __DIR__ . "/SysModules/PAYMENT_Modules/Payments.php";
 
-//complaint modules
-require  __DIR__ . "/SysModules/COMPLAINT_Modules/Complaints.php";
-
-//Invoice modules
-require  __DIR__ . "/SysModules/INVOICE_Modules/invoices.php";
-
-//leads modules
-require  __DIR__ . "/SysModules/LEAD_Modules/Calls.php";
-require  __DIR__ . "/SysModules/LEAD_Modules/Leads.php";
-
-//e-commerce modules
-require  __DIR__ . "/SysModules/E_COMMERCE_Modules/ProductModules.php";
-require  __DIR__ . "/SysModules/E_COMMERCE_Modules/CartModules.php";
-require  __DIR__ . "/SysModules/E_COMMERCE_Modules/OrderModules.php";
-require  __DIR__ . "/SysModules/E_COMMERCE_Modules/PriceAndCharges.php";
-
-//user modules
-require  __DIR__ . "/SysModules/USER_Modules/users.php";
-
-//employement modules
-require  __DIR__ . "/SysModules/EMPLOYEMENT_Modules/Attandance.php";
-require  __DIR__ . "/SysModules/EMPLOYEMENT_Modules/EmploymentFuns.php";
-
-//enquiry modules
-require  __DIR__ . "/SysModules/ENQUIRY_Modules/Enquiries.php";
-
-//expanse modules
-require  __DIR__ . "/SysModules/EXPANSE_Modules/Expanse.php";
-
 //mails modules
+require __DIR__ . "/SysModules/MAIL_Modules/MailConfigs.php";
 require  __DIR__ . "/SysModules/MAIL_Modules/Mail.php";
 
 //sms modules
 require  __DIR__ . "/SysModules/SMS_Modules/SMS.php";
-
-//warranty modules
-require  __DIR__ . "/SysModules/WARRANTY_Modules/warranty.php";
-
-//project modules
-require  __DIR__ . "/SysModules/PROJECT_Modules/Projects.php";
-
-//notifcations modules
-require __DIR__ . "/SysModules/NOTIFICATIONS_Modules/FloatingNotifications.php";
 
 //All Data collection modules
 require __DIR__ . "/SysModules/DATA_COLLECTION_Modules/AllBankLists.php";

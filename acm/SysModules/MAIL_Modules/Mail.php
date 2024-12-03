@@ -33,7 +33,7 @@ function SENDMAILS($Subject, $Title, $Sendto, $MAIL_MSG, $ATTACHEMENTS = NULL, $
       $mail->Port       = SMTP_CONFIGS("PORT");                                 //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
       //Recipients
-      $mail->setFrom(SMTP_CONFIGS("FROM"), APP_NAME);
+      $mail->setFrom(SMTP_CONFIGS("FROM"));
       $mail->addAddress($Sendto);                                 //Add a recipient
 
       //Add Attachments
