@@ -130,7 +130,7 @@ $PageDescription = "Manage System Profile, address, logo";
                                 </div>
                               </div>
                           <?php
-                              include $Dir . "/include/forms/app/UpdateConfigUrlsForm.php";
+                              include $Dir . "/include/forms/UpdateConfigUrlsForm.php";
                             }
                           }
                           PaginationFooter(TOTAL($ConfigUrlSQL), "index.php"); ?>
@@ -148,7 +148,7 @@ $PageDescription = "Manage System Profile, address, logo";
   </div>
 
   <?php
-  include $Dir . "/include/forms/app/CreateNewConfigUrls.php";
+  include $Dir . "/include/forms/CreateNewConfigUrls.php";
   include $Dir . "/include/common/Footer.php";
   include $Dir . "/assets/FooterFiles.php"; ?>
 

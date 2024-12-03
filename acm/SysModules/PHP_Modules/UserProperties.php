@@ -1,11 +1,18 @@
 <?php
 //user per missions
 define("USER_PERMISSIONS", array(
-    "CREATE", "UPDATE", "DELETE", "IMPORT", "EXPORT", "PRINT", "VIEW", "REPORTS"
+    "CREATE",
+    "UPDATE",
+    "DELETE",
+    "IMPORT",
+    "EXPORT",
+    "PRINT",
+    "VIEW",
+    "REPORTS"
 ));
 
 //user roles
-define("USER_ROLES", array("Admin", "TeamMember", "HR", "Digital", "Receptions", "CRM", "Other Staff"));
+define("USER_ROLES", array("Admin", "User"));
 
 //user genders
 define("USER_GENDER", array("Male", "Female", "Others"));

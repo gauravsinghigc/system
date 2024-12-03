@@ -51,8 +51,8 @@ $PageDescription = "Manage your application Advance Settings";
                     <div class="col-md-10">
                       <h4 class="app-heading"><?php echo $PageName; ?></h4>
                       <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                          <div class="">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                          <div class="shadow-sm p-2 rounded">
                             <form class="form row" action="<?php echo CONTROLLER("SystemController/ConfigController.php"); ?>" method="POST">
                               <?php echo FormPrimaryInputs(true); ?>
                               <div class="form-group form-group-2 col-md-12">

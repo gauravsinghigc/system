@@ -418,7 +418,7 @@ a:hover {
   max-width: max-content;
   background-color: #ffffff;
   padding: 0.25rem;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   margin-right: 0.25rem;
   box-shadow: 0px 0px 2px #0c386b;
   width: max-content;
@@ -428,7 +428,7 @@ a:hover {
 .main-navigation-bar li a i.fa {
   font-size: 1.4rem;
   padding-top: 0.37rem;
-  color: #db0101;
+  color: #016899;
 }
 
 .main-navigation-bar li span.title {
@@ -439,18 +439,18 @@ a:hover {
 
 .main-navigation-bar li:hover a,
 .main-navigation-bar li.active a {
-  background-color: #0c386b;
+  background-image: linear-gradient(45deg, #030f1c, #0d53a5);
 }
 
 
 .main-navigation-bar li:hover a,
 .main-navigation-bar li.active a {
-  color: white
+  color: white;
 }
 
 .main-navigation-bar li:hover a i.fa,
 .main-navigation-bar li.active a i.fa {
-  color: white;
+  color: #ffffff;
 }
 
 .main-navigation-bar li span.counts {
@@ -886,7 +886,6 @@ label {
   border-width: thin;
 }
 
-.rsor-chat-window .chat-header .actions {}
 
 .rsor-chat-window .chat-header .profile {
   width: 50%;
@@ -908,8 +907,6 @@ label {
   padding-left: 0.3rem;
   font-weight: 700;
 }
-
-.rsor-chat-window .chat-body {}
 
 .rsor-chat-window .chat-actions {
   position: absolute;
@@ -981,4 +978,51 @@ label {
 .btn-light:hover {
   border-color: #f8f9fa;
   box-shadow: 0px 0px 10px #f8f9fa;
+}
+
+.status-control {
+  margin-top: -1rem;
+}
+
+.Header-Menus {
+  padding: 0.15rem 0.5rem;
+  margin-top: 0.28rem;
+}
+
+.Header-Menus a {
+  padding: 0.3rem 0.7rem;
+  box-shadow: 0px 0px 1px grey;
+  border-radius: 0.5rem;
+  display: inline-block;
+  width: fit-content;
+  max-width: fit-content;
+  margin-right: 0.15rem;
+}
+
+.Header-Menus a i {
+  font-size: 1.7rem;
+  color: #0c386b;
+}
+
+.Header-Menus a:hover,
+.Header-Menus a.active {
+  background-image: linear-gradient(45deg, #041425, #0c4f9d);
+  color: white !important;
+  transform: scale(1.1);
+}
+
+.Header-Menus a.active i,
+.Header-Menus a:hover i {
+  color: white !important;
+}
+
+.Header-Menus a span.count {
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 0.25rem;
+  font-size: 0.75rem;
+  border-radius: 5rem;
+  margin-left: -0.50rem;
+  margin-top: -0.50rem;
 }

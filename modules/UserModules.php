@@ -13,3 +13,30 @@ function AttachUserEntity($UserId = null)
         return null;
     }
 }
+
+
+//get User details
+function UserDetails($UserId, $require)
+{
+    if (empty($UserId)) {
+        return null;
+    } else {
+        $CheckUsers = CHECK("SELECT $require FROM users where UserId='$UserId'");
+        if ($CheckUsers == null) {
+            return null;
+        } else {
+            $GetData = FETCH("SELECT $require FROM users where UserId='$UserId'", "$require");
+            if (
+                $require == "UserProfileImage"
+            ) {
+                if ($GetData == "default.png") {
+                    return STORAGE_URL_D . "/default.png";
+                } else {
+                    return STORAGE_URL_U . "/$UserId/img/$GetData";
+                }
+            } else {
+                return $GetData;
+            }
+        }
+    }
+}

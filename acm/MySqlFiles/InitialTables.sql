@@ -229,8 +229,9 @@ CREATE TABLE `users` (
   `UserPhoneNumber` varchar(100) NOT NULL,
   `UserEmailId` varchar(1000) NOT NULL,
   `UserPassword` varchar(500) NOT NULL,
-  `UserCreatedAt` varchar(25) NOT NULL DEFAULT 'current_timestamp(6)',
-  `UserUpdatedAt` varchar(25) NOT NULL DEFAULT 'current_timestamp(6)',
+  `UserCreatedAt` varchar(25) NOT NULL,
+  `UserUpdatedAt` varchar(25) NOT NULL,
+  `UserUpdatedBy` int(100),
   `UserStatus` tinyint(1) NOT NULL DEFAULT 1,
   `UserNotes` longtext NOT NULL,
   `UserCompanyName` varchar(1000) NOT NULL,
@@ -246,8 +247,8 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`UserId`, `UserSalutation`, `UserFullName`, `UserPhoneNumber`, `UserEmailId`, `UserPassword`, `UserCreatedAt`, `UserUpdatedAt`, `UserStatus`, `UserNotes`, `UserCompanyName`, `UserDepartment`, `UserDesignation`, `UserWorkFeilds`, `UserProfileImage`, `UserType`, `UserDateOfBirth`) VALUES
-(1, 'Mr.', 'Gaurav Singh', '9318310565', 'gauravsinghigc@gmail.com', 'VndsbUlpKzhKdWpEbEZNSUNva2t1UT09', '0000-00-00 00:00:00.00000', '06 Sep, 2023', 1, 'YkVYdnY2YmtTdHBSRVkxbW95bFEyWTl6L2YxNUhpQ1NRK0FFR1BMRnpDN0JnUEdFTzNwb0NJaUptK2V6WDJUTQ==', 'Navix Consultancy Services', 'Sales &amp; Marketing', 'Sales Head', 'Information Technology', 'default.png', 'Admin', '2022-11-02');
+INSERT INTO `users` (`UserId`, `UserUpdatedBy`, `UserSalutation`, `UserFullName`, `UserPhoneNumber`, `UserEmailId`, `UserPassword`, `UserCreatedAt`, `UserUpdatedAt`, `UserStatus`, `UserNotes`, `UserCompanyName`, `UserDepartment`, `UserDesignation`, `UserWorkFeilds`, `UserProfileImage`, `UserType`, `UserDateOfBirth`) VALUES
+(1, 1, 'Mr.', 'Gaurav Singh', '9318310565', 'gauravsinghigc@gmail.com', 'VndsbUlpKzhKdWpEbEZNSUNva2t1UT09', NOW(), NOW(), 1, 'YkVYdnY2YmtTdHBSRVkxbW95bFEyWTl6L2YxNUhpQ1NRK0FFR1BMRnpDN0JnUEdFTzNwb0NJaUptK2V6WDJUTQ==', 'Navix Consultancy Services', 'Sales &amp; Marketing', 'Sales Head', 'Information Technology', 'default.png', 'Admin', '2022-11-02');
 
 -- --------------------------------------------------------
 
@@ -267,6 +268,50 @@ CREATE TABLE `user_password_change_requests` (
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `config_url_types`
+--
+
+CREATE TABLE `config_url_types` (
+  `cut_id` int(10) NOT NULL,
+  `cut_name` varchar(30) NOT NULL,
+  `cut_icon` varchar(50) NOT NULL,
+  `cut_created_at` varchar(45) NOT NULL,
+  `cut_updated_at` varchar(45) NOT NULL,
+  `cut_created_by` int(10) NOT NULL,
+  `cut_updated_by` int(10) NOT NULL,
+  `cut_status` int(2) NOT NULL,
+  `if_cut_deleted` int(2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `config_url_types`
+--
+
+INSERT INTO `config_url_types` (`cut_id`, `cut_name`, `cut_icon`, `cut_created_at`, `cut_updated_at`, `cut_created_by`, `cut_updated_by`, `cut_status`, `if_cut_deleted`) VALUES
+(1, 'Facebook', 'fa-facebook', '2024-09-27 08:17:55 PM', '2024-09-27 08:17:55 PM', 1, 1, 1, NULL),
+(2, 'Instagram', 'fa-instagram', '2024-09-27 08:30:33 PM', '2024-09-27 08:30:33 PM', 1, 1, 1, NULL),
+(3, 'Youtube', 'fa-youtube', '2024-09-27 08:32:13 PM', '2024-09-27 08:32:13 PM', 1, 1, 1, NULL),
+(4, 'Website', 'fa-globe', '2024-09-27 08:32:29 PM', '2024-09-27 08:32:29 PM', 1, 1, 1, NULL),
+(5, 'MAP &amp; LOCATION', 'fa-map-marker', '2024-09-27 08:33:37 PM', '2024-09-27 08:33:37 PM', 1, 1, 1, NULL);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `config_url_types`
+--
+ALTER TABLE `config_url_types`
+  ADD PRIMARY KEY (`cut_id`);
+
+--
+-- AUTO_INCREMENT for table `config_url_types`
+--
+ALTER TABLE `config_url_types`
+  MODIFY `cut_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+COMMIT;
 
 --
 -- Indexes for table `configs`

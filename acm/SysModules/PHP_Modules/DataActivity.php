@@ -86,7 +86,7 @@ function LimitText($text, $start, $end)
 {
     $LimitText = substr($text, $start, $end) . "...";
     $TotalStringVarChar = strlen($LimitText);
-    if ($TotalStringVarChar > $end) {
+    if ($TotalStringVarChar >= $end) {
         $LimitText = substr($text, $start, $end) . "...";
     } else {
         $LimitText = substr($text, $start, $end);

@@ -92,4 +92,27 @@ if (isset($_POST['updateprofileimage'])) {
         $Error = "Phone Number is already exists!";
     }
     RESPONSE($Update, $Msg, $Error);
+
+    //update user status
+} elseif (isset($_POST['UpdateUserStatus'])) {
+    $UserId = SECURE($_POST['UserId'], "d");
+    $UserStatus = $_POST['UserStatus'];
+
+    if (isset($_POST['UserStatus'])) {
+        $UserStatus = 1;
+    } else {
+        $UserStatus = 0;
+    }
+
+    $users = [
+        "UserStatus" => $UserStatus,
+        "UserUpdatedAt" => CURRENT_DATE_TIME
+    ];
+
+    $UserSql = "SELECT * FROM users where UserId='$UserId'";
+    $UserStatus = StatusViewWithText($UserStatus);
+    $UserFullName = FETCH($UserSql, "UserFullName");
+    $UserPhoneNumber = FETCH($UserSql, "UserPhoneNumber");
+    $Update = UPDATE("users", $users, "UserId='$UserId'");
+    RESPONSE($Update, "<b class='text-danger'>Status Updated Successfully!</b><br> [-- <b>$UserFullName - ($UserPhoneNumber)</b> --]<br>@ ( Now <b>$UserStatus</b>)", "Unable to update user status!");
 }
