@@ -104,3 +104,14 @@ function PriceInWords($number)
   $paise = ($decimal > 0) ? "." . ($words[$decimal / 10] . " " . $words[$decimal % 10]) . ' Paise' : '';
   return ($Rupees ? $Rupees . 'Rupees ' : '') . $paise . " Only.";
 }
+
+
+//get records status
+function GetActiveStatus($Value1, $Value2)
+{
+  if ($Value1 == $Value2) {
+    return "active";
+  } else {
+    return "";
+  }
+}
