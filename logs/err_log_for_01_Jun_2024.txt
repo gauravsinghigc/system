@@ -1,0 +1,16 @@
+[01-Jun-2024 09:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jun-2024 09:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jun-2024 09:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jun-2024 09:26:52 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[01-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jun-2024 09:26:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32

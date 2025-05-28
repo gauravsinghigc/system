@@ -42,9 +42,13 @@ function LowerCase($string)
 //uppercase all words
 function UpperCase($string)
 {
-    $string = strtoupper($string);
-    if ($string == null) {
-        return null;
+    if ($string != null) {
+        $string = strtoupper($string);
+        if ($string == null) {
+            return null;
+        } else {
+            return $string;
+        }
     } else {
         return $string;
     }
@@ -84,14 +88,16 @@ function GetStrings($string, $replace = null)
 //show only limited characters
 function LimitText($text, $start, $end)
 {
-    $LimitText = substr($text, $start, $end) . "...";
-    $TotalStringVarChar = strlen($LimitText);
-    if ($TotalStringVarChar >= $end) {
+    if ($text != null) {
         $LimitText = substr($text, $start, $end) . "...";
-    } else {
-        $LimitText = substr($text, $start, $end);
+        $TotalStringVarChar = strlen($LimitText);
+        if ($TotalStringVarChar >= $end) {
+            $LimitText = substr($text, $start, $end) . "...";
+        } else {
+            $LimitText = substr($text, $start, $end);
+        }
+        return $LimitText;
     }
-    return $LimitText;
 }
 
 //get first word of string
@@ -110,4 +116,26 @@ function FirstWord($string)
         $LimitText = substr($string, $start, $end);
     }
     return $LimitText;
+}
+
+function VALID_PHONE_NUMBER($phone)
+{
+    // If phone is empty, return empty string
+    if (empty($phone)) {
+        return "";
+    }
+
+    // Convert to string and remove any non-digit characters
+    $phone = preg_replace('/[^0-9]/', '', (string)$phone);
+
+    // Remove 91 from start if it exists
+    if (substr($phone, 0, 2) === '91') {
+        $phone = substr($phone, 2);
+    }
+
+    // Take only first 10 digits
+    $phone = substr($phone, 0, 10);
+
+    // Return the processed phone number
+    return $phone;
 }

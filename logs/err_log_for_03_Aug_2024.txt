@@ -1,0 +1,120 @@
+[03-Aug-2024 11:28:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 332
+[03-Aug-2024 11:46:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 332
+[03-Aug-2024 11:46:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 332
+[03-Aug-2024 15:51:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(114): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Aug-2024 15:51:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(114): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Aug-2024 15:53:11 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 532
+[03-Aug-2024 15:53:11 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 533
+[03-Aug-2024 15:53:11 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 534
+[03-Aug-2024 15:53:11 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 535
+[03-Aug-2024 15:53:14 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 532
+[03-Aug-2024 15:53:14 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 533
+[03-Aug-2024 15:53:14 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 534
+[03-Aug-2024 15:53:14 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 535
+[03-Aug-2024 15:54:27 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 536
+[03-Aug-2024 15:54:27 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 537
+[03-Aug-2024 15:54:27 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 538
+[03-Aug-2024 15:54:27 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 539
+[03-Aug-2024 15:54:59 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 537
+[03-Aug-2024 15:54:59 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 538
+[03-Aug-2024 15:54:59 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 539
+[03-Aug-2024 15:54:59 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 540
+[03-Aug-2024 16:04:19 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 537
+[03-Aug-2024 16:04:19 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 538
+[03-Aug-2024 16:04:19 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 539
+[03-Aug-2024 16:04:19 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 540
+[03-Aug-2024 16:13:41 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 551
+[03-Aug-2024 16:13:41 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 552
+[03-Aug-2024 16:13:41 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 553
+[03-Aug-2024 16:13:41 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 554
+[03-Aug-2024 16:14:52 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 549
+[03-Aug-2024 16:14:52 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 550
+[03-Aug-2024 16:14:52 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 551
+[03-Aug-2024 16:14:52 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 552
+[03-Aug-2024 16:16:53 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 553
+[03-Aug-2024 16:16:53 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 554
+[03-Aug-2024 16:16:53 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 555
+[03-Aug-2024 16:16:53 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 556
+[03-Aug-2024 16:17:48 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 540
+[03-Aug-2024 16:17:48 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 541
+[03-Aug-2024 16:17:48 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 542
+[03-Aug-2024 16:17:48 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 543
+[03-Aug-2024 16:24:12 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 540
+[03-Aug-2024 16:24:12 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 541
+[03-Aug-2024 16:24:12 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 542
+[03-Aug-2024 16:24:12 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 543
+[03-Aug-2024 16:25:17 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 553
+[03-Aug-2024 16:25:17 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 554
+[03-Aug-2024 16:25:17 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 555
+[03-Aug-2024 16:25:17 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 556
+[03-Aug-2024 16:26:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(114): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyAddress in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 186
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Area_Locality in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 186
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $Company_City in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 186
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $Company_GST_No in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 215
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 514
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 515
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 516
+[03-Aug-2024 16:26:16 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 517
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyAddress in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 186
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Area_Locality in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 186
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $Company_City in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 186
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $Company_GST_No in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 215
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 514
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 515
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 516
+[03-Aug-2024 16:27:16 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 517
+[03-Aug-2024 16:27:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(114): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Aug-2024 16:30:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(114): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Aug-2024 16:30:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(114): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Aug-2024 16:32:31 Asia/Calcutta] PHP Warning:  Undefined variable $NewDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 494
+[03-Aug-2024 16:32:31 Asia/Calcutta] PHP Warning:  Undefined variable $NewPIDigit in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 495
+[03-Aug-2024 16:32:31 Asia/Calcutta] PHP Warning:  Undefined variable $Newtext in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 496
+[03-Aug-2024 16:32:31 Asia/Calcutta] PHP Warning:  Undefined variable $PIText in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 497
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $financialyear in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "INV_Number_Main_Id" on null in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $financialyear in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "Financial_Year" on null in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $financialyear in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "INV_Number_Main_Id" on null in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $financialyear in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 16:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "Financial_Year" on null in D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php on line 126
+[03-Aug-2024 17:03:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[03-Aug-2024 17:03:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[03-Aug-2024 17:03:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74

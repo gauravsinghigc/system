@@ -1,0 +1,9 @@
+[09-May-2024 09:33:15 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[09-May-2024 09:33:15 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[09-May-2024 09:33:15 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[09-May-2024 09:33:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[09-May-2024 12:12:35 Asia/Calcutta] PHP Warning:  Undefined array key "Leadtype" in D:\xampp\htdocs\apnalead\handler\ModuleController\LeadsController.php on line 277

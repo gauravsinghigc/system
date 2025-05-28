@@ -1,0 +1,231 @@
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:21
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 21
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:35:13 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:21
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 21
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 09:36:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jun-2024 10:13:39 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 47
+[24-Jun-2024 10:13:39 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 67
+[24-Jun-2024 10:20:36 Asia/Calcutta] PHP Warning:  Undefined variable $companyID in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 18
+[24-Jun-2024 10:21:01 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 23
+[24-Jun-2024 10:49:35 Asia/Calcutta] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 26
+[24-Jun-2024 10:54:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php:15
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 15
+[24-Jun-2024 11:18:53 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:18:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where api_main_id='19' AND CompanyID='36'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php:10
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php(10): mysqli_query(Object(mysqli), 'UPDATE equal_di...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php(17): UPDATE('UPDATE equal_di...')
+#2 D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php(66): updateLastUserIndex('19', '36', 1)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php on line 10
+[24-Jun-2024 11:21:14 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php:8
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php(56): getLastUserIndex('19', '36')
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:22:07 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:57 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:58 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:58 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:59 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:59 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:59 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:59 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:23:59 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:24:00 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:24:00 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:24:00 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:24:00 Asia/Calcutta] PHP Warning:  Attempt to read property "last_user_index" on array in D:\xampp\htdocs\apnalead\handler\AutoRunner\EqualDistribute.php on line 8
+[24-Jun-2024 11:48:34 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 6
+[24-Jun-2024 11:48:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Array' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'Array')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(143): TOTAL('Array')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "locality_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 39
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "city_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 40
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "project_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "property_field" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 13:57:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:48
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(48): implode(',', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Warning:  Undefined array key "locality_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 39
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Warning:  Undefined array key "city_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 40
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Warning:  Undefined array key "project_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Warning:  Undefined array key "property_field" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 13:58:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:48
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(48): implode(',', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Warning:  Undefined array key "locality_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 39
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Warning:  Undefined array key "city_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 40
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Warning:  Undefined array key "project_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Warning:  Undefined array key "property_field" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 13:59:08 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:48
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(48): implode(',', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Warning:  Undefined array key "locality_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 39
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Warning:  Undefined array key "city_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 40
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Warning:  Undefined array key "project_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Warning:  Undefined array key "property_field" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:02:51 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:48
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(48): implode(',', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Warning:  Undefined array key "locality_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 39
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Warning:  Undefined array key "city_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 40
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Warning:  Undefined array key "project_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Warning:  Undefined array key "property_field" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:03:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:48
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(48): implode(',', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "locality_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 39
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "city_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 40
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "project_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "property_field" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:06:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:48
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(48): implode(',', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Warning:  Undefined array key "locality_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 39
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Warning:  Undefined array key "city_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 40
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 46
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Warning:  Undefined array key "project_name" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Warning:  Undefined array key "property_field" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:06:18 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:48
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(48): implode(',', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 48
+[24-Jun-2024 14:07:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND Upload_Source='HOUSING' ORDER BY leadsUploadId ASC LIMIT 0, 2' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(203): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(184): Distributeleads('66', 2, '36')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[24-Jun-2024 14:23:16 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 47
+[24-Jun-2024 14:23:16 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 67
+[24-Jun-2024 14:36:23 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 47
+[24-Jun-2024 14:36:23 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 67
+[24-Jun-2024 14:47:31 Asia/Calcutta] PHP Warning:  Undefined variable $API in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 14:47:31 Asia/Calcutta] PHP Warning:  Attempt to read property "ID" on null in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 14:48:05 Asia/Calcutta] PHP Warning:  Undefined variable $API in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 14:48:05 Asia/Calcutta] PHP Warning:  Attempt to read property "ID" on null in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 14:48:14 Asia/Calcutta] PHP Warning:  Undefined variable $API in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 14:48:14 Asia/Calcutta] PHP Warning:  Attempt to read property "ID" on null in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 14:48:16 Asia/Calcutta] PHP Warning:  Undefined variable $API in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 14:48:16 Asia/Calcutta] PHP Warning:  Attempt to read property "ID" on null in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 263
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:23 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 15:00:39 Asia/Calcutta] PHP Warning:  Undefined variable $checkbox in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 272
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 16:33:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$API_Users in D:\xampp\htdocs\apnalead\app\configs\fb-page.php on line 169
+[24-Jun-2024 17:06:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ID in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 237
+[24-Jun-2024 17:06:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ID in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 237
+[24-Jun-2024 17:06:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ID in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 237
+[24-Jun-2024 17:06:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ID in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 237
+[24-Jun-2024 17:06:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ID in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 237
+[24-Jun-2024 17:06:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ID in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 237

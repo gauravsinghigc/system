@@ -1,0 +1,468 @@
+[09-Aug-2024 10:18:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php(287): CONFIG('DEFAULT_RECORD_...')
+#2 D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php(369): listingstartfrom('start')
+#3 D:\xampp\htdocs\apnalead\acm\SystemFileProcessor.php(109): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(43): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\apnalead\app\Billing\index.php(3): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[09-Aug-2024 10:19:08 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\Billing\index.php:10
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 10
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:20:47 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:43 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:23:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:25:07 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:26:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:28:44 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:33:50 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:43:17 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 10:53:06 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[09-Aug-2024 12:42:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 12:46:50 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 152
+[09-Aug-2024 12:46:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 12:47:29 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 12:50:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 12:51:19 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 12:52:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 12:54:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:05 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[09-Aug-2024 12:56:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 14:35:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 14:37:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 14:50:39 Asia/Calcutta] PHP Warning:  Undefined variable $NetAmount in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 102
+[09-Aug-2024 14:53:00 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 152
+[09-Aug-2024 14:53:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 14:53:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 14:53:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 15:03:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 15:04:38 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 15:15:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[09-Aug-2024 16:07:38 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewService.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[09-Aug-2024 16:07:38 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewService.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[09-Aug-2024 16:07:38 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewProduct.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[09-Aug-2024 16:07:38 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewProduct.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[09-Aug-2024 16:31:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$inv_main_id in D:\xampp\htdocs\apnalead\include\forms\Billingform\CollectPayment.php on line 23
+[09-Aug-2024 16:31:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$inv_main_id in D:\xampp\htdocs\apnalead\include\forms\Billingform\CollectPayment.php on line 23
+[09-Aug-2024 16:31:42 Asia/Calcutta] PHP Warning:  Undefined variable $disable in D:\xampp\htdocs\apnalead\include\forms\Billingform\CollectPayment.php on line 67
+[09-Aug-2024 16:32:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$inv_main_id in D:\xampp\htdocs\apnalead\include\forms\Billingform\CollectPayment.php on line 25
+[09-Aug-2024 16:32:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$inv_main_id in D:\xampp\htdocs\apnalead\include\forms\Billingform\CollectPayment.php on line 25
+[09-Aug-2024 16:41:02 Asia/Calcutta] PHP Warning:  Undefined variable $result in D:\xampp\htdocs\apnalead\app\Billing\view\ajax.php on line 19
+[09-Aug-2024 16:41:04 Asia/Calcutta] PHP Warning:  Undefined variable $result in D:\xampp\htdocs\apnalead\app\Billing\view\ajax.php on line 19
+[09-Aug-2024 16:41:34 Asia/Calcutta] PHP Warning:  Undefined variable $result in D:\xampp\htdocs\apnalead\app\Billing\view\ajax.php on line 19
+[09-Aug-2024 17:03:16 Asia/Calcutta] PHP Warning:  Undefined variable $BalanceAmount in D:\xampp\htdocs\apnalead\include\forms\Billingform\CollectPayment.php on line 85

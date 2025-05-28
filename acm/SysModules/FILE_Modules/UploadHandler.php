@@ -1,6 +1,6 @@
 <?PHP
 //file uploader and directory maker 
-function UPLOAD_FILES($dir, $checkfile = false, $FilName, $NewFile, array $allowedfiles = null)
+function UPLOAD_FILES($dir, $checkfile = false, $FilName = "", $NewFile = "", $allowedfiles = null)
 {
 
   $pre = str_replace(" ", "_", $FilName);
@@ -28,7 +28,7 @@ function UPLOAD_FILES($dir, $checkfile = false, $FilName, $NewFile, array $allow
   if ($allowedfiles == null) {
 
     //files allowed by default
-    $allowedfiles = array('jpg', 'jpeg', 'png', 'gif', 'pdf', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt', 'zip', 'rar', 'gz', 'tar', '7z');
+    $allowedfiles = array('jpg', 'jpeg', 'png', 'gif', 'pdf', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt', 'zip', 'rar', 'gz', 'tar', '7z', 'mp3', 'mp4', 'webm');
 
     //check files allowed for upload
     if (!in_array($UploadFileType, $allowedfiles)) {
@@ -60,8 +60,9 @@ function UPLOAD_FILES($dir, $checkfile = false, $FilName, $NewFile, array $allow
 //upload multiple files
 function UPLOAD_MULTIPLE_FILES($UploadDir, $FileFieldName, $SaveInto)
 {
+
   $total_count = count($_FILES["$FileFieldName"]['name']);
-  if ($total_count == 0) {
+  if ($total_count != 0) {
     for ($i = 0; $i < $total_count; $i++) {
       $FileName = $_FILES["$FileFieldName"]['name'][$i];
       //$ProImageType = $_FILES["$FileFieldName"]['type'][$i];

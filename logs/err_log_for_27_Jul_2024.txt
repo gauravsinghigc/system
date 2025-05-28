@@ -1,0 +1,86 @@
+[27-Jul-2024 09:39:35 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[27-Jul-2024 09:39:35 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[27-Jul-2024 09:39:35 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[27-Jul-2024 09:39:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(66): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[27-Jul-2024 11:10:49 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 43
+[27-Jul-2024 11:14:38 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:14:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:15:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:16:03 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:17:40 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:17:55 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:18:26 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:18:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:18:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:18:51 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:19:30 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:19:35 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:19:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:23:19 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:23:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 45
+[27-Jul-2024 11:27:33 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'industry_type' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php:10
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php(10): mysqli_query(Object(mysqli), 'UPDATE config_c...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php(41): UPDATE('UPDATE config_c...')
+#2 D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php(58): UPDATE_TABLE('config_companie...', Array, 'company_main_us...')
+#3 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php on line 10
+[27-Jul-2024 11:28:38 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\FILE_Modules\UploadHandler.php on line 39
+[27-Jul-2024 11:28:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\FILE_Modules\UploadHandler.php on line 39
+[27-Jul-2024 11:34:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.company_area_locality' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Company_...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Company_...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(150): FETCH('SELECT Company_...', 'Company_Address')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jul-2024 11:34:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.company_area_locality' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Company_...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Company_...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(150): FETCH('SELECT Company_...', 'Company_Address')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jul-2024 11:50:28 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyID in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 73
+[27-Jul-2024 16:01:17 Asia/Calcutta] PHP Warning:  Undefined array key "FromTo_Phone" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 16
+[27-Jul-2024 16:01:17 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array * array in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:117
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 117
+[27-Jul-2024 16:02:48 Asia/Calcutta] PHP Warning:  Undefined array key "FromTo_Phone" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 16
+[27-Jul-2024 16:02:49 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array * array in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:117
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 117
+[27-Jul-2024 16:02:53 Asia/Calcutta] PHP Warning:  Undefined array key "FromTo_Phone" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 16
+[27-Jul-2024 16:02:53 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array * array in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:117
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 117
+[27-Jul-2024 16:08:45 Asia/Calcutta] PHP Warning:  Undefined array key "FromTo_Phone" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 16
+[27-Jul-2024 16:08:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array * array in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:117
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 117
+[27-Jul-2024 16:09:20 Asia/Calcutta] PHP Warning:  Undefined array key "FromTo_Phone" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 16
+[27-Jul-2024 16:09:20 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array * array in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:117
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 117
+[27-Jul-2024 16:09:46 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array * array in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:117
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 117
+[27-Jul-2024 16:13:56 Asia/Calcutta] PHP Warning:  Undefined array key "" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 142
+[27-Jul-2024 16:25:52 Asia/Calcutta] PHP Warning:  Undefined array key "" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 142

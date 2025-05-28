@@ -1,0 +1,234 @@
+[25-May-2024 09:36:12 Asia/Calcutta] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=7824 in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[25-May-2024 09:36:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[25-May-2024 09:36:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 09:36:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 09:36:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 09:36:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 09:55:39 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:40 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:02:48 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:08 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:03:17 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:42 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 10:04:50 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 11:40:04 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[25-May-2024 12:06:09 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 12:06:09 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 12:06:09 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 12:06:09 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[25-May-2024 12:06:32 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 12:06:32 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 12:06:32 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[25-May-2024 12:06:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[25-May-2024 12:24:33 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[25-May-2024 13:43:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND UserEmpReportingMember='49'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM u...')
+#2 D:\xampp\htdocs\apnalead\app\teams\index.php(615): _DB_COMMAND_('SELECT * FROM u...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[25-May-2024 13:43:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND UserEmpReportingMember='49'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM u...')
+#2 D:\xampp\htdocs\apnalead\app\teams\index.php(615): _DB_COMMAND_('SELECT * FROM u...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[25-May-2024 14:06:25 Asia/Calcutta] PHP Warning:  Undefined variable $alluser in D:\xampp\htdocs\apnalead\app\teams\index.php on line 689
+[25-May-2024 14:15:08 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\teams\index.php on line 715
+[25-May-2024 14:15:28 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\teams\index.php on line 718

@@ -3,7 +3,7 @@
 function AMOUNT($SQL, $T)
 {
     global $DBConnection;
-    $TotalAmountPaid = SELECT("$SQL");
+    $TotalAmountPaid = SQL("$SQL");
     $TotalAmount = 0;
     while ($fetchtotalpayment = mysqli_fetch_array($TotalAmountPaid)) {
         $TotalAmount += (int)$fetchtotalpayment["$T"];

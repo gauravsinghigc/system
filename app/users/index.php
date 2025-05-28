@@ -1,144 +1,281 @@
 <?php
 $Dir = "../..";
-require $Dir . '/acm/SysFileAutoLoader.php';
-require $Dir . '/handler/AuthController/AuthAccessController.php';
-
-
+require_once $Dir . '/acm/SysFileAutoLoader.php';
+require_once $Dir . '/handler/AuthController/AuthAccessController.php';
 //pagevariables
-$PageName = "All Users";
-$PageDescription = "Manage all customers";
+$PageName = ADMIN_SIDEBAR_MENUS[ReturnSessionalValues("menu", "ACTIVE_MENU_PAGE_TITLE", "dashboard", "GET")]['name'];
+$PageDescription = "Main Dashboard of " . APP_NAME . " for Highlighted and latest checkups about available data";
+
+// checking User Has A Plan Or Not
+$UserID = $_SESSION['APP_LOGIN_USER_ID'];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>
-    <?php echo $PageName; ?> |
-    <?php echo APP_NAME; ?>
-  </title>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
-  <meta name="keywords" content="<?php echo APP_NAME; ?>">
-  <meta name="description" content="<?php echo SECURE(SHORT_DESCRIPTION, "d"); ?>">
-  <?php include $Dir . "/assets/HeaderFiles.php"; ?>
-  <script type="text/javascript">
-    function SidebarActive() {
-      document.getElementById("users").classList.add("active");
-    }
-    window.onload = SidebarActive;
-  </script>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow">
+    <title><?php echo $PageName; ?> | <?php echo APP_NAME; ?></title>
+    <meta content="width=device-width, initial-scale=0.85, maximum-scale=0.95, user-scalable=no" name="viewport" />
+    <meta name="keywords" content="<?php echo APP_NAME; ?>">
+    <meta name="description" content="<?php echo SECURE(SHORT_DESCRIPTION, "d"); ?>">
+    <?php include_once $Dir . "/assets/HeaderStyleSheets.php"; ?>
+    <style>
+        table.table tr th,
+        table.table tr td {
+            padding: 2px !important;
+            text-align: left;
+            font-size: 0.8rem !important;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .modal {
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .user-type-btn {
+            transition: all 0.3s ease;
+            margin-right: 5px;
+        }
+
+        .user-type-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .user-type-btn.active {
+            background-color: #dc3545 !important;
+            color: white !important;
+        }
+
+        .filter-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="wrapper">
-    <?php include $Dir . "/include/common/TopHeader.php"; ?>
-
-    <div class="content-wrapper">
-      <?php include $Dir . "/include/common/MainNavbar.php"; ?>
-      <section class="content">
-        <div class="shadow-sm rounded">
-          <div class="container-fluid pt-2 pb-3">
-            <div class="row">
-              <div class="col-md-10">
-                <h4 class="app-heading mt-0">
-                  <i class='fa fa-users text-warning'></i>
-                  <?php echo $PageName; ?>
-                </h4>
-              </div>
-              <div class="col-md-2">
-                <a href="#" onclick="Databar('AddNewUsers')" class="btn btn-md btn-block btn-danger"><i class="fa fa-plus"></i> New
-                  Users</a>
-              </div>
+    <?php
+    include_once $Dir . "/include/Header.php";
+    include_once $Dir . "/include/Sidebar.php";
+    ?>
+    <main id="main" class="main">
+        <div class="pagetitle">
+            <div class="flex-s-b">
+                <div>
+                    <h1><i class="bi bi-building-gear text-danger bold"></i> <?php echo $PageName; ?></h1>
+                    <nav>
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="<?php echo DOMAIN; ?>">Dashboard</a></li>
+                            <li class="breadcrumb-item active"><?php echo $PageName; ?></li>
+                        </ol>
+                    </nav>
+                </div>
+                <div>
+                    <button class="btn btn-md btn-danger" data-bs-toggle="modal" data-bs-target="#addUserModal">
+                        <i class="bi bi-plus"></i> Add New User
+                    </button>
+                </div>
             </div>
-
-            <div class="row">
-              <?php
-              $Start = START_FROM;
-              $LISTING_END = DEFAULT_RECORD_LISTING;
-              if (LOGIN_UserType == "RESELLER") {
-                $UserSql = "SELECT * FROM users WHERE UserCreatedBy='" . LOGIN_UserId . "' ORDER BY DATE(UserCreatedAt) DESC";
-              } else {
-                $UserSql = "SELECT * FROM users ORDER BY DATE(UserCreatedAt) DESC";
-              }
-              $AllUsers = SET_SQL($UserSql . " limit $Start, $LISTING_END", true);
-              if ($AllUsers != null) {
-                $SERIAL_NO = SERIAL_NO;
-                foreach ($AllUsers as $Users) {
-                  $SERIAL_NO++;
-
-                  $UserStatus = $Users->UserStatus;
-                  $Status = StatusViewWithText($UserStatus);
-                  $Selection = ReturnSelectionStatus($UserStatus);
-                  if ($UserStatus == 1) {
-                    $DivView = "active";
-                  } else {
-                    $DivView = "inactive";
-                  } ?>
-                  <div class="col-lg-3 col-md-3 col-sm-6 col-12 RecordsList">
-                    <div class="card p-2">
-                      <div class="flex-s-b">
-                        <div class="w-pr-30 p-1">
-                          <img src="<?php echo UserDetails($Users->UserId, "UserProfileImage"); ?>" class="img-fluid">
-                        </div>
-                        <div class="w-pr-70 pl-1">
-                          <span class='text-secondary small'>UID<?php echo $Users->UserId; ?>/<?php echo $SERIAL_NO; ?> - <?php echo $Users->UserType; ?></span>
-                          <span class="pull-right small"><i class='fa fa-birthday-cake text-danger'></i> <?php echo DATE_FORMATES("d M, Y", $Users->UserDateOfBirth); ?></span>
-                          <br>
-                          <a onclick="Databar('update_users_records_<?php echo $Users->UserId; ?>')" class='text-underline'>
-                            <b>
-                              <?php echo StatusView($Users->UserStatus); ?>
-                              <?php echo $Users->UserSalutation; ?>
-                              <?php echo $Users->UserFullName; ?>
-                            </b>
-                          </a><br>
-                          <div class="flex-col small mb-0 pb-0">
-                            <span>
-                              <?php echo $Users->UserCompanyName; ?>
-                            </span>
-                            <span>
-                              <?php echo PHONE($Users->UserPhoneNumber, "link", "text-black", "fa fa-phone text-success"); ?>
-                            </span>
-                            <span>
-                              <?php echo EMAIL($Users->UserEmailId, "link", "text-black", "fa fa-envelope text-danger"); ?>
-                            </span>
-                            <span><?php echo DATE_FORMATES("d M, Y", $Users->UserCreatedAt); ?></span>
-                            <span>
-                              <form action="<?php echo CONTROLLER; ?>" method="POST" class="pull-right user-status status-control">
-                                <?php echo FormPrimaryInputs(true, [
-                                  "UserId" => $Users->UserId,
-                                  "UpdateUserStatus" => "true"
-                                ]); ?>
-                                <div class="custom-control custom-switch">
-                                  <input onchange="form.submit()" value='1' name='UserStatus' <?php echo $Selection; ?> type="checkbox" class="custom-control-input" id="customSwitch<?php echo $Users->UserId; ?>">
-                                  <label class="custom-control-label" for="customSwitch<?php echo $Users->UserId; ?>"></label>
-                                </div>
-                              </form>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              <?php
-                  include $Dir . "/include/forms/Update-Users-Details.php";
-                }
-              } else {
-                NoDataTableView("No Users Found!", "");
-              }
-              ?>
-            </div>
-            <?php echo PaginationFooter(TOTAL($UserSql), "index.php"); ?>
-          </div>
         </div>
-      </section>
-    </div>
-  </div>
 
-  <?php
-  include $Dir . "/include/forms/Add-New-Users.php";
-  include $Dir . "/include/common/Footer.php";
-  include $Dir . "/assets/FooterFiles.php";
-  ?>
+        <section class="section profile">
+            <form class="row bg-white" action="">
+                <div class="col-md-3 form-group">
+                    <label>FullName</label>
+                    <input type="search" value="<?php echo IfRequested("GET", "UserFullName", "", false); ?>" placeholder="Enter Name..." name="UserFullName" onchange="form.submit()" class="form-control form-control-sm">
+                </div>
+                <div class="col-md-3 form-group">
+                    <label>Phone Number</label>
+                    <input type="search" value="<?php echo IfRequested("GET", "UserPhoneNumber", "", false); ?>" placeholder="Enter Phone Number..." name="UserPhoneNumber" onchange="form.submit()" class="form-control form-control-sm">
+                </div>
+                <div class="col-md-3 form-group">
+                    <label>User Type</label>
+                    <select name="UserType" class="form-control form-control-sm" onchange="form.submit()">
+                        <option value="">All Users</option>
+                        <?php foreach (APP_SIDE_BARS as $Key => $Values) {
+                            $UserTypeChecking = CheckEquality($Key, IfRequested("GET", "UserType", "", false), "selected"); ?>
+                            <option value="<?php echo $Key; ?>" <?php echo $UserTypeChecking; ?>><?php echo $Key; ?></option>
+                        <?php }  ?>
+                    </select>
+                </div>
+                <div class="col-md-3 form-group">
+                    <label>Reporting Manager</label>
+                    <select name="UserReportingManager" class="form-control form-control-sm" onchange="form.submit()">
+                        <option value="">All Users</option>
+                        <?php
+                        $GetAllUsers = SET_SQL("SELECT UserId, UserFullName, UserPhoneNumber FROM users ORDER BY UserFullName ASC", true);
+                        if ($GetAllUsers != null) {
+                            foreach ($GetAllUsers as $Users) {
+                                $SelectedReportingManager = CheckEquality($Users->UserId, IfRequested("GET", "UserReportingManager", "", false), "selected");
+                                echo '<option value="' . $Users->UserId . '" ' . $SelectedReportingManager . '> ' . $Users->UserFullName . ' (' . $Users->UserPhoneNumber . ') </option>';
+                            }
+                        } ?>
+                    </select>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-xl-12">
+                    <!-- User Listing -->
+                    <div class="card br-1 fade-in">
+                        <div class="card-body pt-3">
+                            <div class="table-container">
+                                <table class="">
+                                    <thead>
+                                        <tr>
+                                            <th>S.No</th>
+                                            <th>Image</th>
+                                            <th>Name</th>
+                                            <th>Email</th>
+                                            <th>Phone</th>
+                                            <th>Designation</th>
+                                            <th>UserType</th>
+                                            <th>ReportingManager</th>
+                                            <th>TeamOf</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php
+                                        $SelectedColumns = "UserSalutation, UserReportingManager, UserStatus, UserType, UserDesignation, UserPhoneNumber, UserEmailId, UserProfileImage, UserId, UserFullName";
+                                        if (isset($_GET["UserReportingManager"])) {
+                                            $UserPhoneNumber = $_GET["UserPhoneNumber"];
+                                            $UserFullName = $_GET["UserFullName"];
+                                            $UserType = $_GET["UserType"];
+                                            $UserReportingManager = trim($_GET["UserReportingManager"]);
+
+                                            if (empty($UserReportingManager)) {
+                                                $ReportingConditions = "";
+                                            } else {
+                                                $ReportingConditions = "and UserReportingManager='$UserReportingManager'";
+                                            }
+                                            $AllUsersSql = "SELECT $SelectedColumns FROM users where UserType LIKE '%$UserType%' and UserPhoneNumber LIKE '%$UserPhoneNumber%' and UserFullName LIKE '%$UserFullName%' and UserId!='1' $ReportingConditions ORDER BY DATE(UserCreatedAt) DESC";
+                                        } else {
+                                            $AllUsersSql = "SELECT $SelectedColumns FROM users where UserId!='1' ORDER BY UserId DESC";
+                                        }
+
+                                        $AllUsers = SET_SQL($AllUsersSql, true);
+                                        if ($AllUsers != null) {
+                                            $SerialNo = 0;
+                                            foreach ($AllUsers as $Users) {
+                                                $SerialNo++;
+                                                if ($Users->UserProfileImage == null || $Users->UserProfileImage == "" || $Users->UserProfileImage == " ") {
+                                                    $UserProfileImage = APP_LOGO;
+                                                } else {
+                                                    $UserProfileImage = STORAGE_URL . "/users/" . $Users->UserId . "/img/" . $Users->UserProfileImage;
+                                                }  ?>
+                                                <tr>
+                                                    <td><?php echo $SerialNo; ?></td>
+                                                    <td>
+                                                        <img src="<?php echo $UserProfileImage; ?>" class="img-fluid list-icon">
+                                                    </td>
+                                                    <td>
+                                                        <a class="bold" href="details/?UserId=<?php echo SECURE($Users->UserId, "e"); ?>">
+                                                            <?php echo $Users->UserSalutation . " " . UpperCase(LimitText($Users->UserFullName, 0, 30)); ?>
+                                                        </a>
+                                                    </td>
+                                                    <td><?php echo LimitText($Users->UserEmailId, 0, 50); ?></td>
+                                                    <td><?php echo $Users->UserPhoneNumber; ?></td>
+                                                    <td><?php echo  RandomColorText($Users->UserDesignation); ?></td>
+                                                    <td>
+                                                        <span class="bg-dark text-white btn-xs btn"><?php echo $Users->UserType; ?></span>
+                                                    </td>
+                                                    <td>
+                                                        <?php if ($Users->UserReportingManager == 1) { ?>
+                                                            <span class="text-black small bold">
+                                                                (ID:<?php echo $Users->UserReportingManager; ?>)-<?php echo FETCH("SELECT UserFullName FROM users where UserId='" . $Users->UserReportingManager . "'", "UserFullName"); ?>
+                                                            </span>
+                                                        <?php } else { ?>
+                                                            <a href="details/?UserId=<?php echo SECURE($Users->UserReportingManager, "e"); ?>" class="text-primary small bold text-decoration-underline">
+                                                                (ID:<?php echo $Users->UserReportingManager; ?>)-<?php echo FETCH("SELECT UserFullName FROM users where UserId='" . $Users->UserReportingManager . "'", "UserFullName"); ?>
+                                                            </a>
+                                                        <?php } ?>
+                                                    </td>
+                                                    <td>
+                                                        <b><?php echo TOTAL("SELECT UserId FROM users where UserReportingManager='" . $Users->UserId . "'"); ?> Users</b>
+                                                    </td>
+                                                    <td>
+                                                        <?php
+                                                        $CheckLeads = CHECK("SELECT leads_id FROM leads where leads_managed_by='" . $Users->UserId . "'");
+                                                        if ($CheckLeads == null) {
+                                                            CONFIRM_DELETE_POPUP(
+                                                                "userslist",
+                                                                [
+                                                                    "RemoveUserRecords" => true,
+                                                                    "UserId" => $Users->UserId
+                                                                ],
+                                                                CONTROLLER . "/ModuleController/UserController.php",
+                                                                "<i class='fa fa-trash'></i>",
+                                                                "btn btn-xs pull-right btn-danger ml-1"
+                                                            );
+                                                        } else {
+                                                            echo "<span class='btn btn-xs pull-right ml-1 btn-secondary btn-disabled'><i class='fa fa-trash'></i></span>";
+                                                        } ?>
+                                                        <form action="<?php echo CONTROLLER; ?>/ModuleController/UserController.php" method="POST" class="pull-right user-status">
+                                                            <?php
+                                                            echo FormPrimaryInputs(true, [
+                                                                "UserId" => $Users->UserId,
+                                                                "UpdateUserStatus" => "true"
+                                                            ]);
+                                                            $Selection = CheckEquality($Users->UserStatus, 1, "checked");
+                                                            ?>
+                                                            <label class="custom-switch-ui">
+                                                                <input onchange="form.submit()" value="true" name="UserStatus" <?php echo $Selection; ?> type="checkbox" id="switch<?php echo $Users->UserId; ?>">
+                                                                <span class="slider-switch"></span>
+                                                            </label>
+                                                        </form>
+                                                    </td>
+                                                </tr>
+                                        <?php }
+                                        } else {
+                                            //echo for no users in table column count span
+                                            echo "<tr>
+                                                <td colspan='10' align='center' style='text-align:center;'>
+                                                <span class='alert alert-warning mt-4 d-block w-100'><i class='fa fa-warning'></i> No users found.</span>
+                                                </td>
+                                            </tr>";
+                                        } ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <?php
+    include __DIR__ . "/components/AddUserForm.php";
+    include_once $Dir . "/include/Footer.php";
+    include_once $Dir . "/assets/FooterScripts.php";
+    ?>
 </body>
 
 </html>

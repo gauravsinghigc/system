@@ -1,4 +1,9 @@
 <?php
+// Prevent caching to ensure fresh data
+header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+header('Cache-Control: post-check=0, pre-check=0', false);
+header('Pragma: no-cache');
+header('Expires: Thu, 01 Jan 1970 00:00:00 GMT');
 
 //list of local server IPV4 address
 /**
@@ -25,22 +30,14 @@
  */
 
 //Display Errors
+error_reporting(E_ALL);
 ini_set("display_errors", 1);
+
 
 //error log file
 ini_set("log_errors", 1);
 date_default_timezone_set("Asia/Calcutta");
 ini_set('error_log', dirname(__FILE__) . '/../storage/logs/err_log_for_' . date("d_M_Y") . '.txt');
-
-// Save session with secure params
-session_set_cookie_params([
-    'lifetime' => 0, // Session cookie lasts only as long as the browser is open
-    'path' => '/',
-    'domain' => "", // Use the constant DOMAIN
-    'secure' => true, // Only send cookie over HTTPS
-    'httponly' => true, // Prevent JavaScript access to the cookie
-    'samesite' => 'Strict', // Prevent cross-site requests
-]);
 
 //session_start()
 session_start();
@@ -65,22 +62,22 @@ $link .= "://";
 define("HOST", $HOST = $_SERVER['SERVER_NAME']);
 
 //system url handler
-require __DIR__ . "/../config.php";
+require_once __DIR__ . "/../config.php";
 
 //DB File Loader
-require __DIR__ . "/SystemDBConnector.php";
+require_once __DIR__ . "/SystemDBConnector.php";
 
 //Inital DB Executor
-require __DIR__ . "/SysInitialDBExecutor.php";
+require_once __DIR__ . "/SysInitialDBExecutor.php";
 
 //system Module Manager
-require __DIR__ . "/SystemFileProcessor.php";
+require_once __DIR__ . "/SystemFileProcessor.php";
 
 //system configuration Handler
-require __DIR__ . "/SystemConfigurations.php";
+require_once __DIR__ . "/SystemConfigurations.php";
 
 //auto load all modules
-require __DIR__ . "/SysModuleAutoLoader.php";
+require_once __DIR__ . "/SysModuleAutoLoader.php";
 
 
 //generate backup only if required
@@ -140,6 +137,7 @@ if (isset($_GET['backup'])) {
 
                 // Close the zip archive
                 $zip->close();
+                exit();
             } catch (Exception $e) {
                 echo "Error: " . $e->getMessage();
             }

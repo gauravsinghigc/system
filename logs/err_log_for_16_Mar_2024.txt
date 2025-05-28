@@ -1,0 +1,695 @@
+[16-Mar-2024 10:49:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php(287): CONFIG('DEFAULT_RECORD_...')
+#2 D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php(367): listingstartfrom('start')
+#3 D:\xampp\htdocs\apnalead\acm\SystemFileProcessor.php(109): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(43): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[16-Mar-2024 10:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\handler\AuthController\AuthAccessController.php on line 10
+[16-Mar-2024 10:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-Mar-2024 10:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-Mar-2024 10:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-Mar-2024 10:50:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[16-Mar-2024 11:02:08 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\handler\AuthController\AuthAccessController.php on line 10
+[16-Mar-2024 11:02:08 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-Mar-2024 11:02:08 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-Mar-2024 11:02:08 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-Mar-2024 11:02:08 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[16-Mar-2024 11:05:26 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 11:05:26 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 11:05:26 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 11:05:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 11:05:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 11:05:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 11:16:43 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php:243
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[16-Mar-2024 11:46:41 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 342
+[16-Mar-2024 11:46:41 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 342
+[16-Mar-2024 11:46:41 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 342
+[16-Mar-2024 11:47:14 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 342
+[16-Mar-2024 11:47:14 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 342
+[16-Mar-2024 11:47:14 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 342
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:52:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 11:56:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leadsUploadId in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 347
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 12:30:21 Asia/Calcutta] PHP Warning:  Undefined variable $LeadsName in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 351
+[16-Mar-2024 13:07:20 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 13:07:20 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 13:07:20 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 13:45:55 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 13:45:55 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 13:45:55 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 13:49:03 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 13:49:03 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 13:49:03 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 13:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 13:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 13:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 13:55:40 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 13:55:40 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 13:55:40 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 14:01:16 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[16-Mar-2024 14:01:16 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[16-Mar-2024 14:01:26 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[16-Mar-2024 14:01:26 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[16-Mar-2024 14:01:59 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 14:01:59 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 14:01:59 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 14:13:07 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 14:13:07 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 14:13:07 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 14:13:12 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[16-Mar-2024 14:13:19 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 14:13:19 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 14:13:19 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 14:16:27 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\apnalead\handler\ModuleController\LeadsController.php on line 385
+[16-Mar-2024 15:10:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(146): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:10:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(146): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:11:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(158): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:11:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(158): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:11:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(158): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:13:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(157): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:13:05 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(157): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:13:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(158): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:15:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:15:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:15:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:16:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:17:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:17:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:18:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:18:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(159): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:20:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(146): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:20:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND  CompanyID='2'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT leadsUpl...')
+#1 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(146): TOTAL('SELECT leadsUpl...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[16-Mar-2024 15:22:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND CompanyID='2' LIMIT 0, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(210): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Mar-2024 15:23:10 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND CompanyID='2' LIMIT 0, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(210): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Mar-2024 15:23:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND CompanyID='2' LIMIT 0, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(210): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Mar-2024 15:23:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND CompanyID='2' LIMIT 0, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(210): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Mar-2024 15:24:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND CompanyID='2' LIMIT 0, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(210): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Mar-2024 15:24:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(LeadType='LEAD' OR LeadType IS NULL) AND CompanyID='2' LIMIT 0, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\index.php(210): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Mar-2024 16:02:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:02:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:02:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:03:00 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:03:00 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:03:00 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:03:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:03:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:03:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:04:00 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:04:00 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:04:00 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:04:27 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:04:27 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:04:27 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:25:15 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 331
+[16-Mar-2024 16:25:15 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 332
+[16-Mar-2024 16:25:19 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 331
+[16-Mar-2024 16:25:19 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 332
+[16-Mar-2024 16:35:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:35:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:35:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:35:27 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:35:27 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:35:27 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:35:47 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:35:47 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:35:47 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:35:55 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:35:55 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:35:55 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:36:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:36:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:36:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:36:43 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:36:43 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:36:43 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:38:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:38:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:38:12 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:51:32 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:51:32 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:51:32 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 16:51:44 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 16:51:44 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 16:51:44 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 23:02:30 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 23:02:30 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 23:02:30 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 23:05:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 23:05:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 23:05:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 23:05:46 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[16-Mar-2024 23:06:07 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 23:06:07 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 23:06:07 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 23:06:23 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[16-Mar-2024 23:06:23 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[16-Mar-2024 23:06:23 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[16-Mar-2024 23:06:33 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\apnalead\include\forms\Add-Feedback.php on line 1

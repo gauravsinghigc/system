@@ -17,7 +17,7 @@
  * 
  */
 
-function IfIsset($METHOD, $RequestedKey, $RequestedData = null)
+function IfIsset($METHOD, $RequestedKey, $RequestedData = null, $FeedBackAlerts = [], $AccessUrl = null)
 {
     if ($METHOD == "POST") {
         if (isset($_POST["$RequestedKey"])) {
@@ -35,9 +35,13 @@ function IfIsset($METHOD, $RequestedKey, $RequestedData = null)
         $MethodResponse = null;
     }
 
-    if ($MethodResponse != null) {
-        $RequestedData;
-    }
+    if ($MethodResponse == true) {
 
-    $Response = $RequestedData;
+        if ($AccessUrl != null) {
+            $access_url = $AccessUrl;
+        } else {
+            global $access_url;
+        }
+        RESPONSE($RequestedData, $FeedBackAlerts['true'], $FeedBackAlerts['false'], $access_url);
+    }
 }

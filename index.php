@@ -1,2 +1,3 @@
 <?php
-header("location: app/");
+header("location: auth/");
+exit();

@@ -1,0 +1,20 @@
+[10-May-2024 10:05:44 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[10-May-2024 10:05:44 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[10-May-2024 10:05:44 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[10-May-2024 10:05:44 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[10-May-2024 10:36:16 Asia/Calcutta] PHP Warning:  Undefined array key "UNIQUE_CODE" in D:\xampp\htdocs\apnalead\SA\auth\verify.php on line 93
+[10-May-2024 10:36:16 Asia/Calcutta] PHP Warning:  Undefined array key "UNIQUE_CODE" in D:\xampp\htdocs\apnalead\SA\auth\verify.php on line 94
+[10-May-2024 11:29:35 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[10-May-2024 12:19:51 Asia/Calcutta] PHP Warning:  Undefined variable $AllUserl in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 136
+[10-May-2024 14:55:00 Asia/Calcutta] PHP Warning:  Undefined array key "LeadType" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 231
+[10-May-2024 15:10:18 Asia/Calcutta] PHP Warning:  Undefined variable $Save in D:\xampp\htdocs\apnalead\handler\ModuleController\LeadsController.php on line 398
+[10-May-2024 15:10:31 Asia/Calcutta] PHP Warning:  Undefined variable $Save in D:\xampp\htdocs\apnalead\handler\ModuleController\LeadsController.php on line 398
+[10-May-2024 15:57:17 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[10-May-2024 15:58:45 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[10-May-2024 15:59:24 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[10-May-2024 16:05:59 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47
+[10-May-2024 16:06:15 Asia/Calcutta] PHP Warning:  Undefined array key "project_id" in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 47

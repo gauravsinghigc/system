@@ -1,0 +1,143 @@
+[17-Jul-2024 11:54:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\index.php(3): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[17-Jul-2024 11:54:15 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[17-Jul-2024 11:54:15 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[17-Jul-2024 11:54:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:21
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 21
+[17-Jul-2024 11:54:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-Jul-2024 11:54:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-Jul-2024 11:54:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-Jul-2024 11:54:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-Jul-2024 11:54:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[17-Jul-2024 12:00:18 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[17-Jul-2024 12:00:38 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[17-Jul-2024 12:00:38 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[17-Jul-2024 12:00:38 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[17-Jul-2024 12:00:38 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[17-Jul-2024 12:00:38 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[17-Jul-2024 12:00:38 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[17-Jul-2024 12:00:38 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[17-Jul-2024 12:00:43 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[17-Jul-2024 12:00:43 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[17-Jul-2024 12:00:43 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[17-Jul-2024 12:00:43 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[17-Jul-2024 12:00:43 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[17-Jul-2024 12:00:43 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[17-Jul-2024 12:00:46 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[17-Jul-2024 12:00:46 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[17-Jul-2024 12:00:46 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[17-Jul-2024 12:00:46 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[17-Jul-2024 12:00:46 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[17-Jul-2024 12:00:46 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[17-Jul-2024 12:01:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[17-Jul-2024 12:01:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[17-Jul-2024 12:01:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[17-Jul-2024 12:01:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[17-Jul-2024 12:01:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[17-Jul-2024 12:01:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[17-Jul-2024 16:39:52 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:39:52 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:39:52 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:39:52 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:39:52 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:39:52 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:14 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:14 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:14 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:14 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:14 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:14 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:39 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:39 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:39 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:39 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:39 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:41:39 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:42:43 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:42:43 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:42:43 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:42:43 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:42:43 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:42:43 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:00 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:00 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:00 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:00 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:00 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:00 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:50 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:50 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:50 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:50 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:50 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:43:50 Asia/Calcutta] PHP Warning:  Undefined variable $GetALLUser in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 25
+[17-Jul-2024 16:57:56 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function RadioButton() in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php:21
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\tasks\index.php(304): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 21
+[17-Jul-2024 17:02:31 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function InputRadio(), 2 passed in D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php on line 21 and exactly 3 expected in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php:73
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\include\forms\Task\Add-Task-Feedback.php(21): InputRadio(Array, 'FRESH')
+#1 D:\xampp\htdocs\apnalead\app\tasks\index.php(304): include('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 73
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $value in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\Form.php on line 81
+[17-Jul-2024 17:34:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'TastStatus' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM t...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM t...')
+#2 D:\xampp\htdocs\apnalead\app\tasks\index.php(226): _DB_COMMAND_('SELECT * FROM t...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[17-Jul-2024 17:35:29 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'TastStatus' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM t...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM t...')
+#2 D:\xampp\htdocs\apnalead\app\tasks\index.php(226): _DB_COMMAND_('SELECT * FROM t...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[17-Jul-2024 17:35:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'TastStatus' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM t...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM t...')
+#2 D:\xampp\htdocs\apnalead\app\tasks\index.php(226): _DB_COMMAND_('SELECT * FROM t...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12

@@ -1,0 +1,47 @@
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:21
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 21
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jul-2024 14:55:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Jul-2024 14:59:41 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[01-Jul-2024 14:59:57 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[01-Jul-2024 15:00:46 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 15:47:14 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 15:47:24 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 15:49:30 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 16:00:48 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 16:07:09 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 16:24:28 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 16:50:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'lead_uploads.LeadPersonUploadingfor' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php(227): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Jul-2024 16:50:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'lead_uploads.LeadPersonUploadingfor' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php(227): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Jul-2024 16:55:39 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 85
+[01-Jul-2024 16:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 85
+[01-Jul-2024 16:57:41 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 85
+[01-Jul-2024 16:58:30 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 85
+[01-Jul-2024 17:13:05 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 85
+[01-Jul-2024 17:13:05 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 194
+[01-Jul-2024 17:13:05 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 195
+[01-Jul-2024 17:13:05 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 288
+[01-Jul-2024 17:13:05 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 289
+[01-Jul-2024 17:14:45 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 17:16:43 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 17:18:20 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[01-Jul-2024 17:18:39 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127

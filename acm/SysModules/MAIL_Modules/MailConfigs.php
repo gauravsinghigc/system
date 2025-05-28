@@ -5,7 +5,7 @@
  * @SMTPConfigs
  * @DATA will be HOST, USERNAME, PASSWORD, PORT, FROM
  */
-function SMTP_CONFIGS($Data)
+function SMTP_CONFIGS($Data, $SendVia = 1)
 {
     //bined SMTP configuration with default names
     if ($Data == "HOST") {
@@ -24,7 +24,7 @@ function SMTP_CONFIGS($Data)
 
     //fetch SMTP config values via binded records
     if ($Data != null) {
-        $return = FETCH("SELECT $Data from config_mail_sender ORDER BY config_mail_sender_id DESC limit 1", "$Data");
+        $return = FETCH("SELECT $Data from config_mail_sender where config_mail_sender_id='$SendVia'", "$Data");
     } else {
         $return = null;
     }

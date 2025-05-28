@@ -1,8 +1,8 @@
 <?php
 //initialize files
-require "../../acm/SysFileAutoLoader.php";
-require "../../acm/SystemReqHandler.php";
-require "../../handler/AuthController/AuthAccessController.php";
+require_once "../../acm/SysFileAutoLoader.php";
+require_once "../../acm/SystemReqHandler.php";
+require_once "../../handler/AuthController/AuthAccessController.php";
 
 if (isset($_POST['UpdateMailConfigurations'])) {
     $config_mail_sender = [
@@ -19,15 +19,19 @@ if (isset($_POST['UpdateMailConfigurations'])) {
         $Response = INSERT("config_mail_sender", $config_mail_sender);
     }
     RESPONSE($Response, "SMTP details are updated successfully!", "Unable to update SMTP configuration!");
-
-    //send test mail
-} elseif (isset($_POST['SEND_TEST_MAIL'])) {
-    $MailSender = SENDMAILS(
-        $_POST['TEST_mail_subject'],
-        "Hey, <br>" . APP_NAME . " This side.",
-        $_POST['TEST_mail_sent_at'],
-        "<br><b>This is a test mail.</b> Test mail message is customized. Message is<br>" . $_POST['TEST_mail_message']
-    );
-
-    RESPONSE($MailSender, "Test Mail is sent successfully!", "Unable to send test mail or Maybe <B>SMTP Configuration</B> are not currect.");
 }
+
+IfIsset(
+    "POST",
+    "TestMailServer",
+    SENDMAILS(
+        $_POST["MailSubject"],
+        "Dear <b>" . $_POST["GreetingPersonName"] . "</b>,",
+        $_POST["EmailId"],
+        $_POST["MailBody"],
+    ),
+    [
+        "true" => "Mail sent successfully!",
+        "false" => "Unable to send mail!"
+    ]
+);

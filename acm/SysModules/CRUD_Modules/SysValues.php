@@ -1,30 +1,36 @@
 <?php
-//configuration
+// Configuration fetcher using PDO
 function CONFIG($Data, $die = false)
 {
-    global $DBConnection;
-    $SELECT_configurations = "SELECT configurationname, configurationvalue  FROM configurations where configurationname='$Data'";
+    $PDO = DBConnection;
 
-    //die entry
+    $SELECT_configurations = "SELECT configurationname, configurationvalue FROM configurations WHERE configurationname = :name";
+
+    // Die for debugging
     if ($die == true) {
         die($SELECT_configurations);
     }
-    $QUERY_configurations = mysqli_query($DBConnection, $SELECT_configurations);
-    $Configurations = mysqli_fetch_array($QUERY_configurations);
-    $IsConfigurationFetched = mysqli_num_rows($QUERY_configurations);
-    if ($IsConfigurationFetched == 0) {
+
+    // Prepare and execute query
+    $stmt = $PDO->prepare($SELECT_configurations);
+    $stmt->execute([':name' => $Data]);
+    $Configurations = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if (!$Configurations) {
         $Value = null;
-        $Check = CHECK("SELECT configurationvalue FROM configurations where configurationname='$Data'");
+
+        // Check again with helper (optional if SQL is already executed)
+        $Check = CHECK("SELECT configurationvalue FROM configurations WHERE configurationname = '$Data'");
         if ($Check == null) {
-            $data = array(
-                "configurationname" => "$Data",
+            $data = [
+                "configurationname" => $Data,
                 "configurationvalue" => ""
-            );
-            INSERT("configurations", $data);
+            ];
+            INSERT("configurations", $data); // make sure your INSERT() function is using PDO
         }
     } else {
         $Value = $Configurations['configurationvalue'];
     }
 
-    return $Value;
+    return $Value ?? null;
 }

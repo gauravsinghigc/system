@@ -1,0 +1,401 @@
+[07-May-2024 10:23:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[07-May-2024 10:23:31 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 10:23:31 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 10:23:31 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 10:23:31 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[07-May-2024 10:25:08 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[07-May-2024 10:34:10 Asia/Calcutta] PHP Warning:  Undefined array key "Leadtype" in D:\xampp\htdocs\apnalead\handler\ModuleController\LeadsController.php on line 277
+[07-May-2024 10:45:31 Asia/Calcutta] PHP Warning:  Undefined variable $start in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 192
+[07-May-2024 10:45:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT LeadsId ...')
+#1 D:\xampp\htdocs\apnalead\app\leads\transfer\index.php(192): TOTAL('SELECT LeadsId ...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[07-May-2024 11:25:04 Asia/Calcutta] PHP Warning:  Undefined array key "view_page" in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 205
+[07-May-2024 11:46:32 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[07-May-2024 11:46:32 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[07-May-2024 11:55:46 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[07-May-2024 11:55:46 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[07-May-2024 13:28:00 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[07-May-2024 13:40:10 Asia/Calcutta] PHP Warning:  Undefined array key "UNIQUE_CODE" in D:\xampp\htdocs\apnalead\SA\auth\verify.php on line 93
+[07-May-2024 13:40:10 Asia/Calcutta] PHP Warning:  Undefined array key "UNIQUE_CODE" in D:\xampp\htdocs\apnalead\SA\auth\verify.php on line 94
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\index.php(50): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 13:52:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 14:04:14 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 242
+[07-May-2024 14:04:14 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 249
+[07-May-2024 14:11:02 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:16 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:21 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:25 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:28 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:32 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:36 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:37 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:37 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:37 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:39 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:41 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:43 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:44 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:44 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:44 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:44 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:44 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:47 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:48 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:11:49 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 242
+[07-May-2024 14:11:49 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 249
+[07-May-2024 14:11:49 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 242
+[07-May-2024 14:11:49 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 249
+[07-May-2024 14:11:49 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 242
+[07-May-2024 14:11:49 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 249
+[07-May-2024 14:12:18 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 131
+[07-May-2024 14:14:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 242
+[07-May-2024 14:14:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 249
+[07-May-2024 14:14:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 242
+[07-May-2024 14:14:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 249
+[07-May-2024 14:14:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 242
+[07-May-2024 14:14:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 249
+[07-May-2024 14:19:54 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:19:54 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:19:54 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:19:54 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:19:54 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:19:54 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:20:40 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 137
+[07-May-2024 14:20:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadPersonPhoneNumber' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php(137): FETCH('SELECT * FROM l...', 'Fb_ad_id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[07-May-2024 14:21:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadPersonPhoneNumber' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php(137): FETCH('SELECT * FROM l...', 'Fb_ad_id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[07-May-2024 14:22:53 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:22:53 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:22:53 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:22:53 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:22:53 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:22:53 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:27:33 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 14:27:33 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 14:27:33 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[07-May-2024 14:27:33 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[07-May-2024 14:29:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:29:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:29:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:29:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 14:29:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 244
+[07-May-2024 14:29:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 251
+[07-May-2024 15:24:38 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[07-May-2024 15:24:38 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[07-May-2024 15:24:38 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[07-May-2024 15:24:38 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[07-May-2024 17:00:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337

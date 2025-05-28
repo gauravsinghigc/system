@@ -1,0 +1,33 @@
+[16-May-2024 09:52:11 Asia/Calcutta] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=18528 in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[16-May-2024 09:52:11 Asia/Calcutta] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=18528 in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[16-May-2024 09:52:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[16-May-2024 09:52:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[16-May-2024 09:52:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-May-2024 09:52:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-May-2024 09:52:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[16-May-2024 09:52:54 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[16-May-2024 10:05:49 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 10:05:49 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 10:17:46 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 10:17:46 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 10:18:04 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 10:18:04 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 10:18:04 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 10:18:04 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[16-May-2024 12:35:32 Asia/Calcutta] PHP Warning:  Undefined array key "company_main_user_id" in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 32

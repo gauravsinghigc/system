@@ -1,0 +1,106 @@
+[07-Mar-2025 09:48:37 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 09:48:37 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 09:48:37 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 09:48:37 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 10:03:12 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 10:03:12 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 10:03:12 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 10:03:12 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 10:03:15 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 10:03:15 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 10:03:15 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 10:03:15 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 10:05:41 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 10:05:41 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 14
+[07-Mar-2025 10:05:41 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 10:05:41 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\login\index.php on line 76
+[07-Mar-2025 11:11:16 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:11:16 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:11:16 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:11:16 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:12:28 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:12:28 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:12:28 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:12:28 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:12:36 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:12:36 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:12:36 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:12:36 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:31:44 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:31:44 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:31:44 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:31:44 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 52
+[07-Mar-2025 11:33:23 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:33:23 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\forget\index.php on line 15
+[07-Mar-2025 11:40:46 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\verify\index.php on line 15
+[07-Mar-2025 11:40:46 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\verify\index.php on line 15
+[07-Mar-2025 11:40:46 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\verify\index.php on line 40
+[07-Mar-2025 11:40:46 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\verify\index.php on line 40
+[07-Mar-2025 11:52:00 Asia/Calcutta] PHP Warning:  include(../../assets/HeaderFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\reset\index.php on line 15
+[07-Mar-2025 11:52:00 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/HeaderFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\reset\index.php on line 15
+[07-Mar-2025 11:52:00 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\reset\index.php on line 139
+[07-Mar-2025 11:52:00 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\reset\index.php on line 139
+[07-Mar-2025 11:53:45 Asia/Calcutta] PHP Warning:  include(../../assets/FooterFilesLoader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\auth\reset\index.php on line 139
+[07-Mar-2025 11:53:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/FooterFilesLoader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\auth\reset\index.php on line 139
+[07-Mar-2025 12:06:31 Asia/Calcutta] PHP Warning:  Undefined array key "PASSWORD_RESET_TOKEN" in C:\xampp\htdocs\gleads\handler\AuthController\AuthController.php on line 77
+[07-Mar-2025 12:15:15 Asia/Calcutta] PHP Warning:  Undefined variable $AllViews in C:\xampp\htdocs\gleads\app\index.php on line 43
+[07-Mar-2025 12:15:15 Asia/Calcutta] PHP Warning:  include(lead-dash.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\app\index.php on line 49
+[07-Mar-2025 12:15:15 Asia/Calcutta] PHP Warning:  include(): Failed opening 'lead-dash.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\app\index.php on line 49
+[07-Mar-2025 12:17:49 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:17:49 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:19:00 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:19:00 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:21:55 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:21:55 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:21:58 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:21:58 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:22:00 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:22:00 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:23:07 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:23:07 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:23:11 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:23:11 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:23:14 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/visit-pop-window.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:23:14 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/visit-pop-window.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Footer.php on line 9
+[07-Mar-2025 12:58:29 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/sidebar/AdminSidebar.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Sidebar.php on line 7
+[07-Mar-2025 12:58:29 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/sidebar/AdminSidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Sidebar.php on line 7
+[07-Mar-2025 12:58:31 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include/sidebar/AdminSidebar.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gleads\include\Sidebar.php on line 7
+[07-Mar-2025 12:58:31 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/sidebar/AdminSidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Sidebar.php on line 7
+[07-Mar-2025 13:47:57 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:48:56 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:49:10 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:49:12 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:49:16 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:49:50 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:49:53 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:50:23 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:50:39 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:50:47 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:50:54 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:51:02 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:51:24 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:51:52 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:51:52 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:51:57 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:51:57 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:52:35 Asia/Calcutta] PHP Warning:  Undefined array key "menu1" in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 13:52:35 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gleads\app\contacts\index.php on line 6
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\app\meetings\index.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\gleads\include\Sidebar.php on line 7
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\gleads\include\sidebar): Failed to open stream: Permission denied in C:\xampp\htdocs\gleads\include\Sidebar.php on line 7
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\gleads\include/sidebar/' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gleads\include\Sidebar.php on line 7
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gleads\modules\AuthUserModules.php on line 10
+[07-Mar-2025 15:04:54 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gleads\include\reminder-pop.php:3
+Stack trace:
+#0 C:\xampp\htdocs\gleads\include\Footer.php(3): include()
+#1 C:\xampp\htdocs\gleads\app\meetings\index.php(33): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\gleads\include\reminder-pop.php on line 3

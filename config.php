@@ -6,6 +6,7 @@ define("LOCAL_HOST", [
     "localhost",
     "192.168.1.9",
     "192.168.43.14",
+    "192.168.1.14",
     "192.168.1.10",
     "192.168.1.11",
     "192.168.1.5",
@@ -23,7 +24,7 @@ define("LOCAL_HOST", [
 
 //filter domain from local or live server
 if (in_array("" . HOST . "", LOCAL_HOST)) {
-    define("DOMAIN", $link . HOST . "/system");
+    define("DOMAIN", $link . HOST . "/gsi");
 } else {
     define("DOMAIN", $link . HOST);
 }
@@ -36,4 +37,4 @@ DEFINE("CONTROL_DB_STATUS", false);
 DEFINE("DB_SERVER_HOST", "localhost");
 DEFINE("DB_SERVER_USER", "root");
 DEFINE("DB_SERVER_PASS", "");
-DEFINE("DB_SERVER_DB_NAME", "system");
+DEFINE("DB_SERVER_DB_NAME", "gauravsinghigc");

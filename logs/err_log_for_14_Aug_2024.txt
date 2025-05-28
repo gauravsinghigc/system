@@ -1,0 +1,256 @@
+[14-Aug-2024 09:35:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\Billing\index.php:10
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 10
+[14-Aug-2024 09:35:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:29:19 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:19 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:21 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:21 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:21 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:21 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:23 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:23 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:23 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:23 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:25 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:25 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:25 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:25 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:27 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:27 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:27 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:27 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:29 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:29 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:29 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:29 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:31 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:31 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:31 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:31 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:33 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:33 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:33 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:33 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:35 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:35 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:35 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:35 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:37 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:37 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:37 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:37 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:40 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:40 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:40 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:40 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:42 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:42 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:42 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:42 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:44 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:44 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:44 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:44 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:46 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:46 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:46 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:46 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:48 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:48 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:48 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:48 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:50 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:50 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:50 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:50 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:52 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:52 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:52 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:52 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:54 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:54 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:54 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:54 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:56 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:56 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:56 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:56 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:29:58 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:29:58 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:29:58 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:29:58 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:30:00 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:30:00 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:30:00 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:30:00 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:30:02 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:30:02 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:30:02 Asia/Calcutta] PHP Warning:  file_put_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP wrapper does not support writeable connections in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 15
+[14-Aug-2024 12:30:02 Asia/Calcutta] PHP Warning:  file_get_contents(http://localhost/apnalead/app/app/Billing/details/invoice.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 18
+[14-Aug-2024 12:30:04 Asia/Calcutta] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 47
+[14-Aug-2024 12:30:04 Asia/Calcutta] PHP Warning:  unlink(): http does not allow unlinking in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 56
+[14-Aug-2024 12:32:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'1\'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Bill...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Bill...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(339): FETCH('SELECT INV_Bill...', 'INV_BillTo_Id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:32:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'1\'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Bill...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Bill...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(339): FETCH('SELECT INV_Bill...', 'INV_BillTo_Id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:33:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'1\'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Bill...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Bill...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(339): FETCH('SELECT INV_Bill...', 'INV_BillTo_Id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:36:33 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'1\'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Bill...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Bill...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(339): FETCH('SELECT INV_Bill...', 'INV_BillTo_Id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:37:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'1\'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Bill...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Bill...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(339): FETCH('SELECT INV_Bill...', 'INV_BillTo_Id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:52:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'1\'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Bill...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Bill...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(327): FETCH('SELECT INV_Bill...', 'INV_BillTo_Id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:52:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'1\'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Bill...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Bill...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(327): FETCH('SELECT INV_Bill...', 'INV_BillTo_Id')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 12:52:52 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:52:53 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:52:54 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:52:54 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:52:54 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:52:54 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:52:55 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:53:00 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 12:55:28 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 13
+[14-Aug-2024 14:54:44 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 14:55:26 Asia/Calcutta] PHP Warning:  file_put_contents(D:\xampp\htdocs\apnalead\app\Billing\details/public/invoice_1.html): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\details\send_invoice.php on line 16
+[14-Aug-2024 15:27:24 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\Billing\details\index.php:9
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\details\index.php on line 9
+[14-Aug-2024 15:27:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:54 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[14-Aug-2024 17:16:59 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337

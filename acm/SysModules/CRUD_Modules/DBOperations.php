@@ -1,23 +1,29 @@
 <?php
-//Count Data
-function TOTAL($SQL, $die = null, $PrintSQL = false)
+// Count Data using PDO
+function TOTAL($SQL = null, $die = null, $PrintSQL = false)
 {
   $SQL = "$SQL";
 
-  if ($die == true) {
+  if ($die === true) {
     die($SQL);
   }
 
-  //print sql
-  if ($PrintSQL == true) {
+  // Print SQL if enabled
+  if ($PrintSQL === true) {
     echo "<br><hr><code>$SQL</code><hr><br>";
   }
 
-  $Query = mysqli_query(DBConnection, $SQL);
-  $Count = mysqli_num_rows($Query);
-  if ($Count == 0) {
-    return 0;
-  } else {
-    return $Count;
+  if ($SQL !== null) {
+    try {
+      $pdo = DBConnection; // Assuming DBConnection is your PDO instance
+      $stmt = $pdo->query($SQL);
+      $Count = $stmt->rowCount();
+
+      return ($Count > 0) ? $Count : 0;
+    } catch (PDOException $e) {
+      return 0;
+    }
   }
+
+  return 0;
 }

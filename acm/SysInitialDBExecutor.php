@@ -7,6 +7,7 @@ if (isset($_GET['sys_sql']) == "Gsi@" . date("dmy")) {
   // Check connection
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+    exit();
   }
 
   // SQL file path
@@ -19,9 +20,11 @@ if (isset($_GET['sys_sql']) == "Gsi@" . date("dmy")) {
   if ($conn->multi_query($sqlContent)) {
     $_SESSION['success'] = "Initial Database table are created successfully";
     header("location: " . DOMAIN);
+    exit();
   } else {
     $_SESSION['warning'] = "Unable to create initial Database Tables";
     header("location: " . DOMAIN);
+    exit();
   }
 
   // Close connection

@@ -32,6 +32,12 @@ function SENDMAILS($Subject, $Title, $Sendto, $MAIL_MSG, $ATTACHEMENTS = NULL, $
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;          //Enable implicit TLS encryption
       $mail->Port       = SMTP_CONFIGS("PORT");                                 //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
+
+      //Check authentication status
+      if (!$mail->smtpConnect()) {
+        RESPONSE(false, "", "Unable to Connect to Mail Server at the moment. Please check Mail Server Configurations or check after some time.");
+      }
+
       //Recipients
       $mail->setFrom(SMTP_CONFIGS("FROM"));
       $mail->addAddress($Sendto);                                 //Add a recipient
@@ -58,16 +64,15 @@ function SENDMAILS($Subject, $Title, $Sendto, $MAIL_MSG, $ATTACHEMENTS = NULL, $
      ♣ ' . APP_NAME . '
     </h2>
     <div>
-      <h4 style="font-weight:300 !important;color:grey !important;margin-top:0.5rem;">
+      <h4 style="font-weight:300 !important;color:grey !important;margin-top:0.5rem;font-size:14px !important;">
       ' . $Title . '
       </h4>
       <p style="text-decoration:none !important; color: grey !important;font-size:13px;font-weight:300 !important;">
       ' . $MAIL_MSG . '
       </p>
       <br>
-     <p style="font-size:0.75rem !important; font-weight:300 !important;color:grey !important;background-color:white;padding:0.75rem;border-radius:0.3rem;text-align:right;">
-     <img src="' . APP_LOGO . '" style="width:100px !important;border-radius:0.25rem;box-shadow:0px 0px 2px grey;"><br>
-        <span style="color:black;">' . APP_NAME . '</span><br>
+     <p style="font-size:12px !important; font-weight:300 !important;color:grey !important;background-color:white;padding:0.75rem;border-radius:0.3rem;text-align:right;">
+    <span style="color:black;">' . APP_NAME . '</span><br>
         <span> ' . SECURE(PRIMARY_ADDRESS, "d") . '</span><br>
         <span>' . PRIMARY_EMAIL . ',</span>
         <span>' . PRIMARY_PHONE . '</span><br>
@@ -75,7 +80,7 @@ function SENDMAILS($Subject, $Title, $Sendto, $MAIL_MSG, $ATTACHEMENTS = NULL, $
       </p>
     </div>
    <p style="font-size:10px !important; color:grey !important; font-weight:300 !important;margin-top:1.5rem;">
-      <b>Note: </b> This is an auto generated mail. do not reply this. if you find something incorrect then forward this at ' . REPLY_TO . '
+      <b>Note: </b> This is an auto generated mail. do not reply this. if you find something incorrect then forward this at ' . SUPPORT_MAIL . '
    </p>
 </body>';
 

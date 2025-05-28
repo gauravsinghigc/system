@@ -1,39 +1,25 @@
 <?php
-//delete
-function DELETE_SQL($SQL, $die = false, $PrintSQL = false)
+// delete using PDO
+function DELETE_FROM($table = null, $conditions = "", $die = false)
 {
-  $Update = "$SQL";
-  //die entry
-  if ($die == true) {
-    die($Update);
-  }
+  if ($table !== null && !empty($conditions)) {
+    $sql = "DELETE FROM $table WHERE $conditions";
 
-  //print sql
-  if ($PrintSQL == true) {
-    echo "<br><hr><code>$SQL</code><hr><br>";
-  }
+    // If die is true, show query and exit
+    if ($die === true) {
+      die($sql);
+    }
 
-  $Query = mysqli_query(DBConnection, $Update);
-  if ($Query == true) {
-    return true;
-  } else {
-    return false;
-  }
-}
-//delete 
-function DELETE_FROM($table, $conditions, $die = false)
-{
-  $Delete = DELETE_SQL("DELETE from $table where $conditions");
+    try {
+      $pdo = DBConnection; // Assumes DBConnection is your PDO instance
+      $stmt = $pdo->prepare($sql);
+      $result = $stmt->execute();
 
-  //die entry
-  if ($die == true) {
-    DELETE_SQL("DELETE from $table where $conditions", true);
-    //send response in boolean
-  } else {
-    if ($Delete == true) {
-      return true;
-    } else {
+      return $result; // true or false
+    } catch (PDOException $e) {
       return false;
     }
   }
+
+  return false;
 }

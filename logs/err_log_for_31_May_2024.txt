@@ -1,0 +1,32 @@
+[31-May-2024 09:38:20 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[31-May-2024 09:38:20 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[31-May-2024 09:38:20 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[31-May-2024 09:38:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[31-May-2024 11:57:31 Asia/Calcutta] PHP Warning:  Undefined variable $id in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 23
+[31-May-2024 11:57:31 Asia/Calcutta] PHP Warning:  Undefined variable $id in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 24
+[31-May-2024 11:57:31 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 25
+[31-May-2024 12:37:58 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[31-May-2024 12:38:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserId in D:\xampp\htdocs\apnalead\app\teams\common.php on line 68
+[31-May-2024 12:38:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserId in D:\xampp\htdocs\apnalead\app\teams\common.php on line 69
+[31-May-2024 12:38:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserId in D:\xampp\htdocs\apnalead\app\teams\common.php on line 68
+[31-May-2024 12:38:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserId in D:\xampp\htdocs\apnalead\app\teams\common.php on line 69
+[31-May-2024 12:38:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserId in D:\xampp\htdocs\apnalead\app\teams\common.php on line 68
+[31-May-2024 12:38:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserId in D:\xampp\htdocs\apnalead\app\teams\common.php on line 69
+[31-May-2024 14:56:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$user_billing_from_date in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 76
+[31-May-2024 14:56:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$user_billing_to_date in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 77
+[31-May-2024 14:56:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php:91
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 91
+[31-May-2024 15:02:24 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php:91
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 91
+[31-May-2024 16:05:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "APP_LOGO_1" in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php:40
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\SubscriptionPlan\receipt.php on line 40

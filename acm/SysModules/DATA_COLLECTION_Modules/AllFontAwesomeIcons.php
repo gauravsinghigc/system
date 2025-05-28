@@ -5,6 +5,7 @@ DEFINE("ALL_FONT_ICONS", [
     "fa-twitter",
     "fa-youtube",
     "fa-instagram",
+    "fa-whatsapp",
     "fa-globe",
     "fa-adjust",
     "fa-anchor",

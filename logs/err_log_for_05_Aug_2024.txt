@@ -1,0 +1,119 @@
+[05-Aug-2024 09:34:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\Billing\index.php:10
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 10
+[05-Aug-2024 09:35:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[05-Aug-2024 09:35:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[05-Aug-2024 09:35:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[05-Aug-2024 09:39:43 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[05-Aug-2024 09:39:43 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[05-Aug-2024 09:39:43 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$FINACIAL_YEAR in D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php on line 74
+[05-Aug-2024 10:52:39 Asia/Calcutta] PHP Warning:  Undefined variable $SubTotal in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 123
+[05-Aug-2024 10:52:39 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscount in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 124
+[05-Aug-2024 10:52:39 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 129
+[05-Aug-2024 10:52:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number_Formate in D:\xampp\htdocs\apnalead\app\Billing\details\index.php on line 126
+[05-Aug-2024 10:52:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_PI_Digit in D:\xampp\htdocs\apnalead\app\Billing\details\index.php on line 126
+[05-Aug-2024 11:03:54 Asia/Calcutta] PHP Warning:  Undefined variable $SubTotal in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 123
+[05-Aug-2024 11:03:54 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscount in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 124
+[05-Aug-2024 11:03:54 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 129
+[05-Aug-2024 11:22:43 Asia/Calcutta] PHP Warning:  Undefined variable $SubTotal in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 123
+[05-Aug-2024 11:22:43 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscount in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 124
+[05-Aug-2024 11:22:43 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 129
+[05-Aug-2024 11:27:26 Asia/Calcutta] PHP Warning:  Undefined variable $SubTotal in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 124
+[05-Aug-2024 11:27:26 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscount in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 125
+[05-Aug-2024 11:27:26 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 130
+[05-Aug-2024 11:37:33 Asia/Calcutta] PHP Warning:  Undefined array key "INV_SubTotal" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 62
+[05-Aug-2024 11:37:33 Asia/Calcutta] PHP Warning:  Undefined array key "INV_Discount" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 63
+[05-Aug-2024 11:37:33 Asia/Calcutta] PHP Warning:  Undefined variable $SubTotal in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 124
+[05-Aug-2024 11:37:33 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscount in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 125
+[05-Aug-2024 11:45:02 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function convertNumberToWords() in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php:159
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemFileProcessor.php(29): require()
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(43): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(3): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 159
+[05-Aug-2024 11:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function convertNumberToWords() in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php:159
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemFileProcessor.php(29): require()
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(43): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(3): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 159
+[05-Aug-2024 11:45:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function convertNumberToWords() in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php:159
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemFileProcessor.php(29): require()
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(43): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(3): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 159
+[05-Aug-2024 11:45:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function convertNumberToWords() in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php:159
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemFileProcessor.php(29): require()
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(43): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(3): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 159
+[05-Aug-2024 11:47:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 136
+[05-Aug-2024 11:47:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 140
+[05-Aug-2024 11:47:16 Asia/Calcutta] PHP Fatal error:  Cannot redeclare twoDigits() (previously declared in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php:133) in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 133
+[05-Aug-2024 11:47:30 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 136
+[05-Aug-2024 11:47:30 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 140
+[05-Aug-2024 11:52:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number_Formate in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 332
+[05-Aug-2024 11:52:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Invoice_Digit in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 332
+[05-Aug-2024 12:00:44 Asia/Calcutta] PHP Warning:  Undefined variable $Gst in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 120
+[05-Aug-2024 12:00:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number_Formate in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 332
+[05-Aug-2024 12:00:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Invoice_Digit in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 332
+[05-Aug-2024 12:01:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number_Formate in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 333
+[05-Aug-2024 12:01:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Invoice_Digit in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 333
+[05-Aug-2024 12:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Number_Formate in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 333
+[05-Aug-2024 12:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Invoice_Digit in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 333
+[05-Aug-2024 12:16:29 Asia/Calcutta] PHP Warning:  Undefined array key "INV_SubTotal" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 62
+[05-Aug-2024 12:16:29 Asia/Calcutta] PHP Warning:  Undefined array key "INV_Discount" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 63
+[05-Aug-2024 12:16:29 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:121
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 121
+[05-Aug-2024 12:17:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:121
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 121
+[05-Aug-2024 12:17:53 Asia/Calcutta] PHP Warning:  Undefined variable $SubTotal in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 124
+[05-Aug-2024 12:17:53 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscount in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 125
+[05-Aug-2024 12:17:53 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: null + string in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:125
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 125
+[05-Aug-2024 12:18:31 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + string in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php:127
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 127
+[05-Aug-2024 12:18:57 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 132
+[05-Aug-2024 12:19:18 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in D:\xampp\htdocs\apnalead\app\Billing\index.php:121
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 121
+[05-Aug-2024 12:19:23 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in D:\xampp\htdocs\apnalead\app\Billing\index.php:121
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 121
+[05-Aug-2024 12:22:12 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 132
+[05-Aug-2024 12:26:46 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 132
+[05-Aug-2024 14:36:21 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 132
+[05-Aug-2024 14:37:26 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 132
+[05-Aug-2024 16:56:26 Asia/Calcutta] PHP Warning:  Undefined variable $INVSql in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 151
+[05-Aug-2024 16:56:48 Asia/Calcutta] PHP Warning:  Undefined variable $INVSql in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 151
+[05-Aug-2024 16:56:50 Asia/Calcutta] PHP Warning:  Undefined variable $INVSql in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 151
+[05-Aug-2024 16:58:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_ID in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 176
+[05-Aug-2024 16:58:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_Name in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 177
+[05-Aug-2024 16:58:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_Phone in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 180
+[05-Aug-2024 16:59:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_ID in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 176
+[05-Aug-2024 16:59:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_Name in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 177
+[05-Aug-2024 16:59:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_Phone in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 180
+[05-Aug-2024 17:00:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_ID in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 176
+[05-Aug-2024 17:00:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_Name in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 177
+[05-Aug-2024 17:00:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$BillTo_Phone in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 180

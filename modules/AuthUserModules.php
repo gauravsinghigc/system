@@ -5,10 +5,9 @@
  */
 
 //app users
-// 
 function AuthAppUser($require)
 {
-    $UserId = LOGIN_UserId;
+    $UserId = $_SESSION['APP_LOGIN_USER_ID'];
     if (empty($UserId)) {
         return null;
     } else {
@@ -18,7 +17,7 @@ function AuthAppUser($require)
         } else {
             $GetData = FETCH("SELECT $require FROM users where UserId='$UserId'", "$require");
             if ($require == "UserProfileImage") {
-                if ($GetData == "default.png") {
+                if ($GetData == "user.png" || $GetData == "") {
                     return STORAGE_URL_D . "/default.png";
                 } else {
                     return STORAGE_URL_U . "/$UserId/img/$GetData";
@@ -29,16 +28,14 @@ function AuthAppUser($require)
         }
     }
 }
-
-
 //user address
 function UserAddress($UserId, $ColumnName)
 {
-    $CheckUsers = CHECK("SELECT $ColumnName FROM user_addresses where MainUserId='$UserId'");
+    $CheckUsers = CHECK("SELECT $ColumnName FROM user_addresses where UserAddressUserId='$UserId'");
     if ($CheckUsers == null) {
         return null;
     } else {
-        $GetData = FETCH("SELECT $ColumnName FROM user_addresses where MainUserId='$UserId'", "$ColumnName");
+        $GetData = FETCH("SELECT $ColumnName FROM user_addresses where UserAddressUserId='$UserId'", "$ColumnName");
         if ($GetData == null) {
             return 'NA';
         } else {

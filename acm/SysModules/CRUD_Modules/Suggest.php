@@ -1,34 +1,23 @@
 <?php
-//Suggestion List
-function SUGGEST($table = "false", $column, $order, $enc = null)
+// Suggestion List using PDO
+function SUGGEST($table = false, $column = "", $order = "ASC", $enc = null)
 {
-   if ($table != "false") {
+   if ($table != false && $column != "") {
       $CHECK_project_tags = CHECK("SELECT $column FROM $table");
       if ($CHECK_project_tags != 0) {
          echo "<datalist id='$column'>";
-         $SQL_project_tags = SELECT("SELECT $column FROM $table GROUP by $column ORDER BY $column $order");
-         while ($FetchTags = mysqli_fetch_array($SQL_project_tags)) {
-            if ($enc == null) {
-               echo "<option value='" . $FetchTags["$column"] . "'>";
-            } else { ?>
-               <option value='<?php echo SECURE($FetchTags["$column"], "$enc"); ?>'></option>
-<?php }
-         }
-         echo "</datalist>";
-      }
-   }
-}
 
-function SQL_SUGGEST($table = "false", $column)
-{
-   if ($table != "false") {
-      $CHECK_project_tags = CHECK("$table");
-      if ($CHECK_project_tags != 0) {
-         echo "<datalist id='$column'>";
-         $SQL_project_tags = SELECT("$table");
-         while ($FetchTags = mysqli_fetch_array($SQL_project_tags)) {
-            echo "<option value='" . $FetchTags["$column"] . "'>";
+         $SQL_project_tags = SQL("SELECT $column FROM $table GROUP BY $column ORDER BY $column $order");
+
+         while ($FetchTags = $SQL_project_tags->fetch(PDO::FETCH_ASSOC)) {
+            $value = $FetchTags[$column];
+            if ($enc == null) {
+               echo "<option value='" . htmlspecialchars($value) . "'>";
+            } else {
+               echo "<option value='" . SECURE($value, $enc) . "'></option>";
+            }
          }
+
          echo "</datalist>";
       }
    }

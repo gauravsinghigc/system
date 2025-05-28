@@ -1,0 +1,5 @@
+[05-Mar-2025 19:00:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gsileads\app\index.php on line 9
+[05-Mar-2025 19:00:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 10

@@ -1,0 +1,12 @@
+[22-Aug-2024 09:52:55 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[22-Aug-2024 09:52:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 11
+[22-Aug-2024 14:28:35 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[22-Aug-2024 14:28:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 11
+[22-Aug-2024 14:40:33 Asia/Calcutta] PHP Warning:  include(../..//include/forms/Add-99Acres-API.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\configs\99acres.php on line 245
+[22-Aug-2024 14:40:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/forms/Add-99Acres-API.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\configs\99acres.php on line 245

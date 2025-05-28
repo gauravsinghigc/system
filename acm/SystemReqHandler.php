@@ -28,6 +28,7 @@ if (isset($_REQUEST['access_url']) == null) {
     <a href='../index.php' style='color:black;font-family: monospace;font-size: 0.8rem;margin-top:2rem;'>< Back to Home</a><br><br><br>
     </section>";
     die();
+    exit();
 } else {
     echo "
     <section style='width:80%;margin:1% auto;text-align:center;border-radius:1rem;padding:0.2rem;padding-top:0px;padding-bottom:1rem;border-style:dashed;border-width:2px;border-color:green;'>

@@ -105,12 +105,11 @@ function PriceInWords($number)
   return ($Rupees ? $Rupees . 'Rupees ' : '') . $paise . " Only.";
 }
 
-
 //get records status
-function GetActiveStatus($Value1, $Value2)
+function GetActiveStatus($Value1, $Value2, $return = "active")
 {
   if ($Value1 == $Value2) {
-    return "active";
+    return $return;
   } else {
     return "";
   }

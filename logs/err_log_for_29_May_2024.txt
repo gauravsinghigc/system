@@ -1,0 +1,25 @@
+[29-May-2024 09:35:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[29-May-2024 09:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[29-May-2024 09:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[29-May-2024 09:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[29-May-2024 09:35:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[29-May-2024 14:08:52 Asia/Calcutta] PHP Warning:  Undefined variable $test in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 12
+[29-May-2024 15:28:37 Asia/Calcutta] PHP Fatal error:  Uncaught Exception: Failed to parse time string (9723057660-06-14) at position 7 (6): Double date specification in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php:72
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php(72): DateTime->__construct('9723057660-06-1...')
+#1 D:\xampp\htdocs\apnalead\handler\ModuleController\PaymentResponseController.php(23): calculateFutureDates('9723057660-06-1...', 1)
+#2 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\PHP_Modules\DateTime.php on line 72
+[29-May-2024 15:32:15 Asia/Calcutta] PHP Warning:  A non-numeric value encountered in D:\xampp\htdocs\apnalead\handler\ModuleController\PaymentResponseController.php on line 16
+[29-May-2024 15:59:49 Asia/Calcutta] PHP Parse error:  Unmatched '}' in D:\xampp\htdocs\apnalead\handler\ModuleController\PaymentResponseController.php on line 77

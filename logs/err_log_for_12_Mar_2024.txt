@@ -1,0 +1,177 @@
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\handler\AuthController\AuthAccessController.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:26:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Mar-2024 10:27:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadCompanyId' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Insert.php:44
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Insert.php(44): mysqli_query(Object(mysqli), 'INSERT INTO lea...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php(312): INSERT('lead_requiremen...', Array)
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Insert.php on line 44
+[12-Mar-2024 10:28:54 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 10:28:54 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 10:28:54 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 10:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 10:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 10:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 12:04:54 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 175
+[12-Mar-2024 12:04:54 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 175
+[12-Mar-2024 12:44:33 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 12:44:33 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 12:44:33 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 12:44:40 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 12:44:40 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 12:44:40 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 12:45:21 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 12:45:21 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 12:45:21 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 12:52:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LeadFollowMainId='2977'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Leadpers...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Leadpers...')
+#2 D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php(46): FETCH('SELECT Leadpers...', 'LeadpersonCurre...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Mar-2024 12:53:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LeadFollowMainId='2977'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadFoll...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT LeadFoll...')
+#2 D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php(46): FETCH('SELECT LeadFoll...', 'LeadFollowCurre...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Mar-2024 12:53:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadpersonCurrentStatus' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadFoll...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT LeadFoll...')
+#2 D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php(46): FETCH('SELECT LeadFoll...', 'LeadFollowCurre...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Mar-2024 12:54:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadpersonCurrentStatus' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadFoll...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT LeadFoll...')
+#2 D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php(46): FETCH('SELECT LeadFoll...', 'LeadFollowCurre...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Mar-2024 14:08:00 Asia/Calcutta] PHP Warning:  Undefined array key "LeadCreatedAt" in D:\xampp\htdocs\apnalead\app\leads\sections\pageHeader.php on line 16
+[12-Mar-2024 14:09:33 Asia/Calcutta] PHP Warning:  Undefined variable $LeadCreatedAt in D:\xampp\htdocs\apnalead\app\leads\sections\pageHeader.php on line 37
+[12-Mar-2024 14:19:14 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[12-Mar-2024 14:19:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 14:19:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 14:19:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 14:20:08 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 14:20:08 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 14:20:08 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 14:23:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 14:23:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 14:23:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 14:57:13 Asia/Calcutta] PHP Warning:  Undefined variable $Feature_Name in D:\xampp\htdocs\apnalead\app\configs\advance-settings.php on line 133
+[12-Mar-2024 14:57:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in D:\xampp\htdocs\apnalead\app\configs\advance-settings.php on line 133
+[12-Mar-2024 15:30:22 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:30:22 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:33:22 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:33:22 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:33:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php:7
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php on line 7
+[12-Mar-2024 15:34:00 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:34:00 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:34:00 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php:7
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php on line 7
+[12-Mar-2024 15:34:04 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:34:04 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:34:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php:7
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php on line 7
+[12-Mar-2024 15:34:27 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:34:27 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:34:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php:7
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php on line 7
+[12-Mar-2024 15:34:30 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:34:30 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:34:30 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php:7
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php on line 7
+[12-Mar-2024 15:35:36 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:35:36 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:35:36 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php:7
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php on line 7
+[12-Mar-2024 15:35:39 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:35:39 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:35:39 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php:7
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanyFeature.php on line 7
+[12-Mar-2024 15:37:33 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:37:33 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:38:07 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:38:07 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 15:38:56 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 4
+[12-Mar-2024 15:38:56 Asia/Calcutta] PHP Warning:  Undefined array key "DATA" in D:\xampp\htdocs\apnalead\handler\ModuleController\AdvanceFeature.php on line 5
+[12-Mar-2024 16:35:37 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 16:35:37 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 16:35:37 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 16:38:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 16:38:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 16:38:25 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 16:48:47 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 16:48:47 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 16:48:47 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 16:51:09 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 16:51:09 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 16:51:09 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 16:54:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 16:54:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 16:54:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 16:56:41 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 16:56:41 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 16:56:41 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 17:48:24 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 17:48:24 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 17:48:24 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 17:50:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 17:50:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 17:50:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 17:50:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadsId' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT LeadsId ...')
+#1 D:\xampp\htdocs\apnalead\app\leads\sections\pageHeader.php(89): TOTAL('SELECT LeadsId ...')
+#2 D:\xampp\htdocs\apnalead\app\leads\export\csv.php(22): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[12-Mar-2024 17:52:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 17:52:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 17:52:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 17:52:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 17:52:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 17:52:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 17:52:54 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 17:52:54 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 17:52:54 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244
+[12-Mar-2024 17:56:19 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 237
+[12-Mar-2024 17:56:19 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 241
+[12-Mar-2024 17:56:19 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 244

@@ -1,0 +1,106 @@
+[27-May-2024 09:28:27 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[27-May-2024 09:28:27 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[27-May-2024 09:28:27 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[27-May-2024 09:28:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[27-May-2024 09:51:17 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[27-May-2024 09:51:35 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[27-May-2024 09:51:47 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[27-May-2024 09:52:45 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[27-May-2024 09:57:56 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[27-May-2024 10:13:31 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 332
+[27-May-2024 10:14:45 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 333
+[27-May-2024 10:14:49 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 333
+[27-May-2024 10:14:52 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 333
+[27-May-2024 10:14:56 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 333
+[27-May-2024 10:20:42 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 342
+[27-May-2024 10:20:47 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 342
+[27-May-2024 10:20:50 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 342
+[27-May-2024 10:27:45 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[27-May-2024 12:00:13 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllLeads in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 162
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllLeadsToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 166
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllLeadsYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 169
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllFresh in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 180
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllFreshToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 184
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllFreshYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 187
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 197
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 198
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $Req_UserId in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 199
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllOutOfCoverage in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 226
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllOutOfCoverageToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 230
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllOutOfCoverageYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 233
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllSwitchOff in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 244
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllSwitchOfToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 248
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllSwitchOfYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 251
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllNumberDoesNot in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 262
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllNumberDoesNotToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 266
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllNumberDoesNotYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 269
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllOutOfValidity in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 280
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllOutOfValidityToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 284
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllOutOfValidityYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 287
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllNotPicked in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 298
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllNotPickedToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 302
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllNotPickedYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 305
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllData in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 316
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllDataToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 320
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllDataYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 323
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllDataLeads in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 334
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllDataLeadsToday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 338
+[27-May-2024 14:44:10 Asia/Calcutta] PHP Warning:  Undefined variable $AllDataLeadsYesterday in D:\xampp\htdocs\apnalead\app\teams\details\index.php on line 341
+[27-May-2024 14:46:40 Asia/Calcutta] PHP Warning:  Undefined variable $companyID in D:\xampp\htdocs\apnalead\app\teams\common.php on line 111
+[27-May-2024 14:46:40 Asia/Calcutta] PHP Warning:  Undefined variable $companyID in D:\xampp\htdocs\apnalead\app\teams\common.php on line 119
+[27-May-2024 14:55:18 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 14:55:21 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 14:55:22 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 14:55:23 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 14:55:25 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 14:55:26 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 14:55:27 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 15:49:03 Asia/Calcutta] PHP Warning:  Undefined array key "uid" in D:\xampp\htdocs\apnalead\app\teams\details\common\lead-count.php on line 4
+[27-May-2024 16:16:34 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 127
+[27-May-2024 16:35:27 Asia/Calcutta] PHP Warning:  Undefined variable $page in D:\xampp\htdocs\apnalead\app\teams\details\leads.php on line 324
+[27-May-2024 16:35:31 Asia/Calcutta] PHP Warning:  Undefined variable $page in D:\xampp\htdocs\apnalead\app\teams\details\leads.php on line 324
+[27-May-2024 16:35:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\teams\details\leads.php(333): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-May-2024 16:35:37 Asia/Calcutta] PHP Warning:  Undefined variable $page in D:\xampp\htdocs\apnalead\app\teams\details\leads.php on line 324
+[27-May-2024 16:35:37 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\teams\details\leads.php(333): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-May-2024 16:52:05 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80

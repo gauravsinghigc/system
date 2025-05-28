@@ -1,1 +1,0 @@
-<img src="<?php echo MAIN_LOGO; ?>" class="img-fluid w-25"><br>

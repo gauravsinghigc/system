@@ -1,0 +1,15 @@
+[29-Apr-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[29-Apr-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[29-Apr-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[29-Apr-2024 09:34:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[29-Apr-2024 11:16:59 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[29-Apr-2024 12:12:55 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[29-Apr-2024 12:54:46 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[29-Apr-2024 13:31:14 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[29-Apr-2024 13:31:14 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[29-Apr-2024 13:41:23 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[29-Apr-2024 16:43:10 Asia/Calcutta] PHP Warning:  Undefined variable $jsonResponse in D:\xampp\htdocs\apnalead\app\test.php on line 97

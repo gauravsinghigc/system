@@ -11,33 +11,30 @@ $req = "<span class='text-danger'>*</span>";
 
 function moneyFormatIndia($number)
 {
-  $decimal = (string)($number - floor($number));
-  $money = floor($number);
-  $length = strlen($money);
-  $delimiter = '';
-  $money = strrev($money);
+  // Sanitize input: convert to numeric or default to 0
+  $number = is_numeric($number) ? (float)$number : 0;
 
-  for ($i = 0; $i < $length; $i++) {
-    if (($i == 3 || ($i > 3 && ($i - 1) % 2 == 0)) && $i != $length) {
-      $delimiter .= ',';
-    }
-    $delimiter .= $money[$i];
-  }
+  // Format number in Indian style
+  $formatted = number_format($number, 0, '', ',');
 
-  $result = strrev($delimiter);
-  $decimal = preg_replace("/0\./i", ".", $decimal);
-  $decimal = substr($decimal, 0, 3);
+  // Custom formatting to match Indian number system (e.g., 12,34,567)
+  $len = strlen($formatted);
+  if ($len <= 3) return $formatted;
 
-  if ($decimal != '0') {
-    $result = $result . $decimal;
-  }
+  $last3 = substr($formatted, -3);
+  $rest = substr($formatted, 0, $len - 3);
+  $rest = preg_replace("/\B(?=(\d{2})+(?!\d))/", ",", $rest);
 
-  return $result;
+  return $rest . "" . $last3;
 }
+
 
 //price function display
 function Price($price, $class = null, $icon = null)
 {
+  if ($price == null || $price == "" || $price == " " || $price == "Not Available") {
+    $price = 0;
+  }
   $price = moneyFormatIndia($price);
 
   if ($icon == "icon") {
@@ -57,7 +54,7 @@ function MrpPrice($price)
 }
 
 //delete confirmation pop 
-function CONFIRM_DELETE_POPUP($id, array $Requests, $controller, $btnname = null, $btncss = null)
+function CONFIRM_DELETE_POPUP($id, array $DeleteRequests, $controller, $btnname = null, $btncss = null)
 {
   $new_no = rand(0000, 99999999);
   $id = $id . "_" . $new_no;
@@ -72,30 +69,21 @@ function CONFIRM_DELETE_POPUP($id, array $Requests, $controller, $btnname = null
     $btncss = "";
   }
 
-  //create requests
-  $CreateRequests = "?";
-  $Start = 0;
-  foreach ($Requests as $key => $values) {
-    if ($Start == 0) {
-      $CreateRequests .= "" . $key . "=" . SECURE($values, "e");
-    } else {
-      $CreateRequests .= "&" . $key . "=" . SECURE($values, "e");
-    }
-    $Start++;
+  $MoreRequests = "";
+  foreach ($DeleteRequests as $keys => $Deletevalues) {
+    $MoreRequests .= "<input type='hidden' name='" . $keys . "' value='" . SECURE($Deletevalues, "e") . "'>
+    ";
   }
-
-  //default request
-  $CreateRequests .= "&access_url=" . SECURE(RUNNING_URL, "e") . "&AuthToken=" . SECURE(VALIDATOR_REQ, "e");
-
-  //define controller request 
-  $Controller_Requests = DOMAIN . "/handler" . "/" . $controller . ".php" . $CreateRequests;
 ?>
-  <a class="sqaure <?php echo $btncss; ?>" onclick="Databar('<?php echo $id; ?>')"><?php echo $btnname; ?></a>
+  <a class="sqaure <?php echo $btncss; ?>" onclick="ControlForms('<?php echo $id; ?>')"><?php echo $btnname; ?></a>
   <section class="popup-background" id="<?php echo $id; ?>">
-    <div class="action-area">
+    <form class="action-area" method="POST" action="<?php echo $controller; ?>">
+      <?php
+      echo FormPrimaryInputs(true);
+      echo $MoreRequests; ?>
       <div class="ref-image">
         <h1 class="text-center">
-          <img src="<?php echo STORAGE_URL_D; ?>/tool-img/failed.gif" alt="Remove Record" title="Remove Record">
+          <img src="<?php echo STORAGE_URL_D; ?>/tool-img/failed.gif" class="w-25" alt="Remove Record" title="Remove Record">
         </h1>
       </div>
       <div class="activity-details">
@@ -107,10 +95,10 @@ function CONFIRM_DELETE_POPUP($id, array $Requests, $controller, $btnname = null
         </p>
       </div>
       <div class="activity-action">
-        <a onclick="Databar('<?php echo $id; ?>')" class="btn btn-lg btn-danger">Cancel</a>
-        <a href="<?= $Controller_Requests ?>" class="btn btn-lg btn-success">Confirm & Delete</a>
+        <a onclick="ControlForms('<?php echo $id; ?>')" class="btn btn-lg btn-danger">Cancel</a>
+        <button type="submit" name="<?php echo array_key_first($DeleteRequests); ?>" class="btn btn-lg btn-success">Confirm & Delete</button>
       </div>
-    </div>
+    </form>
   </section>
 <?php }
 
@@ -208,13 +196,6 @@ function TextareaWithEditor(array $attributes, $id)
 <?php
 }
 
-
-//Indexbtn function 
-function Indexbtn($name)
-{
-  echo '<a href="index.php" class="btn btn-md system-btn"><i class="fa fa-angle-left"></i> ' . $name . '</a>';
-}
-
 //status view
 function StatusView($data)
 {
@@ -229,19 +210,24 @@ function StatusView($data)
 function StatusViewWithText($data)
 {
   if ($data == "1" or $data == 1 or $data == "Active" or $data == "ACTIVE") {
-    return "<span class='text-success'><i class='fa fa-check-circle'></i> Active</span>";
+    return "<span class='badge badge-success bg-success'><i class='fa fa-check-circle'></i> Active</span>";
   } elseif ($data == "2" or $data == 2 or $data == "Inactive" or $data == "INACTIVE" or $data == "0") {
-    return "<span class='text-danger'><i class='fa fa-warning text-warning'></i> Inactive</span>";
+    return "<span class='badge-danger badge bg-warning'><i class='fa fa-warning'></i> Inactive</span>";
   } elseif ($data == "3" or $data == 3 or $data == "Deleted" or $data == "DELETED") {
-    return "<span class='text-danger'><i class='fa fa-trash text-danger'></i> Deleted!</span>";
+    return "<span class='badge-danger badge bg-danger'><i class='fa fa-trash'></i> Deleted!</span>";
   } else {
-    return "<span class='text-secodary'>$data</span>";
+    return "<span class='badge-secodary badge bg-default'>Unknown</span>";
   }
 }
 
 //function get serial nos
 function SerialNo()
 {
+  if (isset($_GET["DefaultLisitingCount"])) {
+    $DEFAULT_RECORD_LISTING = $_GET["DefaultLisitingCount"];
+    SQL("UPDATE configurations SET configurationvalue='$DEFAULT_RECORD_LISTING' where configurationname='DEFAULT_RECORD_LISTING'");
+  }
+
   $SerialNo = 0;
   if (isset($_GET['view_page'])) {
     $view_page = $_GET['view_page'];
@@ -259,6 +245,11 @@ function SerialNo()
 //pagination Headers
 function listingstartfrom($Return = null)
 {
+  if (isset($_GET["DefaultLisitingCount"])) {
+    $DEFAULT_RECORD_LISTING = $_GET["DefaultLisitingCount"];
+    SQL("UPDATE configurations SET configurationvalue='$DEFAULT_RECORD_LISTING' where configurationname='DEFAULT_RECORD_LISTING'");
+  }
+
   $RecordLimit = (int)CONFIG("DEFAULT_RECORD_LISTING");
 
   $page = 1;
@@ -287,6 +278,10 @@ function PaginationFooter(int $TotalItems = 0, $RedirectForAll = "index.php")
 {
 
   $RecordLimit = CONFIG("DEFAULT_RECORD_LISTING");
+  if (isset($_GET["DefaultLisitingCount"])) {
+    $DEFAULT_RECORD_LISTING = $_GET["DefaultLisitingCount"];
+    SQL("UPDATE configurations SET configurationvalue='$DEFAULT_RECORD_LISTING' where configurationname='DEFAULT_RECORD_LISTING'");
+  }
 
   // Get current page number
   if (isset($_GET["view_page"])) {
@@ -307,35 +302,153 @@ function PaginationFooter(int $TotalItems = 0, $RedirectForAll = "index.php")
     $previous_page = 1;
   }
 
+  if ($next_page > $NetPages) {
+    $next_page = $NetPages;
+  }
+
   //prepare url parameter and pass with pagination
   $UrlParameters = "";
+  $AddFilterValueInListingCount = "";
   if (!empty($_GET)) {
     foreach ($_GET as $key => $value) {
       if ($key != "view_page") {
         $UrlParameters .= "&$key=$value";
+        $AddFilterValueInListingCount .= "<input type='hidden' name='$key' value='$value'>";
       }
     }
   }
 ?>
-  <div class="col-md-12 flex-s-b mt-2 mb-1 pl-0 pr-0">
-    <div class="">
-      <h6 class="mb-0 mt-1" style="font-size:0.85rem;">Page <b><?php echo IfRequested("GET", "view_page", $page, false); ?></b> from <b><?php echo $NetPages; ?> </b> pages <br>Total <b><?php echo $TotalItems; ?></b> entries</h6>
+  <div class="col-md-12 flex-s-b mt-3 mb-1 pl-0 pr-0">
+    <div style="width:25% !important;">
+      <h6 class="mb-0 mt-1" style="font-size:0.85rem;">Page <b><?php echo moneyFormatIndia(IfRequested("GET", "view_page", $page, false)); ?></b> from <b><?php echo moneyFormatIndia($NetPages); ?> </b> pages <br>Total <b><?php echo moneyFormatIndia($TotalItems); ?></b> entries</h6>
     </div>
-    <div class="flex-s-b">
-      <span class="mr-1">
-        <a href="?view_page=<?php echo $previous_page . $UrlParameters; ?>" class="btn btn-md btn-primary"><i class="fa fa-angle-double-left"></i></a>
-      </span>
-      <form>
-        <input type="number" name="view_page" onchange="form.submit()" class="form-control  mb-0" min="1" max="<?php echo $NetPages; ?>" value="<?php echo IfRequested("GET", "view_page", 1, false); ?>">
+    <div style="width:20% !important;">
+      <form class="flex-s-b">
+        <?php echo $AddFilterValueInListingCount; ?>
+        <select onchange="form.submit()" name='DefaultLisitingCount' class="form-control form-control-sm m-1">
+          <?php echo InputOptionsWithKey(
+            [
+              "10" => "10",
+              "15" => "15",
+              "25" => "25",
+              "50" => "50",
+              "100" => "100",
+              "250" => "250",
+              "500" => "500",
+              "1000" => "1000",
+            ],
+            IfRequested("GET", "DefaultLisitingCount", DEFAULT_RECORD_LISTING, null)
+          ); ?>
+        </select>
+        <input type="number" name="view_page" onchange="form.submit()" class="form-control fs-12 m-1 form-control-sm" min="1" max="<?php echo $NetPages; ?>" value="<?php echo IfRequested("GET", "view_page", 1, false); ?>">
       </form>
-      <span class="ml-1">
-        <a href="?view_page=<?php echo $next_page . $UrlParameters; ?>" class="btn btn-md btn-primary"><i class="fa fa-angle-double-right"></i></a>
-      </span>
-      <?php if (isset($_GET['view_page'])) { ?>
-        <span class="ml-1">
-          <a href="<?php echo $RedirectForAll; ?>" class="btn btn-md btn-danger mb-0"><i class="fa fa-times"></i></a>
+    </div>
+    <div style="width:40% !important;">
+      <div class="flex-s-b pt-1">
+        <span class="mr-1">
+          <a href="?view_page=<?php echo $previous_page . $UrlParameters; ?>" class="btn btn-sm fs-14 btn-primary"><i class="fa fa-angle-double-left"></i> Previous Page</a>
         </span>
-      <?php } ?>
+        <span class="ml-1">
+          <a href="?view_page=<?php echo $next_page . $UrlParameters; ?>" class="btn btn-sm fs-14 btn-primary"> Next Page <i class="fa fa-angle-double-right"></i></a>
+        </span>
+        <?php if (isset($_GET['view_page'])) { ?>
+          <span class="ml-1">
+            <a href="<?php echo $RedirectForAll; ?>" class="btn btn-sm fs-14 btn-danger mb-0"><i class="fa fa-times"></i> First Page</a>
+          </span>
+        <?php } ?>
+      </div>
+    </div>
+  </div>
+<?php
+}
+
+
+function Applistingstartfrom($Return = null)
+{
+
+  $RecordLimit = 10;
+
+  $page = 1;
+  // Get current page number
+  if (isset($_GET["view_page"])) {
+    $page = $_GET["view_page"];
+  } else {
+    $page = 1;
+  }
+  $value = $page - 1;
+  $start = $value * $RecordLimit;
+
+  if ($Return == null) {
+    return null;
+  } else {
+    if ($Return == "start") {
+      return $start;
+    } elseif ($Return == "end") {
+      return $RecordLimit;
+    }
+  }
+}
+
+function AppPaginationFooter(int $TotalItems = 0, $RedirectForAll = "index.php")
+{
+
+  $RecordLimit = 10;
+
+  // Get current page number
+  if (isset($_GET["view_page"])) {
+    $page = $_GET["view_page"];
+  } else {
+    $page = 1;
+  }
+
+
+  $next_page = ($page + 1);
+  $previous_page = ($page - 1);
+  $NetPages = round(($TotalItems / $RecordLimit) + 0.5);
+  if ($NetPages == 1) {
+    $next_page = 1;
+  }
+
+  if ($previous_page == 0) {
+    $previous_page = 1;
+  }
+
+  if ($next_page > $NetPages) {
+    $next_page = $NetPages;
+  }
+
+  //prepare url parameter and pass with pagination
+  $UrlParameters = "";
+  $AddFilterValueInListingCount = "";
+  if (!empty($_GET)) {
+    foreach ($_GET as $key => $value) {
+      if ($key != "view_page") {
+        $UrlParameters .= "&$key=$value";
+        $AddFilterValueInListingCount .= "<input type='hidden' name='$key' value='$value'>";
+      }
+    }
+  }
+?>
+  <div class="col-md-12">
+    <div class="flex-s-b p-3 pt-2">
+      <div style="width:40% !important;">
+        <h6 class="mb-0 mt-2 app-fs-3">Page <b><?php echo IfRequested("GET", "view_page", $page, false); ?></b> from <b><?php echo $NetPages; ?> </b> pages <br>Total <b><?php echo $TotalItems; ?></b> entries</h6>
+      </div>
+      <div style="width:60% !important;">
+        <div class="flex-s-b pt-1">
+          <span class="mr-1">
+            <a href="?view_page=<?php echo $previous_page . $UrlParameters; ?>" class="btn btn-md app-fs-3 btn-primary"><i class="fa fa-angle-double-left"></i> Back</a>
+          </span>
+          <span class="ml-1">
+            <a href="?view_page=<?php echo $next_page . $UrlParameters; ?>" class="btn btn-md app-fs-3 btn-primary">Next <i class="fa fa-angle-double-right"></i></a>
+          </span>
+          <?php if (isset($_GET['view_page'])) { ?>
+            <span class="ml-1">
+              <a href="<?php echo $RedirectForAll; ?>" class="btn btn-md app-fs-3 btn-danger mb-0"><i class="fa fa-times"></i> Clear</a>
+            </span>
+          <?php } ?>
+        </div>
+      </div>
     </div>
   </div>
 <?php
@@ -344,3 +457,29 @@ function PaginationFooter(int $TotalItems = 0, $RedirectForAll = "index.php")
 //define constants
 define("SERIAL_NO", SerialNo());
 define("START_FROM", listingstartfrom("start"));
+define("APP_START_FROM", Applistingstartfrom("start"));
+
+
+//fontawesome icon
+function FontIcon($icon)
+{
+  return "<i class='fa fa-$icon'></i>";
+}
+
+function ValidatePhoneNumber($number)
+{
+  // Remove all non-digit characters
+  $number = preg_replace('/\D/', '', $number);
+
+  // Take last 10 digits (useful if country code like 91, +91 is present)
+  if (strlen($number) >= 10) {
+    $number = substr($number, -10);
+  }
+
+  // Validate Indian mobile number format (starts with 6-9 and has 10 digits)
+  if (preg_match('/^[6-9]\d{9}$/', $number)) {
+    return $number;
+  }
+
+  return null; // Invalid number
+}

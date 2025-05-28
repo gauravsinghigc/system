@@ -1,0 +1,469 @@
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 03:09:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:38 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:17:39 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 10:17:39 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:39 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:39 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:39 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:39 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:17:51 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:47 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:23:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 10:23:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:23:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:24:08 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 10:24:09 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:26:51 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:26:55 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:24 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:39:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 10:39:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 10:39:31 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 10:39:32 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:49:47 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 10:49:48 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:50:13 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:15 Asia/Calcutta] PHP Warning:  Undefined variable $LOGIN_UserProfileImage1 in /home/u447740167/domains/apnalead.com/public_html/app/app/teams/index.php on line 241
+[20-Dec-2023 10:50:32 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:29 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 12:09:30 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 12:09:30 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:30 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:30 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:30 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:30 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 12:09:37 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 12:09:38 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 12:10:35 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 12:12:07 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:12:07 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:17:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadFollowStatus" in /home/u447740167/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 34
+[20-Dec-2023 12:17:02 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:17:02 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:18:36 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:18:36 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:23:07 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 12:23:25 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 12:25:01 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:25:01 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:26:19 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:26:19 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:27:34 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:27:34 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:29:23 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 12:29:23 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:14 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 13:05:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 13:05:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 13:05:47 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:52 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 14:30:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 14:30:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:30:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 14:31:08 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 15:50:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 15:50:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 15:50:10 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 15:50:11 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 16:38:51 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 16:38:52 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 16:39:09 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/u447740167/domains/apnalead.com/public_html/app/app/logout.php on line 5
+[20-Dec-2023 16:39:19 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 16:59:11 Asia/Calcutta] PHP Warning:  Undefined array key "UserRole" in /home/u447740167/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Select.php on line 32
+[20-Dec-2023 16:59:12 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 16:59:41 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 16:59:41 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 17:00:41 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 17:00:41 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u447740167/domains/apnalead.com/public_html/app/app/leads/add.php on line 174
+[20-Dec-2023 17:26:29 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 9
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 20
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u447740167/domains/apnalead.com/public_html/app/app/index.php on line 134
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/handler/AuthController/AuthAccessController.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[20-Dec-2023 20:43:14 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u447740167/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10

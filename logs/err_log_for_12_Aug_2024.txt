@@ -1,0 +1,661 @@
+[12-Aug-2024 09:26:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\Billing\index.php:10
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 10
+[12-Aug-2024 09:27:29 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 09:27:59 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewService.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[12-Aug-2024 09:27:59 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewService.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[12-Aug-2024 09:27:59 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewProduct.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[12-Aug-2024 09:27:59 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewProduct.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[12-Aug-2024 09:28:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:14:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:14:36 Asia/Calcutta] PHP Warning:  Undefined array key "INV_TRN_Note" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 191
+[12-Aug-2024 10:14:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:14:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:15:30 Asia/Calcutta] PHP Warning:  Undefined array key "INV_TRN_Note" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 191
+[12-Aug-2024 10:15:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:15:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:15:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:15:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:18:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:19:19 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:19:38 Asia/Calcutta] PHP Warning:  Undefined array key "INV_TRN_Note" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 192
+[12-Aug-2024 10:19:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:19:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:37:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:37:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:37:29 Asia/Calcutta] PHP Warning:  Undefined array key "INV_TRN_Note" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 192
+[12-Aug-2024 10:37:29 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + string in D:\xampp\htdocs\apnalead\app\Billing\view\index.php:114
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 114
+[12-Aug-2024 10:37:36 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + string in D:\xampp\htdocs\apnalead\app\Billing\view\index.php:114
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 114
+[12-Aug-2024 10:38:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:38:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:38:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:38:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:40:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:41:53 Asia/Calcutta] PHP Warning:  Undefined array key "INV_TRN_Note" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 192
+[12-Aug-2024 10:41:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:43:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedBy in D:\xampp\htdocs\apnalead\app\Billing\view\index.php on line 243
+[12-Aug-2024 10:51:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:51:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 10:52:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 11:02:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 11:02:57 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewService.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[12-Aug-2024 11:02:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewService.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[12-Aug-2024 11:02:57 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewProduct.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[12-Aug-2024 11:02:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewProduct.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[12-Aug-2024 11:03:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 11:03:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 11:03:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 11:03:27 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewService.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[12-Aug-2024 11:03:27 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewService.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 496
+[12-Aug-2024 11:03:27 Asia/Calcutta] PHP Warning:  include(../../include/forms/Billingform/AddNewProduct.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[12-Aug-2024 11:03:27 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Billingform/AddNewProduct.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\Billing\add.php on line 497
+[12-Aug-2024 11:59:02 Asia/Calcutta] PHP Warning:  Undefined variable $invoiceId in D:\xampp\htdocs\apnalead\app\Billing\details\pdf.php on line 12
+[12-Aug-2024 12:08:37 Asia/Calcutta] PHP Warning:  Undefined variable $ImageEmpty in D:\xampp\htdocs\apnalead\app\Billing\details\pdf.php on line 50
+[12-Aug-2024 12:15:24 Asia/Calcutta] PHP Warning:  Undefined variable $ImageEmpty in D:\xampp\htdocs\apnalead\app\Billing\details\pdf.php on line 44
+[12-Aug-2024 12:34:31 Asia/Calcutta] PHP Warning:  Undefined variable $imagePath in D:\xampp\htdocs\apnalead\app\Billing\details\pdf.php on line 40
+[12-Aug-2024 12:34:31 Asia/Calcutta] PHP Warning:  Undefined variable $imagePath in D:\xampp\htdocs\apnalead\app\Billing\details\pdf.php on line 49
+[12-Aug-2024 12:35:36 Asia/Calcutta] PHP Warning:  Undefined variable $imagePath in D:\xampp\htdocs\apnalead\acm\SysModules\TCPDF-Library\tcpdf.php on line 19237
+[12-Aug-2024 12:35:36 Asia/Calcutta] PHP Warning:  Undefined variable $pdf in D:\xampp\htdocs\apnalead\acm\SysModules\TCPDF-Library\tcpdf.php on line 19246
+[12-Aug-2024 12:35:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function Image() on null in D:\xampp\htdocs\apnalead\acm\SysModules\TCPDF-Library\tcpdf.php:19246
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\TCPDF-Library\tcpdf.php(18842): TCPDF->openHTMLTagHandler(Array, 1, false)
+#1 D:\xampp\htdocs\apnalead\app\Billing\details\pdf.php(62): TCPDF->writeHTML('\r\n    <h1>Invoi...', true, false, true, false, '')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\TCPDF-Library\tcpdf.php on line 19246
+[12-Aug-2024 12:52:15 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:18 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:20 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:26 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:27 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:28 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:29 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:31 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:52:52 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 20
+[12-Aug-2024 12:59:11 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 26
+[12-Aug-2024 12:59:30 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 26
+[12-Aug-2024 12:59:34 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 26
+[12-Aug-2024 12:59:38 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 26
+[12-Aug-2024 12:59:55 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 26
+[12-Aug-2024 13:01:15 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 26
+[12-Aug-2024 13:01:22 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 26
+[12-Aug-2024 13:02:00 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 28
+[12-Aug-2024 13:03:35 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 32
+[12-Aug-2024 13:04:58 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 13:06:04 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 13:07:55 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 13:45:44 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:01:47 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:02:39 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 49
+[12-Aug-2024 14:02:40 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 49
+[12-Aug-2024 14:04:04 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:06:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:07:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:08:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:08:10 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:09:12 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:09:22 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:09:28 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:09:29 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:10:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:10:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:10:25 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:13:05 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:13:35 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:14:20 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:14:47 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:14:59 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:15:06 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:16:20 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 82
+[12-Aug-2024 14:17:41 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 82
+[12-Aug-2024 14:17:58 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 82
+[12-Aug-2024 14:18:19 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 60
+[12-Aug-2024 14:18:28 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 60
+[12-Aug-2024 14:18:41 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 60
+[12-Aug-2024 14:18:45 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 60
+[12-Aug-2024 14:19:40 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 60
+[12-Aug-2024 14:21:29 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 75
+[12-Aug-2024 14:22:27 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:22:28 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:22:57 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:23:13 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:23:30 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:23:46 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:24:00 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:25:11 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:25:34 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:25:51 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:26:02 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 74
+[12-Aug-2024 14:27:49 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 75
+[12-Aug-2024 14:27:51 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 75
+[12-Aug-2024 14:28:34 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 75
+[12-Aug-2024 14:37:26 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 37
+[12-Aug-2024 14:37:42 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 37
+[12-Aug-2024 14:38:01 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 37
+[12-Aug-2024 14:38:09 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 37
+[12-Aug-2024 14:38:18 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 37
+[12-Aug-2024 14:38:33 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 37
+[12-Aug-2024 14:39:00 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:39:04 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 36
+[12-Aug-2024 14:39:19 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 39
+[12-Aug-2024 14:39:30 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 39
+[12-Aug-2024 14:39:31 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 39
+[12-Aug-2024 14:39:46 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 40
+[12-Aug-2024 14:40:30 Asia/Calcutta] PHP Warning:  Undefined variable $BillTo_Id in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 40
+[12-Aug-2024 14:50:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:50:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:51:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:51:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 14:51:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 15:02:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.invoice' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php(13): CHECK('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(305): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[12-Aug-2024 15:03:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.invoice' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php(13): CHECK('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(305): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[12-Aug-2024 15:03:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.invoice' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php(13): CHECK('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(305): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[12-Aug-2024 15:24:33 Asia/Calcutta] PHP Warning:  Undefined variable $INV_ID in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 51
+[12-Aug-2024 15:52:47 Asia/Calcutta] PHP Warning:  Undefined array key "InvoiceDigit" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 208
+[12-Aug-2024 15:52:47 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php:17
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(305): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 17
+[12-Aug-2024 15:54:15 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php:17
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(305): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\forms\Billingform\convert.php on line 17
+[12-Aug-2024 16:33:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:33:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:33:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:33:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:33:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:33:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:33:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:34:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:34:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:35:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:37:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:37:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:38:55 Asia/Calcutta] PHP Warning:  Undefined array key "InvoiceDigit" in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 209
+[12-Aug-2024 16:39:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:40:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:40:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\proforma.php(381): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:41:42 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:44:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:45:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:47:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:47:42 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:48:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(384): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:53:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:53:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:53:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:54:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:54:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:54:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:55:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:56:29 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 16:59:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(389): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 17:02:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 17:06:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 17:06:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(414): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 17:08:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 17:08:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 17:11:38 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Aug-2024 17:11:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(386): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12

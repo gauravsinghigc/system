@@ -6,26 +6,30 @@
  * @PrintSQL : print sql without dieing
  */
 
-function CHECK($SQL, $die = false, $PrintSQL = false)
+function CHECK($SQL = null, $die = false, $PrintSQL = false)
 {
     $Check = "$SQL";
 
-    //die entry
-    if ($die == true) {
+    // die entry
+    if ($die === true) {
         die($Check);
     }
 
-    //print sql
-    if ($PrintSQL == true) {
+    // print sql
+    if ($PrintSQL === true) {
         echo "<br><hr><code>$SQL</code><hr><br>";
     }
 
-    //check query
-    $Query = mysqli_query(DBConnection, $Check);
-    $Count = mysqli_num_rows($Query);
-    if ($Count == 0 or $Count == null) {
-        return false;
+    // check query
+    if ($SQL !== null) {
+        $stmt = SQL($SQL); // using your PDO-based SQL()
+
+        if ($stmt && $stmt->rowCount() > 0) {
+            return true;
+        } else {
+            return false;
+        }
     } else {
-        return true;
+        return false;
     }
 }

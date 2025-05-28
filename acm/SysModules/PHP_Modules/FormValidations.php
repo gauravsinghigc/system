@@ -22,7 +22,7 @@ function AccessUrl($GetAutoUrl = true)
 <?php }
 
 //form primary details
-function FormPrimaryInputs($url = true, array $morerequest = null)
+function FormPrimaryInputs($url = true, $morerequest = null)
 {
     FormInputToken();
     if ($url == true) {

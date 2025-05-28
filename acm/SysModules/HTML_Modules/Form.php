@@ -2,10 +2,11 @@
 //no data found View
 function NoData($title, $desc = null)
 {
-        $return  = '<div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+        $return  = '
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
         <h4 class="bold mt-3">' . $title . '</h4>
         <p>
-                <?php echo $desc; ?>
+                ' . $desc . '
         </p>
         </div>';
 
@@ -13,7 +14,7 @@ function NoData($title, $desc = null)
 }
 
 //upload image with preview
-function UploadImageInput($name, $id, $filetypes, $required = true, $class, $value = null)
+function UploadImageInput($name, $id, $filetypes, $required = true, $class = "", $value = null)
 {
         if ($required == true) {
                 $req = "required=''";
@@ -72,7 +73,7 @@ function InputOptionsWithKey($data, $default = null)
 }
 
 //textarea
-function TEXTAREA($label, $name, $value, $req = "true", $rows, $class)
+function TEXTAREA($label, $name, $value, $req = "true", $rows = "", $class = "")
 {
         if ($req == "true") {
                 $required = "required=''";

@@ -1,7 +1,7 @@
 <?php
 
 //if request
-function IfRequested($method = "GET", $name, $default, $sec = null)
+function IfRequested($method = "GET", $name = "", $default = "", $sec = null)
 {
 
   //check request and return values via get

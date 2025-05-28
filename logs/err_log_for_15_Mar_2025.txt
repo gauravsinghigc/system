@@ -1,0 +1,187 @@
+[15-Mar-2025 10:01:23 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmailId" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 39
+[15-Mar-2025 10:01:23 Asia/Calcutta] PHP Warning:  Undefined array key "UserStatus" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 41
+[15-Mar-2025 10:01:23 Asia/Calcutta] PHP Warning:  Undefined array key "UserType" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 43
+[15-Mar-2025 10:01:23 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressType" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 58
+[15-Mar-2025 10:01:23 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressContactPerson" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 59
+[15-Mar-2025 10:05:07 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressType" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 55
+[15-Mar-2025 10:05:07 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressContactPerson" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 56
+[15-Mar-2025 10:05:15 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressType" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 55
+[15-Mar-2025 10:05:15 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressContactPerson" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 56
+[15-Mar-2025 10:18:26 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressType" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 55
+[15-Mar-2025 10:18:26 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressContactPerson" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 56
+[15-Mar-2025 10:41:57 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressType" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 55
+[15-Mar-2025 10:41:57 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressContactPerson" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 56
+[15-Mar-2025 10:41:57 Asia/Calcutta] PHP Warning:  Undefined array key "user_url_link" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 73
+[15-Mar-2025 10:41:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_urls' doesn't exist in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php(79): CHECK('SELECT * FROM u...')
+#2 {main}
+  thrown in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[15-Mar-2025 10:42:34 Asia/Calcutta] PHP Warning:  Undefined array key "UserAddressContactPerson" in C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php on line 55
+[15-Mar-2025 10:42:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_urls' doesn't exist in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php(78): CHECK('SELECT * FROM u...')
+#2 {main}
+  thrown in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[15-Mar-2025 10:42:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_urls' doesn't exist in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\gleads\handler\ModuleController\UserController.php(77): CHECK('SELECT * FROM u...')
+#2 {main}
+  thrown in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[15-Mar-2025 18:30:06 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:30:06 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:30:06 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:30:06 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:30:06 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:30:06 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:30:56 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:30:56 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:30:56 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:30:56 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:30:56 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:30:56 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:31:37 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:31:37 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:31:37 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:31:37 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:31:37 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:31:37 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:32:58 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:32:58 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:32:58 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:32:58 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:32:58 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:32:58 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:33:05 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:33:05 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:33:05 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:33:05 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:33:05 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:33:05 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:33:13 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:33:13 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:33:13 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:33:13 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:33:13 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:33:13 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:33:17 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:33:17 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:33:17 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:33:17 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:33:17 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:33:17 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:33:27 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:33:27 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:33:27 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:33:27 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:33:27 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:33:27 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:33:34 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:33:34 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:33:34 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:33:34 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:33:34 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:33:34 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:33:56 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:33:56 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:33:56 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:33:56 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:33:56 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:33:56 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:34:09 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 78
+[15-Mar-2025 18:34:09 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 82
+[15-Mar-2025 18:34:09 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 86
+[15-Mar-2025 18:34:09 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 92
+[15-Mar-2025 18:34:09 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 131
+[15-Mar-2025 18:34:09 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 274
+[15-Mar-2025 18:36:53 Asia/Kolkata] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 91
+[15-Mar-2025 18:36:53 Asia/Kolkata] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 130
+[15-Mar-2025 18:36:53 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 273
+[15-Mar-2025 18:37:31 Asia/Calcutta] PHP Warning:  Undefined variable $overview in C:\xampp\htdocs\gleads\app\settings\index.php on line 66
+[15-Mar-2025 18:37:31 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:37:31 Asia/Calcutta] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\gleads\app\settings\index.php on line 248
+[15-Mar-2025 18:46:40 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:47:05 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:47:42 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:47:44 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:47:50 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:47:51 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:48:18 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:48:29 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:48:37 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:48:45 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:49:07 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:49:12 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:49:57 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:50:23 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:50:29 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:50:40 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:52:21 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:55:18 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:55:44 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 18:58:27 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 19:01:23 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 19:01:31 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 19:01:39 Asia/Calcutta] PHP Warning:  Undefined variable $profile in C:\xampp\htdocs\gleads\app\settings\index.php on line 105
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "TAGLINE" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 9
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_PHONE" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 10
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_EMAIL" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 11
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "SHORT_DESCRIPTION" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 12
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_ADDRESS" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 13
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_MAP_LOCATION_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 14
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_ANDROID_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 15
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_IOS_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 16
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_BROCHER_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 17
+[15-Mar-2025 19:20:59 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_GST" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 18
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_PHONE" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 10
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_EMAIL" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 11
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "SHORT_DESCRIPTION" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 12
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_ADDRESS" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 13
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_MAP_LOCATION_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 14
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_ANDROID_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 15
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_IOS_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 16
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_BROCHER_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 17
+[15-Mar-2025 19:30:49 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_GST" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 18
+[15-Mar-2025 19:33:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGO" in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 23
+[15-Mar-2025 19:33:02 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 23
+[15-Mar-2025 19:33:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGO" in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 24
+[15-Mar-2025 19:33:02 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 24
+[15-Mar-2025 19:33:09 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGO" in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 23
+[15-Mar-2025 19:33:09 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 23
+[15-Mar-2025 19:33:09 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGO" in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 24
+[15-Mar-2025 19:33:09 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gleads\acm\SysModules\FILE_Modules\UploadHandler.php on line 24
+[15-Mar-2025 19:42:13 Asia/Calcutta] PHP Warning:  Undefined array key "SHORT_DESCRIPTION" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 12
+[15-Mar-2025 19:42:13 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_ADDRESS" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 13
+[15-Mar-2025 19:42:13 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_MAP_LOCATION_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 14
+[15-Mar-2025 19:42:13 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_ANDROID_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 15
+[15-Mar-2025 19:42:13 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_IOS_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 16
+[15-Mar-2025 19:42:13 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_BROCHER_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 17
+[15-Mar-2025 19:42:13 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_GST" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 18
+[15-Mar-2025 19:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_MAP_LOCATION_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 14
+[15-Mar-2025 19:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_ANDROID_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 15
+[15-Mar-2025 19:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_IOS_APP_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 16
+[15-Mar-2025 19:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "DOWNLOAD_BROCHER_LINK" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 17
+[15-Mar-2025 19:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "PRIMARY_GST" in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 18
+[15-Mar-2025 20:47:18 Asia/Calcutta] PHP Warning:  Undefined variable $PRIMARY_GST in C:\xampp\htdocs\gleads\handler\SystemController\ConfigController.php on line 17
+[15-Mar-2025 20:50:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.config_companies' doesn't exist in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT company_...')
+#1 C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT company_...')
+#2 C:\xampp\htdocs\gleads\acm\SystemConfigurations.php(131): FETCH('SELECT company_...', 'company_id')
+#3 C:\xampp\htdocs\gleads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gleads\app\settings\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[15-Mar-2025 21:00:05 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.config_companies' doesn't exist in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT company_...')
+#1 C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT company_...')
+#2 C:\xampp\htdocs\gleads\acm\SystemConfigurations.php(131): FETCH('SELECT company_...', 'company_id')
+#3 C:\xampp\htdocs\gleads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gleads\app\settings\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gleads\acm\SysModules\CRUD_Modules\Select.php on line 12

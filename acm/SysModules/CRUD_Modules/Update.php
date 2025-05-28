@@ -1,86 +1,44 @@
 <?php
-//Update function
-function UPDATE_SQL($SQL, $die = false)
+// Update table using PDO
+function UPDATE($sqltables, array $columns, $conditions, $PrintResponses = false)
 {
+    $PDO = DBConnection; // Use your global PDO connection
 
-    //die entry
-    if ($die == true) {
-        die($SQL);
-    }
-    $Query = mysqli_query(DBConnection, $SQL);
-    if ($Query == true) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-
-//update table 
-function UPDATE($sqltables, array $colums, $conditions, $PrintResponses = false)
-{
-    $AvalableArrays = count($colums) - 1;
-    $Columns = "";
+    $setParts = [];
+    $params = [];
     $countkeys = 0;
-    if ($PrintResponses == true) {
+
+    if ($PrintResponses) {
         echo "<br><b style='color:green;'>• REQUESTING </b> -> <b>[$sqltables]</b> ---- <b style='color:green;'>Sent!</b> <br><b style='color:red'><i> Data Received</i></b> <b>[$sqltables]</b> @ [<br>";
     }
-    foreach ($colums as $key => $value) {
+
+    foreach ($columns as $key => $value) {
         $countkeys++;
-        $$value = $value;
-        global $$value;
-        if ($PrintResponses == true) {
-            echo "&nbsp;&nbsp; <b style='color:grey;'> Index:</b> $countkeys ( <b> " . $key . "</b> : " . $value . " ) <br>";
-        }
-        if ($countkeys <= $AvalableArrays) {
-            $Columns .= "$key='" . htmlentities(trim($value)) . "', ";
-        } else {
-            $Columns .= "$key='" . htmlentities(trim($value)) . "' ";
+        $setParts[] = "$key = :$key";
+        $params[":$key"] = htmlentities(trim($value));
+
+        if ($PrintResponses) {
+            echo "&nbsp;&nbsp; <b style='color:grey;'> Index:</b> $countkeys ( <b>$key</b> : $value ) <br>";
         }
     }
-    if ($PrintResponses == true) {
+
+    $setString = implode(", ", $setParts);
+    $sql = "UPDATE $sqltables SET $setString WHERE $conditions";
+
+    if ($PrintResponses) {
         echo "]<br> ---<b style='color:primary;'>END</b><br><hr>---";
-    }
-    $SQL = "UPDATE $sqltables SET $Columns where $conditions";
-
-    $Update = UPDATE_SQL($SQL);
-
-    //print entry
-    if ($PrintResponses == true) {
-        print("<textarea rows='4' style='width:100%;margin-top:0.5rem;'>$SQL</textarea> <br><br>");
+        echo "<textarea rows='4' style='width:100%;margin-top:0.5rem;'>$sql</textarea><br><br>";
     }
 
-    if ($Update == true) {
-        return true;
-    } else {
-        return false;
-    }
-}
+    try {
+        $stmt = $PDO->prepare($sql);
+        $update = $stmt->execute($params);
 
-//upate table
-function CUSTOM_COLUMN_UPDATE($sqltables, array $colums, $conditions, $die = false)
-{
-    $AvalableArrays = count($colums) - 1;
-    $Columns = "";
-    foreach ($colums as $key => $value) {
-        global $$value;
-        if ($AvalableArrays == $key) {
-            $Columns .= $value . "='" . htmlentities(trim($$value)) . "'";
-        } else {
-            $Columns .= $value . "='" . htmlentities(trim($$value)) . "',";
+        return $update ? true : false;
+    } catch (PDOException $e) {
+        if ($PrintResponses) {
+            echo "<b style='color:red;'>Error:</b> " . $e->getMessage();
         }
-    }
-
-    $Update = UPDATE_SQL("UPDATE $sqltables SET $Columns where $conditions");
-
-    //die entry
-    if ($die == true) {
-        UPDATE_SQL("UPDATE $sqltables SET $Columns where $conditions", true);
-    }
-
-    if ($Update == true) {
-        return true;
-    } else {
         return false;
     }
 }

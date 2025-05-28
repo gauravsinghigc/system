@@ -1,0 +1,35 @@
+[11-May-2024 09:19:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[11-May-2024 09:19:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php:5
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 D:\xampp\htdocs\apnalead\acm\SysFileAutoLoader.php(40): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(6): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SystemDBConnector.php on line 5
+[11-May-2024 09:19:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[11-May-2024 09:19:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[11-May-2024 09:19:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[11-May-2024 09:19:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[11-May-2024 11:23:41 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[11-May-2024 11:23:41 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[11-May-2024 11:23:41 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[11-May-2024 11:23:41 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[11-May-2024 11:26:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function distributeLeadToUser() in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:158
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php(125): distributeLeads('36', Object(stdClass), 1)
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 158
+[11-May-2024 12:50:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function distributeLeads() in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php:122
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\HousingAPI.php on line 122

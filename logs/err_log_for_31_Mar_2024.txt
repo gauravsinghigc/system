@@ -1,0 +1,786 @@
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 00:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 00:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 00:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 00:30:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 01:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 01:30:21 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 01:30:21 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 01:30:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 02:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 02:30:19 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 02:30:19 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 02:30:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 03:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 03:30:19 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 03:30:19 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 03:30:19 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 03:30:19 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 03:30:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 03:48:42 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 03:48:42 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 03:48:42 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 03:48:42 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 03:48:42 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 03:48:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 03:48:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 03:48:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 03:48:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 03:48:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 03:48:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 04:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 04:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 04:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 04:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 04:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 04:30:29 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 05:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 05:30:27 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 05:30:27 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 05:30:27 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 05:30:27 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 05:30:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 06:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 06:30:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 06:30:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 06:30:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 06:30:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 06:30:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 06:40:13 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 06:40:19 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 06:42:01 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 07:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 07:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 07:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 07:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 07:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 07:30:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 08:30:01 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 08:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 08:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 08:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 08:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 08:30:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 08:46:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:24:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:24:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:24:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:24:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:24:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/leads/add.php(44): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 09:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 09:30:24 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 09:30:24 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 09:30:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:47 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:45:52 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 09:45:55 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 09:46:10 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 09:46:50 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 09:46:56 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 09:55:04 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 09:55:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 09:55:10 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 09:55:13 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 10:08:53 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:08:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 10:08:57 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 10:09:02 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 10:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 10:30:21 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 10:30:21 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 10:30:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 10:49:36 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 10:49:36 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 10:49:36 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:36 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:36 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 10:49:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:49:44 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 10:49:47 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 10:56:50 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 10:56:50 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 10:56:55 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 10:57:01 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:04:17 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:04:17 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:04:23 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:04:31 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:15:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:15:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:15:19 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:15:19 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:19:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:19:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:19:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:19:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:19:05 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:19:05 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/teams/index.php(46): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 11:19:14 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:19:20 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:26:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:26:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:26:17 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:26:21 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 11:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 11:30:23 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 11:30:23 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 11:30:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 11:30:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:30:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:30:59 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:31:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:31:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:33:25 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:33:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:33:35 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:33:39 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:33:45 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:34:22 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:37:56 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:42:01 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:57:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 11:57:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 11:58:02 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 11:58:06 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 12:30:03 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 12:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 12:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 12:30:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 12:40:27 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:40:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 12:40:34 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 12:40:49 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 12:47:58 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 13:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 13:30:23 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 13:30:23 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 13:30:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 13:33:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:33:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:51 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 13:48:56 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 13:48:59 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 13:53:11 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 14:16:40 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:16:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 14:16:51 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 14:16:58 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 14:19:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:19:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:19:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:19:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:19:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:19:18 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:19:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/leads/uploaded/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 14:20:20 Asia/Calcutta] PHP Warning:  Undefined array key "Leadtype" in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 260
+[31-Mar-2024 14:20:20 Asia/Calcutta] PHP Warning:  Undefined array key "Leads" in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 322
+[31-Mar-2024 14:20:20 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 322
+[31-Mar-2024 14:20:20 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 368
+[31-Mar-2024 14:20:32 Asia/Calcutta] PHP Warning:  Undefined array key "Leadtype" in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 260
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:24:07 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 14:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 14:30:24 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 14:30:24 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 14:30:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 14:39:52 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 14:40:36 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 14:58:36 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 14:58:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 14:58:50 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 14:59:36 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 15:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 15:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 15:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 15:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 15:30:22 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 15:30:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 15:43:01 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 15:43:01 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 15:43:01 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 15:43:01 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 15:43:01 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 15:43:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 15:43:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 15:43:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 15:43:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 15:43:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 15:43:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:21:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:21:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 16:21:39 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 16:21:49 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 16:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 16:30:26 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 16:30:26 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 16:30:26 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 16:30:26 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 16:30:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 16:44:15 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/add.php on line 176
+[31-Mar-2024 16:44:15 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/add.php on line 176
+[31-Mar-2024 16:44:28 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/add.php on line 176
+[31-Mar-2024 16:44:28 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/add.php on line 176
+[31-Mar-2024 16:46:40 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/add.php on line 176
+[31-Mar-2024 16:46:40 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/add.php on line 176
+[31-Mar-2024 16:53:22 Asia/Calcutta] PHP Warning:  Undefined array key "selected_lead_for_transfer" in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 492
+[31-Mar-2024 16:53:22 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 492
+[31-Mar-2024 16:53:22 Asia/Calcutta] PHP Warning:  Undefined variable $Update in /home/u694216744/domains/apnalead.com/public_html/app/handler/ModuleController/LeadsController.php on line 501
+[31-Mar-2024 17:22:47 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 17:23:04 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 17:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 17:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 17:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 17:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 17:30:28 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 17:30:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 17:42:26 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:42:26 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 17:43:03 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 17:43:20 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 17:46:45 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 18:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 18:30:30 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 18:30:30 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 18:30:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 18:46:55 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 18:46:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/app/leads/index.php on line 12
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:04:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 19:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 19:30:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 19:30:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 19:30:33 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 19:42:49 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 19:42:53 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 19:42:56 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 19:42:56 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 19:42:57 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 20:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 20:30:27 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 20:30:27 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 20:30:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 21:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 21:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 21:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 21:30:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 21:46:38 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 21:46:42 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 122
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 9
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in /home/u694216744/domains/apnalead.com/public_html/app/app/index.php on line 17
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php:32
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/app/index.php(50): include()
+#1 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/include/header.php on line 32
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 21:52:59 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in /home/u694216744/domains/apnalead.com/public_html/app/modules/AuthUserModules.php on line 10
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 22:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 22:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 22:30:25 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 22:30:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 13
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysFileAutoLoader.php on line 30
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceType.php on line 6
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/DeviceInfo.php on line 14
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 10
+[31-Mar-2024 23:30:02 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/PHP_Modules/UrlActivity.php on line 13
+[31-Mar-2024 23:30:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 252
+[31-Mar-2024 23:30:20 Asia/Calcutta] PHP Warning:  Undefined array key 0 in /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php on line 260
+[31-Mar-2024 23:30:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM lead_uploads SET LeadStatus='TRANSFERRED' LeadsPhone='9425594673' and  A...' at line 1 in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php:10
+Stack trace:
+#0 /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php(10): mysqli_query()
+#1 /home/u694216744/domains/apnalead.com/public_html/app/handler/AutoRunner/AutoFBLeadsFetching.php(360): UPDATE()
+#2 {main}
+  thrown in /home/u694216744/domains/apnalead.com/public_html/app/acm/SysModules/CRUD_Modules/Update.php on line 10

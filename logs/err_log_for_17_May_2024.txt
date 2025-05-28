@@ -1,0 +1,169 @@
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[17-May-2024 09:20:02 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[17-May-2024 12:13:38 Asia/Calcutta] PHP Warning:  Undefined variable $Period in D:\xampp\htdocs\apnalead\include\forms\Payment\PayBill.php on line 53
+[17-May-2024 12:13:38 Asia/Calcutta] PHP Warning:  Undefined variable $Period in D:\xampp\htdocs\apnalead\include\forms\Payment\PayBill.php on line 53
+[17-May-2024 12:13:38 Asia/Calcutta] PHP Warning:  Undefined variable $Period in D:\xampp\htdocs\apnalead\include\forms\Payment\PayBill.php on line 53
+[17-May-2024 12:13:38 Asia/Calcutta] PHP Warning:  Undefined variable $Period in D:\xampp\htdocs\apnalead\include\forms\Payment\PayBill.php on line 53
+[17-May-2024 12:44:12 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 12:44:12 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 12:44:18 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 12:44:18 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Undefined variable $company in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:11:15 Asia/Calcutta] PHP Warning:  Attempt to read property "company_id" on null in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 15:23:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$company_user_created_by in D:\xampp\htdocs\apnalead\app\onetimequeries\merge_user_billing.php on line 8
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(./../../include/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305
+[17-May-2024 16:07:04 Asia/Calcutta] PHP Warning:  include(): Failed opening './../../include/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\FetchAllData.php on line 305

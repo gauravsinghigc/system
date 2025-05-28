@@ -1,61 +1,56 @@
 <?php
-
-//Select Data
-function SELECT($SQL, $die = false)
-{
-    $SELECT = "$SQL";
-
-    if ($die == true) {
-        die($SELECT);
-    }
-
-    $QUERY = mysqli_query(DBConnection, $SELECT);
-    if ($QUERY == true) {
-        return $QUERY;
-    } else {
-        return false;
-    }
-}
-
 //fetch values 
-function FETCH($SQL, $data, $die = false)
+function FETCH($SQL = null, $data = "", $die = false)
 {
-    if ($die == true) {
-        SELECT($SQL, true);
-    } else {
-        $Query = SELECT($SQL);
-        $CountData = mysqli_num_rows($Query);
-        if ($CountData == null) {
-            $results = 0;
+    if ($SQL != null) {
+        if ($die === true) {
+            SQL($SQL, true); // this will die() the SQL query
         } else {
-            $FetchDATA = mysqli_fetch_array($Query);
-            $ReturnData = $FetchDATA["$data"];
-            $results = htmlentities(trim($ReturnData));
-        }
-        return $results;
-    }
-}
-
-//fetch all in array / json formate
-function SET_SQL($sql, $array = false)
-{
-    $Data = SELECT("$sql");
-    $Count = CHECK("$sql");
-    if ($Count == 0) {
-        return null;
-    } else {
-        while ($FetchAllData = mysqli_fetch_assoc($Data)) {
-            $FetchedColumns[] = $FetchAllData;
-        }
-
-        if ($array == true) {
-            return json_decode(json_encode($FetchedColumns));
-        } else {
-            return json_encode($FetchedColumns);
-            die();
+            $Query = SQL($SQL); // custom SQL function using PDO
+            if ($Query && $Query->rowCount() > 0) {
+                $FetchDATA = $Query->fetch(PDO::FETCH_ASSOC);
+                $ReturnData = $FetchDATA[$data] ?? null;
+                $results = htmlentities(trim($ReturnData));
+                return $results ?: null;
+            } else {
+                return null;
+            }
         }
     }
+
+    return null;
 }
+
+
+
+//fetch all in array / json format (object-based)
+function SET_SQL($sql = null, $array = false)
+{
+    if ($sql != null) {
+        $Data = SQL($sql);       // Assuming SQL() returns PDOStatement
+        $Count = CHECK($sql);    // Uses PDO-based CHECK()
+
+        if ($Count == 0) {
+            return null;
+        } else {
+            $FetchedColumns = [];
+
+            while ($row = $Data->fetch(PDO::FETCH_OBJ)) {
+                $FetchedColumns[] = $row;
+            }
+
+            // Return object format (for foreach as $Users usage)
+            if ($array === true) {
+                return $FetchedColumns; // Already an array of objects
+            } else {
+                return json_encode($FetchedColumns); // JSON string if needed
+            }
+        }
+    }
+
+    return null;
+}
+
 
 //filter records selects
 function FILTER_RECORD_WITH_PARAMETERS($Parameters = [])

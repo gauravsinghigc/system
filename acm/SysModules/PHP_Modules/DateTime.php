@@ -7,8 +7,8 @@
 function DATE_FORMATES($format, $date)
 {
     $newdateformate = $date;
-    if ($date == null  || $date == "" || $date == "0000-00-00" || $date == " ") {
-        $newdateformate = "No Update";
+    if ($date == null  || $date == "" || $date == "0000-00-00" || $date == " " || $date == "Not Available" || $date == "NA") {
+        $newdateformate = "Not Available";
     } else {
         $newdateformate = date("$format", strtotime($date));
     }

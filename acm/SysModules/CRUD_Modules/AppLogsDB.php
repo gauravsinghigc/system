@@ -1,24 +1,45 @@
 <?php
-//Generate Log file for the project
-function GENERATE_APP_LOGS($TITLE, $ACTION, $logtype)
+// Generate Log file for the project using PDO
+function GENERATE_APP_LOGS($TITLE, $ACTION, $logtype, $UserId = LOGIN_USER_ID)
 {
+    $PDO = DBConnection; //Your global PDO connection
+
     $TITLE = strtoupper($TITLE);
 
-    $ArrayValues = "";
-
+    // Convert array ACTION to string key=value, ...
     if (is_array($ACTION)) {
+        $ArrayValues = "";
         foreach ($ACTION as $key => $value) {
             $ArrayValues .= "$key=$value, ";
         }
+        $ACTION = rtrim($ArrayValues, ", ");
     }
-    $ACTION = $ArrayValues;
 
-    if (CONTROL_APP_LOGS == "true") {
-        $logTitle = SECURE("$TITLE", "e");
-        $logdesc = SECURE("$ACTION", "e");
+    if (defined('CONTROL_APP_LOGS') && CONTROL_APP_LOGS === "true") {
+        $logTitle = $TITLE;
+        $logdesc = SECURE($ACTION, "e");  // Assuming SECURE function still applies
         $systeminfo = SYSTEM_INFO;
         $logenv = CONTROL_WORK_ENV;
-        $SaveLogs = "INSERT INTO systemlogs (logTitle, logdesc, created_at, systeminfo, logtype, logenv) VALUES ('$logTitle', '$logdesc', '" . CURRENT_DATE_TIME . "', '$systeminfo', '$logtype', '$logenv')";
-        mysqli_query(DBConnection, $SaveLogs);
+        $logbyUserId = $UserId;
+        $created_at = CURRENT_DATE_TIME;
+
+        $sql = "INSERT INTO systemlogs (logTitle, logdesc, created_at, systeminfo, logtype, logenv, logbyUserId) 
+                VALUES (:logTitle, :logdesc, :created_at, :systeminfo, :logtype, :logenv, :logbyUserId)";
+
+        try {
+            $stmt = $PDO->prepare($sql);
+            $stmt->execute([
+                ':logTitle' => $logTitle,
+                ':logdesc' => $logdesc,
+                ':created_at' => $created_at,
+                ':systeminfo' => $systeminfo,
+                ':logtype' => $logtype,
+                ':logenv' => $logenv,
+                ':logbyUserId' => $logbyUserId
+            ]);
+        } catch (PDOException $e) {
+            // Optionally log error or handle it as needed
+            echo "Log Insert Error: " . $e->getMessage();
+        }
     }
 }

@@ -1,0 +1,101 @@
+[12-Jul-2024 10:47:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$leads in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 43
+[12-Jul-2024 10:47:13 Asia/Calcutta] PHP Warning:  Attempt to read property "data" on null in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 43
+[12-Jul-2024 10:47:13 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 44
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:21
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 21
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Jul-2024 11:33:40 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[12-Jul-2024 11:34:53 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 43
+[12-Jul-2024 11:34:53 Asia/Calcutta] PHP Warning:  Undefined variable $Text in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 44
+[12-Jul-2024 11:37:42 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 43
+[12-Jul-2024 11:37:42 Asia/Calcutta] PHP Warning:  Undefined variable $Text in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 44
+[12-Jul-2024 11:37:51 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 43
+[12-Jul-2024 11:37:51 Asia/Calcutta] PHP Warning:  Undefined variable $Text in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 44
+[12-Jul-2024 11:37:58 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 43
+[12-Jul-2024 11:37:58 Asia/Calcutta] PHP Warning:  Undefined variable $Text in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 44
+[12-Jul-2024 11:37:58 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[12-Jul-2024 11:37:58 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[12-Jul-2024 11:38:02 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 43
+[12-Jul-2024 11:38:02 Asia/Calcutta] PHP Warning:  Undefined variable $Text in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 44
+[12-Jul-2024 11:38:27 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 43
+[12-Jul-2024 11:38:27 Asia/Calcutta] PHP Warning:  Undefined variable $Text in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 44
+[12-Jul-2024 11:39:22 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 45
+[12-Jul-2024 11:39:26 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 45
+[12-Jul-2024 11:39:31 Asia/Calcutta] PHP Warning:  Undefined variable $btn in D:\xampp\htdocs\apnalead\include\sidebar\admin-sidebar.php on line 45
+[12-Jul-2024 12:32:42 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:32:42 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:32:42 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:32:42 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:32:42 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:32:42 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:32:42 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:00 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:00 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:00 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:00 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:00 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:00 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:00 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:15 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:15 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:15 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:15 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:15 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:15 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:15 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:25 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:25 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:25 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:25 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:25 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:25 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:25 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:30 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:30 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:30 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:30 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:30 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:30 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:30 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:43 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:43 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:43 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:43 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:43 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:43 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:33:43 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:34:35 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:34:35 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:34:35 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:34:35 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:34:35 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:34:35 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:34:35 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:35:02 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:35:02 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:35:02 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:35:02 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:35:02 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:35:02 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:35:02 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Jul-2024 12:36:04 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119

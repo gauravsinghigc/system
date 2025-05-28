@@ -1,25 +1,5 @@
-//button animations
-function ButtonAnimation(BtnID, AnimationText) {
-  document.getElementById(BtnID).innerHTML =
-    "<i class='fa fa-refresh fa-spin'></i> " + AnimationText;
-  document.getElementById(BtnID).classList.remove("btn-primary");
-  document.getElementById(BtnID).classList.remove("btn-info");
-  document.getElementById(BtnID).classList.remove("btn-warning");
-  document.getElementById(BtnID).classList.remove("btn-default");
-  document.getElementById(BtnID).classList.add("btn-success");
-}
 
-//databars
-function Databar(data) {
-  databar = document.getElementById("" + data + "");
-  if (databar.style.display === "block") {
-    databar.style.display = "none";
-  } else {
-    databar.style.display = "block";
-  }
-}
 
-//search suggestions and display selective or entered values only
 function SearchData(searchinput, items_box) {
   // Get the search input
   var searchInput = document.getElementById("" + searchinput + "").value;
@@ -46,43 +26,140 @@ function SearchData(searchinput, items_box) {
   }
 }
 
-function checkpass() {
-  var pass1 = document.getElementById("pass1");
-  var pass2 = document.getElementById("pass2");
-  if (pass1.value === pass2.value) {
-    document.getElementById("passbtn").classList.remove("disabled");
-    document.getElementById("passmsg").classList.add("text-success");
-    document.getElementById("passmsg").classList.remove("text-danger");
-    document.getElementById("passmsg").innerHTML =
-      "<i class='fa fa-check-circle-o'></i> Password Matched!";
+function ControlForms(FormEelementId) {
+  // Get the form element
+  formContainerID = document.getElementById(FormEelementId);
+
+  if (formContainerID.style.display == "block") {
+    // Hide the form
+    formContainerID.style.display = "none";
   } else {
-    document.getElementById("passmsg").classList.remove("text-success");
-    document.getElementById("passmsg").classList.add("text-danger");
-    document.getElementById("passbtn").classList.add("disabled");
-    document.getElementById("passmsg").innerHTML =
-      "<i class='fa fa-warning'></i> Password do not matched!";
+    // Show the form
+    formContainerID.style.display = "block";
   }
 }
-function showTime() {
-  let time = new Date();
-  let hour = time.getHours();
-  let min = time.getMinutes();
-  let sec = time.getSeconds();
-  am_pm = "AM";
-  if (hour > 12) {
-    hour -= 12;
-    am_pm = "PM";
+
+function PreviewImages(inputId, previewId) {
+  var input = document.getElementById(inputId);
+  var previewContainer = document.getElementById(previewId);
+  previewContainer.innerHTML = ""; // Clear previous previews
+
+  if (input.files) {
+    var filesArray = Array.from(input.files);
+
+    filesArray.forEach((file, index) => {
+      if (!file.type.startsWith("image/")) {
+        alert("Only image files are allowed!");
+        return;
+      }
+
+      var reader = new FileReader();
+
+      reader.onload = function (event) {
+        var fileWrapper = document.createElement("div");
+        fileWrapper.style.display = "inline-block";
+        fileWrapper.style.position = "relative";
+        fileWrapper.style.margin = "5px";
+
+        var img = document.createElement("img");
+        img.src = event.target.result;
+        img.style.maxWidth = "50px";
+        img.style.height = "50px";
+        img.style.border = "1px solid black";
+        img.style.borderRadius = "5px";
+        img.style.display = "block";
+
+        var removeBtn = document.createElement("button");
+        removeBtn.innerHTML = "<i class='fa fa-times'></i>";
+        removeBtn.style.position = "absolute";
+        removeBtn.style.top = "-10px";
+        removeBtn.style.right = "-5px";
+        removeBtn.style.background = "red";
+        removeBtn.style.color = "white";
+        removeBtn.style.border = "none";
+        removeBtn.style.cursor = "pointer";
+        removeBtn.style.fontSize = "12px";
+        removeBtn.style.borderRadius = "50%";
+        removeBtn.style.padding = "5px 9px";
+
+        removeBtn.onclick = function () {
+          filesArray.splice(index, 1);
+          updateFileInput(input, filesArray);
+          fileWrapper.remove();
+        };
+
+        fileWrapper.appendChild(img);
+        fileWrapper.appendChild(removeBtn);
+        previewContainer.appendChild(fileWrapper);
+      };
+
+      reader.readAsDataURL(file);
+    });
   }
-  if (hour == 0) {
-    hr = 12;
-    am_pm = "AM";
-  }
-  hour = hour < 10 ? "0" + hour : hour;
-  min = min < 10 ? "0" + min : min;
-  sec = sec < 10 ? "0" + sec : sec;
-  let currentTime = hour + ":" + min + ":" + sec + " " + am_pm + "";
-  let CurrentFullTime = hour + ":" + min + ":" + sec + " " + am_pm + "";
-  document.getElementById("CurrentTime").innerHTML =
-    "&nbsp;" + currentTime + " ";
 }
-setInterval(showTime, 1000);
+
+function PreviewFiles(inputId, previewId) {
+  var input = document.getElementById(inputId);
+  var previewContainer = document.getElementById(previewId);
+  previewContainer.innerHTML = ""; // Clear previous previews
+
+  if (input.files) {
+    var filesArray = Array.from(input.files);
+
+    filesArray.forEach((file, index) => {
+      if (file.type !== "application/pdf") {
+        alert("Only PDF files are allowed!");
+      }
+
+      var reader = new FileReader();
+
+      reader.onload = function (event) {
+        var fileWrapper = document.createElement("div");
+        fileWrapper.style.display = "inline-block";
+        fileWrapper.style.position = "relative";
+        fileWrapper.style.margin = "5px";
+        fileWrapper.style.textAlign = "center";
+
+        var iframe = document.createElement("iframe");
+        iframe.src = event.target.result;
+        iframe.style.maxWidth = "80px";
+        iframe.style.height = "120px";
+        iframe.style.borderStyle = "groove";
+        iframe.style.borderColor = "black";
+        iframe.style.borderWidth = "1px";
+        iframe.style.borderRadius = "1rem";
+
+        var removeBtn = document.createElement("button");
+        removeBtn.innerHTML = "<i class='fa fa-times'></i>";
+        removeBtn.style.position = "absolute";
+        removeBtn.style.top = "-10px";
+        removeBtn.style.right = "-5px";
+        removeBtn.style.background = "red";
+        removeBtn.style.color = "white";
+        removeBtn.style.border = "none";
+        removeBtn.style.cursor = "pointer";
+        removeBtn.style.fontSize = "12px";
+        removeBtn.style.borderRadius = "50%";
+        removeBtn.style.padding = "5px 9px";
+
+        removeBtn.onclick = function () {
+          filesArray.splice(index, 1);
+          updateFileInput(input, filesArray);
+          fileWrapper.remove();
+        };
+
+        fileWrapper.appendChild(iframe);
+        fileWrapper.appendChild(removeBtn);
+        previewContainer.appendChild(fileWrapper);
+      };
+
+      reader.readAsDataURL(file);
+    });
+  }
+}
+
+function updateFileInput(input, filesArray) {
+  var dataTransfer = new DataTransfer();
+  filesArray.forEach((file) => dataTransfer.items.add(file));
+  input.files = dataTransfer.files;
+}

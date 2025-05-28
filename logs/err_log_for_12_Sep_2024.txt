@@ -1,0 +1,407 @@
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $PreLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 78
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $NextLead in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 12:07:46 Asia/Calcutta] PHP Warning:  Undefined variable $disablebtn1 in D:\xampp\htdocs\apnalead\include\forms\viewfeedback.php on line 81
+[12-Sep-2024 14:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:13:32 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:13:32 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:13:32 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:13:32 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:13:32 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:13:32 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:49 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:52 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 298
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 310
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 311
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 331
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Undefined variable $User in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:13:57 Asia/Calcutta] PHP Warning:  Attempt to read property "UserId" on null in D:\xampp\htdocs\apnalead\app\reports\index.php on line 337
+[12-Sep-2024 14:14:14 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[12-Sep-2024 14:14:14 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpType" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 87
+[12-Sep-2024 14:14:24 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[12-Sep-2024 14:14:24 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpType" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 87
+[12-Sep-2024 14:14:38 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpReraId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 80
+[12-Sep-2024 14:14:38 Asia/Calcutta] PHP Warning:  Undefined array key "UserEmpType" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 87
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:14:48 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 123
+[12-Sep-2024 14:14:51 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:14:51 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:14:51 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:14:51 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:14:51 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:14:51 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:14:51 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:14:57 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:14:58 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 123
+[12-Sep-2024 14:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:15:04 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:15:04 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:15:04 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:15:04 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:15:04 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:15:04 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:15:04 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:15:22 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:15:22 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:15:22 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:15:22 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:15:22 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:15:22 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:15:22 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:20:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:20:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:20:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:20:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:20:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:20:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:20:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:43:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:43:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:43:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:43:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:43:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:43:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:43:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:43:07 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:43:07 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:43:07 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:43:07 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:43:07 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:43:07 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:43:07 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:43:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:43:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:43:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:43:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:43:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:43:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:43:09 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:43:10 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 202
+[12-Sep-2024 14:43:10 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 203
+[12-Sep-2024 14:43:10 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 296
+[12-Sep-2024 14:43:10 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 297
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 202
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 203
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 298
+[12-Sep-2024 14:47:06 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 299
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 202
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 203
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 298
+[12-Sep-2024 14:47:35 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 299
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 202
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 203
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 298
+[12-Sep-2024 14:49:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadsUploadedfor" in D:\xampp\htdocs\apnalead\app\leads\uploaded\transfer.php on line 299
+[12-Sep-2024 14:49:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:49:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:49:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:49:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:49:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:49:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:49:05 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:49:08 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:49:08 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:49:08 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:49:08 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:49:08 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:49:08 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:49:08 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:49:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:49:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:49:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:49:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:49:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:49:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:49:18 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:49:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:49:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:49:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:49:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:49:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:49:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:49:20 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:49:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:49:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:49:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:49:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:49:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:49:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:49:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:51:12 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:51:15 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:51:15 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:51:15 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:51:15 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:51:15 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:51:15 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:51:15 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 14:51:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 14:51:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 14:51:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 14:51:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 14:51:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 14:51:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 14:51:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 15:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 15:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 15:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 15:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 15:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 15:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 15:35:35 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 15:35:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 15:35:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 15:35:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 15:35:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 15:35:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 15:35:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 15:35:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 15:35:42 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 15:35:42 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 15:35:42 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 15:35:42 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 15:35:42 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 15:35:42 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 15:35:42 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 15:35:45 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 15:35:45 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 15:35:45 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 15:35:45 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 15:35:45 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 15:35:45 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 15:35:45 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 15:36:21 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 15:36:21 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 15:36:21 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 15:36:21 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 15:36:21 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 15:36:21 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 15:36:21 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 15:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 15:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 15:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 15:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 15:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 15:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 15:36:25 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 9
+[12-Sep-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 17
+[12-Sep-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 25
+[12-Sep-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 31
+[12-Sep-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 37
+[12-Sep-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 46
+[12-Sep-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in D:\xampp\htdocs\apnalead\include\sidebar\team-member-sidebar.php on line 53
+[12-Sep-2024 16:33:46 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:33:46 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:33:46 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:33:47 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:33:47 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:33:47 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:33:47 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:54 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:54 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:54 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:54 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:54 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:54 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:54 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:59 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:59 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:59 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:59 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:59 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:59 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:34:59 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:05 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:05 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:05 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:05 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:05 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:05 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:05 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119
+[12-Sep-2024 16:35:20 Asia/Calcutta] PHP Warning:  Undefined variable $LeadManagedBy in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 119

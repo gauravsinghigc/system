@@ -1,0 +1,11 @@
+[03-Mar-2025 13:00:06 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gsileads\app\index.php on line 9
+[03-Mar-2025 13:00:06 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 10
+[03-Mar-2025 15:12:36 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gsileads\app\index.php on line 9
+[03-Mar-2025 15:12:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 10
+[03-Mar-2025 15:13:42 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\gsileads\app\leads\uploaded\transfer.php on line 102

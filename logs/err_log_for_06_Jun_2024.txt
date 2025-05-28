@@ -1,0 +1,37 @@
+[06-Jun-2024 10:35:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 10:35:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 10:35:38 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 10:35:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:21
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 21
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 10:35:48 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[06-Jun-2024 11:48:57 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[06-Jun-2024 11:48:57 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[06-Jun-2024 11:49:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[06-Jun-2024 11:49:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[06-Jun-2024 11:49:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[06-Jun-2024 11:49:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[06-Jun-2024 11:49:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 243
+[06-Jun-2024 11:49:33 Asia/Calcutta] PHP Warning:  Undefined array key 0 in D:\xampp\htdocs\apnalead\handler\AutoRunner\AutoFBLeadsFetching.php on line 250
+[06-Jun-2024 11:59:24 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 47
+[06-Jun-2024 11:59:24 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 67
+[06-Jun-2024 11:59:39 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 47
+[06-Jun-2024 11:59:39 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 67
+[06-Jun-2024 11:59:51 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 47
+[06-Jun-2024 11:59:51 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 67
+[06-Jun-2024 14:37:10 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 43
+[06-Jun-2024 15:24:40 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 43
+[06-Jun-2024 15:30:20 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 7
+[06-Jun-2024 15:30:20 Asia/Calcutta] PHP Warning:  Undefined array key "Autodistribute" in D:\xampp\htdocs\apnalead\handler\ModuleController\HousingAPI.php on line 33

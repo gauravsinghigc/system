@@ -1,0 +1,17 @@
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:21
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 21
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jul-2024 09:57:12 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[24-Jul-2024 10:02:37 Asia/Calcutta] PHP Warning:  Undefined variable $TaskSQL in D:\xampp\htdocs\apnalead\app\index.php on line 140
+[24-Jul-2024 15:02:24 Asia/Calcutta] PHP Warning:  Undefined variable $TaskSQL in D:\xampp\htdocs\apnalead\app\index.php on line 140
+[24-Jul-2024 15:02:41 Asia/Calcutta] PHP Warning:  Undefined variable $TaskSQL in D:\xampp\htdocs\apnalead\app\index.php on line 140
+[24-Jul-2024 15:04:13 Asia/Calcutta] PHP Warning:  Undefined variable $TaskSQL in D:\xampp\htdocs\apnalead\app\index.php on line 141
+[24-Jul-2024 15:04:15 Asia/Calcutta] PHP Warning:  Undefined variable $TaskSQL in D:\xampp\htdocs\apnalead\app\index.php on line 141
+[24-Jul-2024 15:04:51 Asia/Calcutta] PHP Warning:  Undefined variable $TaskSQL in D:\xampp\htdocs\apnalead\app\index.php on line 141

@@ -1,0 +1,329 @@
+[28-Feb-2025 18:42:10 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'apnalead' in C:\xampp\htdocs\gsileads\acm\SystemDBConnector.php:5
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'apnalead')
+#1 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gsileads\index.php(3): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SystemDBConnector.php on line 5
+[28-Feb-2025 18:42:27 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in C:\xampp\htdocs\gsileads\app\index.php on line 9
+[28-Feb-2025 18:42:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:50:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Deleted_At' in 'where clause' in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserId, ...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserId, ...')
+#2 C:\xampp\htdocs\gsileads\handler\AuthController\AuthController.php(17): FETCH('SELECT UserId, ...', 'UserId')
+#3 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 18:52:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Deleted_At' in 'where clause' in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserId, ...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserId, ...')
+#2 C:\xampp\htdocs\gsileads\handler\AuthController\AuthController.php(17): FETCH('SELECT UserId, ...', 'UserId')
+#3 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 18:52:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:52:33 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:52:49 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:53:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:55:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:56:43 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:57:34 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:57:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in C:\xampp\htdocs\gsileads\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gsileads\app\index.php on line 11
+[28-Feb-2025 18:58:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.company_subscription' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT CompanyI...')
+#1 C:\xampp\htdocs\gsileads\app\index.php(11): CHECK('SELECT CompanyI...')
+#2 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[28-Feb-2025 18:58:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.company_billings' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Com_Plan...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Com_Plan...')
+#2 C:\xampp\htdocs\gsileads\include\header.php(66): FETCH('SELECT Com_Plan...', 'Com_Plan_End')
+#3 C:\xampp\htdocs\gsileads\app\index.php(43): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 18:59:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.company_billings' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Com_Plan...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Com_Plan...')
+#2 C:\xampp\htdocs\gsileads\include\header.php(66): FETCH('SELECT Com_Plan...', 'Com_Plan_End')
+#3 C:\xampp\htdocs\gsileads\app\index.php(43): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:00:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.company_billings' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Com_Plan...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Com_Plan...')
+#2 C:\xampp\htdocs\gsileads\include\header.php(66): FETCH('SELECT Com_Plan...', 'Com_Plan_End')
+#3 C:\xampp\htdocs\gsileads\app\index.php(43): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:00:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.company_billings' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Com_Plan...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Com_Plan...')
+#2 C:\xampp\htdocs\gsileads\include\header.php(66): FETCH('SELECT Com_Plan...', 'Com_Plan_End')
+#3 C:\xampp\htdocs\gsileads\app\index.php(43): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:00:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.company_billings' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Com_Plan...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Com_Plan...')
+#2 C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php(3): FETCH('SELECT Com_Plan...', 'Com_Plan_End')
+#3 C:\xampp\htdocs\gsileads\include\sidebar.php(16): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(44): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:00:49 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:00:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadType' in 'where clause' in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT LeadsId ...')
+#1 C:\xampp\htdocs\gsileads\app\lead-dash.php(25): TOTAL('SELECT LeadsId ...')
+#2 C:\xampp\htdocs\gsileads\app\index.php(73): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[28-Feb-2025 19:00:51 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:00:51 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:00:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadType' in 'where clause' in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT LeadsId ...')
+#1 C:\xampp\htdocs\gsileads\app\lead-dash.php(25): TOTAL('SELECT LeadsId ...')
+#2 C:\xampp\htdocs\gsileads\app\index.php(73): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[28-Feb-2025 19:06:12 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:06:12 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:06:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadType' in 'where clause' in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT LeadsId ...')
+#1 C:\xampp\htdocs\gsileads\app\lead-dash.php(25): TOTAL('SELECT LeadsId ...')
+#2 C:\xampp\htdocs\gsileads\app\index.php(73): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[28-Feb-2025 19:06:16 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:06:16 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:06:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadType' in 'where clause' in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT LeadsId ...')
+#1 C:\xampp\htdocs\gsileads\app\lead-dash.php(25): TOTAL('SELECT LeadsId ...')
+#2 C:\xampp\htdocs\gsileads\app\index.php(73): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[28-Feb-2025 19:08:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:19 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gsileads.user_employment_details' doesn't exist in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT UserEmpR...')
+#1 C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT UserEmpR...')
+#2 C:\xampp\htdocs\gsileads\acm\SystemConfigurations.php(137): FETCH('SELECT UserEmpR...', 'UserEmpReportin...')
+#3 C:\xampp\htdocs\gsileads\acm\SysFileAutoLoader.php(46): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gsileads\app\index.php(3): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gsileads\acm\SysModules\CRUD_Modules\Select.php on line 12
+[28-Feb-2025 19:08:49 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 9
+[28-Feb-2025 19:08:49 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 17
+[28-Feb-2025 19:08:49 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 25
+[28-Feb-2025 19:08:49 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 31
+[28-Feb-2025 19:08:49 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 37
+[28-Feb-2025 19:08:49 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 53
+[28-Feb-2025 19:08:51 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in C:\xampp\htdocs\gsileads\app\index.php on line 114
+[28-Feb-2025 19:08:54 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 9
+[28-Feb-2025 19:08:54 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 17
+[28-Feb-2025 19:08:54 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 25
+[28-Feb-2025 19:08:54 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 31
+[28-Feb-2025 19:08:54 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 37
+[28-Feb-2025 19:08:54 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 53
+[28-Feb-2025 19:08:56 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in C:\xampp\htdocs\gsileads\app\index.php on line 114
+[28-Feb-2025 19:09:03 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 9
+[28-Feb-2025 19:09:03 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 17
+[28-Feb-2025 19:09:03 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 25
+[28-Feb-2025 19:09:03 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 31
+[28-Feb-2025 19:09:03 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 37
+[28-Feb-2025 19:09:03 Asia/Calcutta] PHP Warning:  Undefined variable $disabled in C:\xampp\htdocs\gsileads\include\sidebar\team-member-sidebar.php on line 53
+[28-Feb-2025 19:09:23 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:09:23 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:11:28 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:11:28 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:11:35 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:11:35 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:11:41 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:11:41 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:12:21 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:12:21 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:06 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:06 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:09 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:09 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:20 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:27 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:27 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:35 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:35 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:41 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\gsileads\acm\SysModules\FILE_Modules\UploadHandler.php on line 39
+[28-Feb-2025 19:13:42 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:13:42 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:14:08 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:14:08 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:14:42 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\gsileads\acm\SysModules\FILE_Modules\UploadHandler.php on line 39
+[28-Feb-2025 19:14:43 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:14:43 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:02 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:12 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:52 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:52 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:57 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:15:57 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:16:07 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:16:07 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:16:34 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:16:34 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104
+[28-Feb-2025 19:16:41 Asia/Calcutta] PHP Warning:  Undefined variable $notification in C:\xampp\htdocs\gsileads\include\sidebar\admin-sidebar.php on line 104

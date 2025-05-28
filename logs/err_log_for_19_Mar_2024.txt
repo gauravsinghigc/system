@@ -1,0 +1,156 @@
+[19-Mar-2024 10:47:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[19-Mar-2024 10:47:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[19-Mar-2024 10:47:29 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[19-Mar-2024 10:47:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(28): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[19-Mar-2024 10:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 10:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 10:47:35 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 10:47:46 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 10:47:46 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 10:47:46 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 10:53:41 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 10:53:41 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 10:54:02 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 10:54:02 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 10:56:45 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 10:56:45 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 10:58:20 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\apnalead\app\logout.php on line 5
+[19-Mar-2024 10:58:36 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 10:58:36 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 10:58:36 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 10:58:38 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 10:58:38 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 10:58:38 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 10:59:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 10:59:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 10:59:28 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 11:00:30 Asia/Calcutta] PHP Warning:  Undefined array key "Leadtype" in D:\xampp\htdocs\apnalead\handler\ModuleController\LeadsController.php on line 257
+[19-Mar-2024 11:03:36 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 11:03:36 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 11:03:36 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 11:49:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 11:49:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 11:49:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 11:53:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 11:53:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 11:53:29 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 11:53:49 Asia/Calcutta] PHP Warning:  include(sections/DataHeader.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 13
+[19-Mar-2024 11:53:49 Asia/Calcutta] PHP Warning:  include(): Failed opening 'sections/DataHeader.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 13
+[19-Mar-2024 11:53:49 Asia/Calcutta] PHP Warning:  include(sections/commonnav.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 73
+[19-Mar-2024 11:53:49 Asia/Calcutta] PHP Warning:  include(): Failed opening 'sections/commonnav.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 73
+[19-Mar-2024 11:53:50 Asia/Calcutta] PHP Warning:  Undefined variable $TotalItems in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 330
+[19-Mar-2024 11:53:50 Asia/Calcutta] PHP Warning:  Undefined variable $TotalItems in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 338
+[19-Mar-2024 11:53:50 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: PaginationFooter(): Argument #1 ($TotalItems) must be of type int, null given, called in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 338 and defined in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php:309
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\leads\data\data.php(338): PaginationFooter(NULL, 'data.php')
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 309
+[19-Mar-2024 11:54:16 Asia/Calcutta] PHP Warning:  include(sections/commonnav.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 73
+[19-Mar-2024 11:54:16 Asia/Calcutta] PHP Warning:  include(): Failed opening 'sections/commonnav.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\data.php on line 73
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:55:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(../../../include/forms/feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(../../../include/forms/Feedback/Add-Instant-Feedback.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 11:57:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/forms/Feedback/Add-Instant-Feedback.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\app\leads\data\FetchAllData.php on line 262
+[19-Mar-2024 12:07:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Converted' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT LeadsId,...')
+#1 D:\xampp\htdocs\apnalead\app\leads\data\dataHeader.php(89): TOTAL('SELECT LeadsId,...')
+#2 D:\xampp\htdocs\apnalead\app\leads\data\index.php(13): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[19-Mar-2024 12:33:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'l.LeadType' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\apnalead\app\leads\sections\pageHeader.php(90): TOTAL('SELECT * FROM l...')
+#2 D:\xampp\htdocs\apnalead\app\leads\index.php(13): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[19-Mar-2024 12:58:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 12:58:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 12:58:49 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 13:37:30 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 13:37:30 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 13:37:30 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 13:37:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 13:37:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 13:37:42 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 13:37:53 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 13:37:53 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 13:37:53 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 14:19:20 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 14:19:20 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 14:19:20 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 14:24:17 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 235
+[19-Mar-2024 14:24:17 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedTodayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 239
+[19-Mar-2024 14:24:17 Asia/Calcutta] PHP Warning:  Undefined variable $AllMissedYesterdayFollowups in D:\xampp\htdocs\apnalead\app\lead-dash.php on line 242
+[19-Mar-2024 15:46:12 Asia/Calcutta] PHP Warning:  Undefined variable $ProjectTypes in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 15:46:12 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\app\leads\add.php on line 176
+[19-Mar-2024 16:48:24 Asia/Calcutta] PHP Warning:  Undefined variable $LEAD in D:\xampp\htdocs\apnalead\app\leads\transfer\index.php on line 152
+[19-Mar-2024 17:43:00 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\apnalead\app\leads\details\index.php:75
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\leads\details\index.php on line 75
+[19-Mar-2024 17:43:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\apnalead\app\leads\details\index.php:75
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\leads\details\index.php on line 75

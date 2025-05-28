@@ -1,0 +1,161 @@
+[01-Aug-2024 10:00:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Aug-2024 10:00:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Aug-2024 10:00:16 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Aug-2024 10:00:16 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(36): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32
+[01-Aug-2024 10:38:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Invoice_Number in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 229
+[01-Aug-2024 10:38:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Invoice_Number in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 229
+[01-Aug-2024 10:38:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$INV_Invoice_Number in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 229
+[01-Aug-2024 12:13:00 Asia/Calcutta] PHP Warning:  Undefined array key "FROM" in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 235
+[01-Aug-2024 12:13:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INV_Status LIKE '%%' ORDER BY INV_ID DESC' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\index.php(237): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 12:13:18 Asia/Calcutta] PHP Warning:  Undefined array key "FROM" in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 235
+[01-Aug-2024 12:13:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INV_Status LIKE '%%' ORDER BY INV_ID DESC' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\index.php(237): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 12:13:37 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INV_Status LIKE '%%' ORDER BY INV_ID DESC' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\index.php(237): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 12:28:05 Asia/Calcutta] PHP Warning:  Undefined array key "To" in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 155
+[01-Aug-2024 12:39:02 Asia/Calcutta] PHP Warning:  Undefined variable $TotalItems in D:\xampp\htdocs\apnalead\app\Billing\index.php on line 223
+[01-Aug-2024 12:45:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(118): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 12:46:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(118): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 12:47:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(118): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 12:47:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(118): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 13:03:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Date' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\index.php(118): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 13:03:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Date' in 'where clause' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\index.php(118): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 13:21:05 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:21:05 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:22:14 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:22:14 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:25:38 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:25:38 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:26:08 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:26:08 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:26:46 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:26:46 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:27:28 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:27:28 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:28:48 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:28:48 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:29:03 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:29:03 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:33:08 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:33:08 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:33:31 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:33:31 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:33:49 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:33:49 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:34:51 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:34:51 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:35:22 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:35:22 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:35:55 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:35:55 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:36:24 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:36:24 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\apnalead\include/forms/Billingform/Add-Customer.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\apnalead\include\footer.php on line 13
+[01-Aug-2024 13:39:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(118): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 14:52:19 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(118): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 14:52:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_Invoice_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_Invo...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_Invo...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(118): FETCH('SELECT INV_Invo...', 'INV_Invoice_Dig...')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 14:53:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_PI_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_PI_D...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_PI_D...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(119): FETCH('SELECT INV_PI_D...', 'INV_PI_Digit')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 14:53:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'INV_PI_Digit' in 'field list' in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT INV_PI_D...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT INV_PI_D...')
+#2 D:\xampp\htdocs\apnalead\app\Billing\add_invoice\index.php(119): FETCH('SELECT INV_PI_D...', 'INV_PI_Digit')
+#3 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[01-Aug-2024 15:29:36 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 153
+[01-Aug-2024 15:30:32 Asia/Calcutta] PHP Warning:  Undefined array key "UserId" in D:\xampp\htdocs\apnalead\handler\ModuleController\UserController.php on line 154
+[01-Aug-2024 17:23:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Formate_Type='PI'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php:10
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php(10): mysqli_query(Object(mysqli), 'UPDATE inv_numb...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php(41): UPDATE('UPDATE inv_numb...')
+#2 D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php(181): UPDATE_TABLE('inv_number_form...', Array, 'CompanyID='2' F...')
+#3 D:\xampp\htdocs\apnalead\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Update.php on line 10
+[01-Aug-2024 17:25:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Aug-2024 17:25:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Aug-2024 17:25:41 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\modules\AuthUserModules.php on line 10
+[01-Aug-2024 17:25:41 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\include\header.php:32
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\app\Billing\details\index.php(36): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\include\header.php on line 32

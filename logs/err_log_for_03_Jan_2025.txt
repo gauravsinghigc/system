@@ -1,0 +1,144 @@
+[03-Jan-2025 14:27:41 Asia/Calcutta] PHP Warning:  Undefined variable $UserFullName in D:\xampp\htdocs\apnalead\app\index.php on line 17
+[03-Jan-2025 14:27:45 Asia/Calcutta] PHP Warning:  Undefined variable $dataPoints in D:\xampp\htdocs\apnalead\app\index.php on line 122
+[03-Jan-2025 14:37:49 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyID in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 73
+[03-Jan-2025 14:37:58 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyID in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 73
+[03-Jan-2025 14:44:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:44:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:44:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:44:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:44:12 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyID in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 80
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_GST_No in D:\xampp\htdocs\apnalead\app\configs\index.php on line 110
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Address in D:\xampp\htdocs\apnalead\app\configs\index.php on line 114
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Area_Locality in D:\xampp\htdocs\apnalead\app\configs\index.php on line 118
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Landmark in D:\xampp\htdocs\apnalead\app\configs\index.php on line 122
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_City in D:\xampp\htdocs\apnalead\app\configs\index.php on line 126
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_State in D:\xampp\htdocs\apnalead\app\configs\index.php on line 130
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Country in D:\xampp\htdocs\apnalead\app\configs\index.php on line 134
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Pincode in D:\xampp\htdocs\apnalead\app\configs\index.php on line 138
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_GST_No in D:\xampp\htdocs\apnalead\app\configs\index.php on line 110
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Address in D:\xampp\htdocs\apnalead\app\configs\index.php on line 114
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Area_Locality in D:\xampp\htdocs\apnalead\app\configs\index.php on line 118
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Landmark in D:\xampp\htdocs\apnalead\app\configs\index.php on line 122
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_City in D:\xampp\htdocs\apnalead\app\configs\index.php on line 126
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_State in D:\xampp\htdocs\apnalead\app\configs\index.php on line 130
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Country in D:\xampp\htdocs\apnalead\app\configs\index.php on line 134
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Pincode in D:\xampp\htdocs\apnalead\app\configs\index.php on line 138
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_GST_No in D:\xampp\htdocs\apnalead\app\configs\index.php on line 110
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Address in D:\xampp\htdocs\apnalead\app\configs\index.php on line 114
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Area_Locality in D:\xampp\htdocs\apnalead\app\configs\index.php on line 118
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Landmark in D:\xampp\htdocs\apnalead\app\configs\index.php on line 122
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_City in D:\xampp\htdocs\apnalead\app\configs\index.php on line 126
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_State in D:\xampp\htdocs\apnalead\app\configs\index.php on line 130
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Country in D:\xampp\htdocs\apnalead\app\configs\index.php on line 134
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Pincode in D:\xampp\htdocs\apnalead\app\configs\index.php on line 138
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_GST_No in D:\xampp\htdocs\apnalead\app\configs\index.php on line 110
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Address in D:\xampp\htdocs\apnalead\app\configs\index.php on line 114
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Area_Locality in D:\xampp\htdocs\apnalead\app\configs\index.php on line 118
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Landmark in D:\xampp\htdocs\apnalead\app\configs\index.php on line 122
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_City in D:\xampp\htdocs\apnalead\app\configs\index.php on line 126
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_State in D:\xampp\htdocs\apnalead\app\configs\index.php on line 130
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Country in D:\xampp\htdocs\apnalead\app\configs\index.php on line 134
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Pincode in D:\xampp\htdocs\apnalead\app\configs\index.php on line 138
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_GST_No in D:\xampp\htdocs\apnalead\app\configs\index.php on line 110
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Address in D:\xampp\htdocs\apnalead\app\configs\index.php on line 114
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Area_Locality in D:\xampp\htdocs\apnalead\app\configs\index.php on line 118
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Landmark in D:\xampp\htdocs\apnalead\app\configs\index.php on line 122
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_City in D:\xampp\htdocs\apnalead\app\configs\index.php on line 126
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_State in D:\xampp\htdocs\apnalead\app\configs\index.php on line 130
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Country in D:\xampp\htdocs\apnalead\app\configs\index.php on line 134
+[03-Jan-2025 14:47:52 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Pincode in D:\xampp\htdocs\apnalead\app\configs\index.php on line 138
+[03-Jan-2025 14:48:32 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:48:32 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:48:32 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:48:32 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:48:32 Asia/Calcutta] PHP Warning:  Undefined variable $Company_Add_Id in D:\xampp\htdocs\apnalead\app\configs\index.php on line 103
+[03-Jan-2025 14:48:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:48:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:48:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:48:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:48:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:48:58 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyID in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 80
+[03-Jan-2025 14:50:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:50:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:50:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:50:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Company_Add_Id in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 47
+[03-Jan-2025 14:50:36 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyID in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 80
+[03-Jan-2025 14:51:11 Asia/Calcutta] PHP Warning:  Undefined variable $CompanyID in D:\xampp\htdocs\apnalead\handler\ModuleController\CompanySetUp.php on line 80
+[03-Jan-2025 14:53:20 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\FILE_Modules\UploadHandler.php on line 39
+[03-Jan-2025 15:06:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Jan-2025 15:26:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Jan-2025 15:35:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Jan-2025 15:44:22 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\acm\SysModules\MAIL_Modules\Mail.php on line 130
+[03-Jan-2025 15:44:23 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\acm\SysModules\MAIL_Modules\Mail.php on line 130
+[03-Jan-2025 15:44:24 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\acm\SysModules\MAIL_Modules\Mail.php on line 130
+[03-Jan-2025 15:44:25 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\apnalead\acm\SysModules\MAIL_Modules\Mail.php on line 130
+[03-Jan-2025 15:47:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Jan-2025 15:52:29 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Jan-2025 15:59:15 Asia/Calcutta] PHP Warning:  Undefined variable $ImageEmpty in D:\xampp\htdocs\apnalead\app\Billing\details\index.php on line 44
+[03-Jan-2025 15:59:19 Asia/Calcutta] PHP Warning:  Undefined variable $ImageEmpty in D:\xampp\htdocs\apnalead\app\Billing\details\index.php on line 44
+[03-Jan-2025 16:32:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Jan-2025 16:34:14 Asia/Calcutta] PHP Warning:  Undefined array key 1 in D:\xampp\htdocs\apnalead\handler\ModuleController\BillingController.php on line 153
+[03-Jan-2025 16:37:14 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\apnalead\acm\SysModules\FILE_Modules\UploadHandler.php on line 39
+[03-Jan-2025 16:37:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12
+[03-Jan-2025 16:38:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'apnalead.inv_numbers' doesn't exist in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM i...')
+#2 D:\xampp\htdocs\apnalead\include\forms\Billingform\InvoiceNumber.php(71): _DB_COMMAND_('SELECT * FROM i...', true)
+#3 D:\xampp\htdocs\apnalead\app\Billing\index.php(397): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Select.php on line 12

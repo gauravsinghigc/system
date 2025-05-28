@@ -1,0 +1,135 @@
+[20-Jan-2025 16:20:10 Asia/Calcutta] PHP Warning:  Undefined array key "APP_LOGIN_USER_ID" in D:\xampp\htdocs\apnalead\app\index.php on line 9
+[20-Jan-2025 16:20:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "CompanyId" in D:\xampp\htdocs\apnalead\app\index.php:11
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\apnalead\app\index.php on line 11
+[20-Jan-2025 16:23:52 Asia/Calcutta] PHP Warning:  Undefined variable $hash in D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php on line 8
+[20-Jan-2025 16:23:52 Asia/Calcutta] PHP Warning:  Undefined variable $Key in D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php on line 8
+[20-Jan-2025 16:23:52 Asia/Calcutta] PHP Warning:  Undefined variable $hash in D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php on line 11
+[20-Jan-2025 16:33:39 Asia/Calcutta] PHP Warning:  Undefined variable $Key in D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php on line 7
+[20-Jan-2025 16:34:36 Asia/Calcutta] PHP Warning:  Undefined variable $Key in D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php on line 7
+[20-Jan-2025 16:34:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '36'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM p...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT * FROM p...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:35:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '36'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM p...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT * FROM p...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:35:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM p...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT * FROM p...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:35:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM p...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT * FROM p...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:36:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:37:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:37:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:37:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:37:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57'' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:39:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:39:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:39:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:39:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:54:37 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:54:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:54:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:54:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:54:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:54:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:54:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' AND CompanyID=57' at line 1 in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT ProjectN...')
+#1 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(19): CHECK('SELECT ProjectN...')
+#2 {main}
+  thrown in D:\xampp\htdocs\apnalead\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[20-Jan-2025 16:58:22 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_real_escape_string() expects exactly 2 arguments, 1 given in D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php:11
+Stack trace:
+#0 D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php(11): mysqli_real_escape_string('')
+#1 {main}
+  thrown in D:\xampp\htdocs\apnalead\handler\AutoRunner\webhook.php on line 11

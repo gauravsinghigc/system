@@ -55,9 +55,8 @@
  * UNIQUE KEY unique_constraint(name, email)* ;
  */
 
-function CREATE_DB_TABLE($tableName, $columns, $die = false)
+function CREATE_DB_TABLE($tableName = null, $columns = [], $die = false)
 {
-
   // SQL statement to create the table
   $sql = "CREATE TABLE $tableName (";
 
@@ -69,24 +68,29 @@ function CREATE_DB_TABLE($tableName, $columns, $die = false)
   // Remove the trailing comma and space
   $sql = rtrim($sql, ", ");
 
-  // Add any additional table options here if needed
+  // Finalize SQL
   $sql .= ");";
 
   // Output the SQL query and stop execution if $die is true
-  if ($die == true) {
+  if ($die === true) {
     die($sql);
   }
 
-  //execute query
-  $QUERY = mysqli_query(DBConnection, $sql);
-  $status = [];
-  if ($QUERY == true) {
-    $status['status'] = $QUERY;
-    $status['msg'] = "<code><b>Success:</b> '<b>$tableName</b>' is created successfully!</code><br>";
-  } else {
-    $status['status'] = $QUERY;
-    $status['msg'] = "<code><b>Error:</b> Unable to create table '<b>$tableName</b>' due to " . mysqli_error(DBConnection) . "</code><br>";
-  }
+  // Execute query
+  if ($tableName !== null) {
+    try {
+      $pdo = DBConnection; // Your PDO instance
+      $result = $pdo->exec($sql);
 
-  return $status;
+      $status = [];
+      $status['status'] = true;
+      $status['msg'] = "<code><b>Success:</b> '<b>$tableName</b>' is created successfully!</code><br>";
+      return $status;
+    } catch (PDOException $e) {
+      $status = [];
+      $status['status'] = false;
+      $status['msg'] = "<code><b>Error:</b> Unable to create table '<b>$tableName</b>' due to " . $e->getMessage() . "</code><br>";
+      return $status;
+    }
+  }
 }
